@@ -304,10 +304,11 @@ https://fonts.google.com/icons?selected=Material+Icons
 <div class="padding-top-60 padding-bottom-60" style="background:#f2f2f2;">
 	<div class="container">
 	<div class="center-heading">
-		<h2 class="en1">USE A <strong>평강한의원</strong> </h2>
-		<span class="center-line"></span>
+		<h2>원인 치료 경험담 </h2>
+		<h5>편강의학을 경험하신 분들의 소중한 치료 후기</h5>
+		
 	</div>
-	  <div class="row">
+	  <div class="d-flex">
 		<div class="col-lg-6">
 		  <iframe width="100%" height="315" src="https://www.youtube.com/embed/zksDH5q0muU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 		</div>

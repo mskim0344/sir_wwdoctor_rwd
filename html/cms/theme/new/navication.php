@@ -8,8 +8,8 @@
     visibility: visible;
 }
 </style>
-<nav class="navbar fixed-top navbar-expand-lg navbar-white bg-white " id="mytop">
-  <div class="container">
+<nav class="navbar fixed-top navbar-expand-lg navbar-white " id="mytop">
+  <div class="row align-items-center justify-content-between">
 	<a class="navbar-brand" href="<?php echo G5_URL?>" class="logo"><img src="/cms/pkimg/t_logo.png"></a>
 	<button class="navbar-toggler navbar-dark navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
 	  <span class="navbar-toggler-icon"></span>
@@ -68,8 +68,8 @@
 							echo '</ul>'.PHP_EOL;
 							?>
 			<?php }else{?>
-				<li class="nav-item">
-				<a class="nav-link ks4 f16" href="<?php echo $row['me_link']; ?>" target="_<?php echo $row['me_target']; ?>"><?php echo $row['me_name'] ?></a>
+				<li class="nav-item gnbli">
+				<a class="nav-link" href="<?php echo $row['me_link']; ?>" target="_<?php echo $row['me_target']; ?>"><?php echo $row['me_name'] ?></a>
 				</li>
 			<?php }?>
 		</li>
