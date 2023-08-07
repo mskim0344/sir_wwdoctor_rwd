@@ -102,6 +102,9 @@ if(!defined('G5_IS_ADMIN'))
 <!-- google fonts -->
 <link href="//fonts.googleapis.com/css?family=Nanum+Gothic:400,700,800|Noto+Sans+KR:100,300,400,500,700,900|Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i|Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i|Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&display=swap" rel="stylesheet">
 
+<!-- noonnu font -->
+<link rel="stylesheet" href="/cms/css/default.css">  <!-- /* 완주둔산체 웹폰트 */ 검색 -->
+
 <!-------------------------- 구글아이콘 -------------------------->
 <link rel="stylesheet" href="//fonts.googleapis.com/icon?family=Material+Icons">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
