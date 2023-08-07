@@ -72,10 +72,13 @@ if(G5_COMMUNITY_USE === false) {
 
 
     
+    <div id="quickdiv" >
+		<a href="" class="d-block kakao">카카오상담</a>
+		<button type="button" id="top_btn" class="position-relative">
+			<i class="fa fa-arrow-up" aria-hidden="true"></i><span class="sound_only">상단으로</span>
+		</button>
+	</div>
     
-    <button type="button" id="top_btn">
-    	<i class="fa fa-arrow-up" aria-hidden="true"></i><span class="sound_only">상단으로</span>
-    </button>
     <script>
     $(function() {
         $("#top_btn").on("click", function() {

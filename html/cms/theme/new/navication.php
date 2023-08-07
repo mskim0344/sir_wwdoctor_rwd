@@ -7,15 +7,16 @@
     transition-delay: 5s;
     visibility: visible;
 }
+
 </style>
-<nav class="navbar fixed-top navbar-expand-lg navbar-white " id="mytop">
-  <div class="row align-items-center justify-content-between">
-	<a class="navbar-brand" href="<?php echo G5_URL?>" class="logo"><img src="/cms/pkimg/t_logo.png"></a>
+<nav class="navbar fixed-top navbar-expand-lg navbar-white border  " id="mytop">
+  <div class="d-lg-flex align-items-center  px-3 px-lg-5 col mx-5">
+	<a class="navbar-brand" href="<?php echo G5_URL?>" class="logo"><img src="/cms/pkimg/t_logo.png" class="img-fluid"></a>
 	<button class="navbar-toggler navbar-dark navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
 	  <span class="navbar-toggler-icon"></span>
 	</button>
-	<div class="collapse navbar-collapse" id="navbarResponsive" data-hover="dropdown" data-animations="fadeIn fadeIn fadeInUp fadeInRight">
-	  <ul class="navbar-nav ml-auto">
+	<div class="navbar-collapse  " id="navbarResponsive" data-hover="dropdown" data-animations="fadeIn fadeIn fadeInUp fadeInRight">
+	  <ul class="navbar-nav  mx-5">
 		<?php
 		$sql = " select *
 					from {$g5['menu_table']}
@@ -100,6 +101,78 @@
 		  </div>
 		</li>
 	  </ul>
+	  <ul class="d-md-flex m-2 until col d-flex justify-content-end">
+            <li class="m-2">
+                <a href="">편강한의원</a>
+                <div class="sub bg-white position-absolute rounded" >
+                    <ul class="py-4 px-3 fs">
+                        <li><a href="/s_intro/greeting.do">인사말</a></li>
+                        <li><a href="/s_intro/history.do">50여년의 역사</a></li>
+                        <li><a href="/s_intro/story.do">편강이야기</a></li>
+                        <li><a href="/s_intro/steady_seller.do">편강스테디셀러</a></li>
+                        <li><a href="/board/newspaper.do">편강뉴스</a></li>
+                        <li><a href="/board/contribution.do">사회공헌</a></li>
+                        <li><a href="/board/notice.do">공지사항</a></li>
+                        <li><a href="/board/award.do">수상경력</a></li>
+                        <li><a href="/board/video.do">편강 TV</a></li>
+                        <li><a href="/s_branch/seocho.do">지점안내</a></li>
+                    </ul>
+                </div>
+            </li>
+            <li class="m-2">
+                <a href="/s_medicine/medical01.do">편강의학</a>
+                <div class="sub  bg-white position-absolute rounded" >
+                    <ul class="py-4 px-3 fs">
+                        <li><a href="/s_medicine/medical01.do">원인 치유법</a></li>
+                        <li><a href="/s_medicine/medical02.do">생명의 원천,폐</a></li>
+                        <li><a href="/s_medicine/medical03.do">폐건강 생활습관</a></li>
+                        <li><a href="/s_medicine/medical04.do">한의학의 세계화</a></li>
+                        <li><a href="/s_medicine/medical05.do">편강한의원 처방</a></li>
+                        <li><a href="/s_medicine/medical06.do">학술 논문 등재</a></li>
+                    </ul>
+                </div>
+            </li>
+            <li class="m-2">
+                <a href="/board/interview.do">사례/후기</a>
+                <div class="sub  bg-white position-absolute rounded" >
+                    <ul class="py-4 px-3 fs">
+                        <li><a href="javascript:PageView('/board/interview.do','','','','','');">치료 인터뷰</a></li>
+                        <li><a href="/board/case.do">치료사례</a></li>
+                        <li><a href="/board/review.do">치료후기</a></li>
+                        <li><a href="/board/star.do">스타와 함께</a></li>
+                    </ul>
+                </div>
+            </li>
+            <li class="m-2">
+                <a href="/counsel/counsel.do">상담/예약</a>
+                <div class="sub  bg-white position-absolute rounded" >
+                    <ul class="py-4 px-3 fs">
+                        <li><a href="javascript:PageView('/counsel/counsel.do','','','','','');">의료진상담</a></li>
+                        <li><a href="/counsel/reserv.do">온라인예약</a></li>
+                        <li><a href="/counsel/qna.do">자주하는 질문</a></li>
+                    </ul>
+                </div>
+            </li>
+            <li >
+				<ul class="m-2">
+					<?php if ($is_member) {  ?>
+						
+							<li><a href="<?php echo G5_BBS_URL ?>/logout.php">로그아웃</a></li>
+							
+					<?php } else {  ?>
+							
+							<li><a href="<?php echo G5_BBS_URL ?>/login.php">로그인</a></li>
+					<?php }  ?>
+				<ul>
+			</li>
+                
+                  
+                
+            
+            <!--
+            <li><a href="/s_branch/seocho.do">지점안내</a></li>
+            -->
+        </ul>
 	</div>
   </div>
 </nav>
