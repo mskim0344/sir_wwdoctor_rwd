@@ -154,14 +154,14 @@
                 </div>
             </li>
             <li >
-				<ul class="m-2">
+				<ul class="m-2 ">
 					<?php if ($is_member) {  ?>
 						
-							<li><a href="<?php echo G5_BBS_URL ?>/logout.php">로그아웃</a></li>
+							<li><a class="white" href="<?php echo G5_BBS_URL ?>/logout.php">로그아웃</a></li>
 							
 					<?php } else {  ?>
 							
-							<li><a href="<?php echo G5_BBS_URL ?>/login.php">로그인</a></li>
+							<li><a class="white" href="<?php echo G5_BBS_URL ?>/login.php">로그인</a></li>
 					<?php }  ?>
 				<ul>
 			</li>

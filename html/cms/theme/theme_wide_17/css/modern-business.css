@@ -61,7 +61,7 @@
 
 
 
-a { color:#666666; }
+a { color:#fffefe; }
 a:hover { color:#32c5d2; text-decoration: none; }
 .footer ul li a{color:#fff;}
 .footer ul li a:hover{color:#666;}
@@ -629,7 +629,9 @@ footer
 .padding-bottom-150 {
 	padding-bottom:150px;
 }
-
+.white{
+	color: white !important
+}
 
 
 

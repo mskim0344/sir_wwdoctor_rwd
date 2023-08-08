@@ -104,9 +104,11 @@ include_once(G5_THEME_PATH.'/head.php');
 					});
 	</script>
 <!-------------------------- 메인 슬라이드 swiper -------------------------->
-
-
-
+<aside class="bg-dark text-white h80">
+	<div class=" container d-flex">
+		<a class="white mt-4 " href="">Notice</a>  
+	</div>
+</aside>
 
 
 

@@ -63,8 +63,9 @@
 	font-size: 12px;
 }
 
+.white{color: white;}
+#navbarResponsive a.white { color:#ffffff }
 
-a { color:#666666; }
 a:hover { color:#32c5d2; text-decoration: none; }
 .footer ul li a{color:#fff;}
 .footer ul li a:hover{color:#666;}
@@ -92,7 +93,7 @@ a:hover { color:#32c5d2; text-decoration: none; }
 .na{font-family: 'NanumSquareRound';}
 .na2{font-family: 'Nanum Gothic', sans-serif;}
 
-
+.h80{height: 80px;}
 
 .ko{font-family: 'Noto Sans KR';}
 .ko1{font-family: 'Noto Sans KR';}
@@ -863,6 +864,8 @@ footer
 .navbar.fixed-top{
 	top:0
 }
-.util {
-	
+/* notice */
+.notice{
+	top: 10px;
+	left: 
 }
