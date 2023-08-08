@@ -18,97 +18,89 @@ include_once(G5_THEME_PATH.'/head.php');
 
 
 
-<?php 
-/**************************************************************************
-
-GNUBOARD 5.4
-
-테마메뉴얼주소 입니다. 아래 주소에 설치 및 셋팅법이 포함되어 있습니다.
-http://ety.kr/board/free_theme_manual
-
-오류내용은 질문게시판을 이용해주세요 (오픈카톡이나 유선상 문의를 받지 않습니다.)
-http://ety.kr/board/qa
-
-팁영상 요청 주소 : softzonecokr@naver.com 
-팁영상 요청을 해주시면 중복되지 않는 선에서 팁영상을 제작해드고 있습니다.
-
-[라이선스]
-자주 하는 질문이 있어서 문서내 포함시켰습니다.
-해당 내용은 읽어 보시고 삭제하셔도 됩니다.
-
-1. 배포, 재배포는 에티테마만 가능하므로 사용만 하시고 다른쪽에 배포나 재배포 하지 말아주세요.
-(라이선스 위반을 하시게 되면 그에 따른 책임이 따르게 됩니다.)
-
-2. 돈을 받고 유상으로 작업하셔도 되지만 그에 대한 책임은 돈을 받는 제작자에게 있으며 에티테마와는 무관합니다.
-
-
-**************************************************************************/ 
-?>
 
 
 
 
 
-
-
-<!-------------------------- 슬라이드 -------------------------->
+<!-------------------------- 메인 슬라이드 swiper -------------------------->
 <header>
-  <div id="carouselExampleIndicators" class="carousel slide carousel-fade" data-ride="carousel" data-interval="5000">
-	<ol class="carousel-indicators">
-	  <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-	  <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-	  <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-	</ol>
-	<div class="carousel-inner" role="listbox">
+  <div class="swiper" id="mainBannerswiper">
+
+	<div class="swiper-wrapper" >
 	  <!-- Slide One - Set the background image for this slide in the line below -->
-	  <div class="carousel-item active" style="background-image: url('/cms/pkimg/banner_bg_01.jpg')">
-		<div class="carousel-caption d-md-block">
-		  <h3 class="ks4">에티와이드테마</h3>
-		  <p class="ks4 f20">전체페이지를 와이드 형태로만 제작하였습니다.</p>
+	  <div class="swiper-slide" style="background-image: url('/cms/pkimg/banner_bg_01.jpg')">
+	  
+	    <div class="carousel-caption  container">
+		  	<h2 class="ks4 fw fs">
+				기침,천식,폐질환
+		  		<p class="ks4 fw fs">편강 한의원</p>
+			</h2>
 		</div>
+		
+		
 	  </div>
 	  <!-- Slide Two - Set the background image for this slide in the line below -->
-	  <div class="carousel-item" style="background-image: url('/cms/pkimg/banner_bg_02.jpg')">
-		<div class="carousel-caption d-md-block">
-		  <h3 class="ks4">반응형 비즈니스 테마</h3>
-		  <p class="ks4 f20">CMS 인 그누보드 5.4 와 연동되어 사용가능한 테마 입니다.</p>
+	  <div class="swiper-slide" style="background-image: url('/cms/pkimg/banner_bg_02.jpg')">
+	  
+	  <div class="carousel-caption  container">
+		  	<h2 class="ks4 fw fs">
+			  근본치유에 집중하는
+		  		<p class="ks4 fw fs">평강 원인 치유법</p>
+			</h2>
 		</div>
+	  
 	  </div>
 	  <!-- Slide Three - Set the background image for this slide in the line below -->
-	  <div class="carousel-item" style="background-image: url('/cms/pkimg/banner_bg_03.jpg')">
-		<div class="carousel-caption d-md-block">
-		  <h3 class="ks4">테마몰 오픈</h3>
-		  <p class="ks4 f20">테마몰을 오픈하였습니다.</p>
+	  <div class="swiper-slide" style="background-image: url('/cms/pkimg/banner_bg_03.jpg')">
+	 
+	  <div class="carousel-caption  container">
+		  	<h2 class="ks4 fw fs">
+			  평강의학이
+		  		<p class="ks4 fw fs">세계로 갑니다</p>
+			</h2>
 		</div>
+	 
 	  </div>
 	</div>
-	<a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-	  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-	  <span class="sr-only">Previous</span>
-	</a>
-	<a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-	  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-	  <span class="sr-only">Next</span>
-	</a>
+	<div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+	<div class="swiper-pagination"></div>
+	
   </div>
 </header>
-<!-------------------------- ./슬라이드 -------------------------->
+<script>
+	    const mainbannerttext = ['기침, 천식, 폐질환 편강한의원','편강 원인 치유법','편강의학이 세계로 갑니다'];
+		var swiper = new Swiper("#mainBannerswiper", {
+
+						pagination: {
+							el: ".swiper-pagination",
+							clickable: true,
+							renderBullet: function (index, className) {
+							return '<span class="' + className + '">' + mainbannerttext[index] + "</span>";
+							},
+							
+						},
+						navigation: {
+								nextEl: ".swiper-button-next",
+								prevEl: ".swiper-button-prev",
+						},
+						spaceBetween:0,
+						loop:true,
+						centeredSlides: true,
+						autoplay: {
+							delay: 10000,
+							disableOnInteraction: false,
+						},
+
+					});
+	</script>
+<!-------------------------- 메인 슬라이드 swiper -------------------------->
 
 
 
 
 
-
-<?php
-/*
-
-https://fonts.google.com/icons?selected=Material+Icons
-위 주소에서 아이콘을 변경할 수 있습니다.
-
-
-*/
-
-?>
 
 
 

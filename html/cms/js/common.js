@@ -124,7 +124,7 @@ function no_comma(data)
 
     for (i=0; i<data.length; i++)
     {
-        if (data.charAt(i) != comma).
+        if (data.charAt(i) != comma)
             tmp += data.charAt(i);
     }
     return tmp;

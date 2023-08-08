@@ -89,14 +89,12 @@ if (defined('_SHOP_')) {
 add_javascript('<script src="'.G5_JS_URL.'/common.js?ver='.G5_JS_VER.'"></script>', 0);
 add_javascript('<script src="'.G5_JS_URL.'/wrest.js?ver='.G5_JS_VER.'"></script>', 0);
 add_javascript('<script src="'.G5_JS_URL.'/placeholders.min.js"></script>', 0);
-add_stylesheet('<link rel="stylesheet" href="'.G5_JS_URL.'/font-awesome/css/font-awesome.min.css">', 0);
+add_javascript('<script src="'.G5_JS_URL.'/modernizr.custom.70111.js"></script>', 1); // overflow scroll 감지
 
-if(G5_IS_MOBILE) {
-    add_javascript('<script src="'.G5_JS_URL.'/modernizr.custom.70111.js"></script>', 1); // overflow scroll 감지
-}
 if(!defined('G5_IS_ADMIN'))
     echo $config['cf_add_script'];
 ?>
+
 
 
 <!-- google fonts -->
@@ -111,11 +109,9 @@ if(!defined('G5_IS_ADMIN'))
 
 <!-- Bootstrap core CSS -->
 <link href="<?php echo G5_THEME_URL?>/assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-<!-- fontawesome -->
-<link rel="stylesheet" href="//use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
-<!-- owl Carousel -->
-<link rel="stylesheet" href="<?php echo G5_THEME_URL?>/assets/owlcarousel/css/owl.carousel.min.css">
-<link rel="stylesheet" href="<?php echo G5_THEME_URL?>/assets/owlcarousel/css/owl.theme.default.min.css">
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+<script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
 
 <!-- countdown -->
 <link href="<?php echo G5_THEME_URL?>/assets/countdown/css/demo.css" rel="stylesheet">
@@ -125,7 +121,7 @@ if(!defined('G5_IS_ADMIN'))
 <link href="<?php echo G5_THEME_URL?>/css/bootstrap-dropdownhover.css" rel="stylesheet">
 <!-- Custom & ety -->
 <link href="<?php echo G5_THEME_URL?>/css/modern-business.css" rel="stylesheet">
-<link href="<?php echo G5_THEME_URL?>/css/ety.css" rel="stylesheet">
+<link href="<?php echo G5_THEME_URL?>/css/ety.css?ver=<?php echo time(); ?>" rel="stylesheet">
 
 
 </head>

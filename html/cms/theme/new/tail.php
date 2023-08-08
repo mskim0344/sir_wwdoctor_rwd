@@ -37,38 +37,7 @@ if(G5_COMMUNITY_USE === false) {
 	<script type="text/javascript" src="<?php echo G5_THEME_URL?>/js/custom.js"></script>
 
 
-	<script>
-		$(document).ready(function () {
-			//owl
-			jQuery(".owl-carousel").owlCarousel({
-				autoplay:true,
-				autoplayTimeout:3000,// 1000 -> 1초
-				autoplayHoverPause:true,
-				loop:true,
-				margin:10,//이미지 사이의 간격
-				nav:false,
-				responsive:{
-					0:{
-						items:2 // 모바일
-					},
-					600:{
-						items:3 // 브라우저 600px 이하
-					},
-					1000:{
-						items:4 // 브라우저 100px 이하
-					}
-				}
-			});
 
-			// countdown
-			'use strict';			
-			jQuery('.countdown').final_countdown({
-				'start': 1362139200,
-				'end': 1388461320,
-				'now': 1387461319        
-			});
-		});
-	</script>
 
 
     
@@ -78,7 +47,7 @@ if(G5_COMMUNITY_USE === false) {
 			<i class="fa fa-arrow-up" aria-hidden="true"></i><span class="sound_only">상단으로</span>
 		</button>
 	</div>
-    
+
     <script>
     $(function() {
         $("#top_btn").on("click", function() {

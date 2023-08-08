@@ -104,6 +104,41 @@ table th, table td{ font-family: 'S-CoreDream-4Regular';font-size: 14px;}
 
 
 
+#mainBannerswiper .swiper-slide{
+	height: 0;
+	padding-top: 51%;
+}
+
+#mainBannerswiper .swiper-slide .carousel-caption{
+	left:0;
+	top:0;
+	height:100%;
+	bottom:0;
+	right:0;
+	margin: auto !important;
+	text-align: left;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+
+
+}
+
+#mainBannerswiper .swiper-pagination-bullet{
+	font-size: 20px;
+	border: #666;
+	width: auto;
+	height: auto;
+	color:rgba(255,255,255,.8);
+	border-radius: 0;
+	background-color: transparent;
+	
+}
+.fw{
+	font-weight: 500;
+}
+.fs{font-size: 64px;}
+
 
 
 
