@@ -105,7 +105,7 @@
             <li class="m-2">
                 <a href="">편강한의원</a>
                 <div class="sub bg-white position-absolute rounded" >
-                    <ul class="py-4 px-3 fs">
+                    <ul class="py-4 px-3 f13">
                         <li><a href="/s_intro/greeting.do">인사말</a></li>
                         <li><a href="/s_intro/history.do">50여년의 역사</a></li>
                         <li><a href="/s_intro/story.do">편강이야기</a></li>
@@ -122,7 +122,7 @@
             <li class="m-2">
                 <a href="/s_medicine/medical01.do">편강의학</a>
                 <div class="sub  bg-white position-absolute rounded" >
-                    <ul class="py-4 px-3 fs">
+                    <ul class="py-4 px-3 f13">
                         <li><a href="/s_medicine/medical01.do">원인 치유법</a></li>
                         <li><a href="/s_medicine/medical02.do">생명의 원천,폐</a></li>
                         <li><a href="/s_medicine/medical03.do">폐건강 생활습관</a></li>
@@ -135,7 +135,7 @@
             <li class="m-2">
                 <a href="/board/interview.do">사례/후기</a>
                 <div class="sub  bg-white position-absolute rounded" >
-                    <ul class="py-4 px-3 fs">
+                    <ul class="py-4 px-3 f13">
                         <li><a href="javascript:PageView('/board/interview.do','','','','','');">치료 인터뷰</a></li>
                         <li><a href="/board/case.do">치료사례</a></li>
                         <li><a href="/board/review.do">치료후기</a></li>
@@ -146,7 +146,7 @@
             <li class="m-2">
                 <a href="/counsel/counsel.do">상담/예약</a>
                 <div class="sub  bg-white position-absolute rounded" >
-                    <ul class="py-4 px-3 fs">
+                    <ul class="py-4 px-3 f13">
                         <li><a href="javascript:PageView('/counsel/counsel.do','','','','','');">의료진상담</a></li>
                         <li><a href="/counsel/reserv.do">온라인예약</a></li>
                         <li><a href="/counsel/qna.do">자주하는 질문</a></li>

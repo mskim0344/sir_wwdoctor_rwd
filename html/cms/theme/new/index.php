@@ -32,9 +32,9 @@ include_once(G5_THEME_PATH.'/head.php');
 	  <div class="swiper-slide" style="background-image: url('/cms/pkimg/banner_bg_01.jpg')">
 	  
 	    <div class="carousel-caption  container">
-		  	<h2 class="ks4 fw fs">
+		  	<h2 class="Noto-ko fw fs">
 				기침,천식,폐질환
-		  		<p class="ks4 fw fs">편강 한의원</p>
+		  		<p class="Noto-ko fw fs">편강 한의원</p>
 			</h2>
 		</div>
 		
@@ -44,9 +44,9 @@ include_once(G5_THEME_PATH.'/head.php');
 	  <div class="swiper-slide" style="background-image: url('/cms/pkimg/banner_bg_02.jpg')">
 	  
 	  <div class="carousel-caption  container">
-		  	<h2 class="ks4 fw fs">
+		  	<h2 class="Noto-ko fw fs">
 			  근본치유에 집중하는
-		  		<p class="ks4 fw fs">평강 원인 치유법</p>
+		  		<p class="Noto-ko fw fs">평강 원인 치유법</p>
 			</h2>
 		</div>
 	  
@@ -55,9 +55,9 @@ include_once(G5_THEME_PATH.'/head.php');
 	  <div class="swiper-slide" style="background-image: url('/cms/pkimg/banner_bg_03.jpg')">
 	 
 	  <div class="carousel-caption  container">
-		  	<h2 class="ks4 fw fs">
+		  	<h2 class="Noto-ko fw fs">
 			  평강의학이
-		  		<p class="ks4 fw fs">세계로 갑니다</p>
+		  		<p class="Noto-ko fw fs">세계로 갑니다</p>
 			</h2>
 		</div>
 	 
@@ -65,7 +65,15 @@ include_once(G5_THEME_PATH.'/head.php');
 	</div>
 	<div class="swiper-button-next"></div>
     <div class="swiper-button-prev"></div>
-	<div class="swiper-pagination"></div>
+	<div class="container position-absolute paginationbox">
+		<div class="swiper-pagination "></div>
+
+	</div>
+
+	
+	
+
+	
 	
   </div>
 </header>
