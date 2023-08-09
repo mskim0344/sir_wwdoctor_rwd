@@ -9,13 +9,14 @@
 }
 
 </style>
-<nav class="navbar fixed-top navbar-expand-lg navbar-white border  " id="mytop">
-  <div class="d-lg-flex align-items-center  px-3 px-lg-5 col mx-5">
+<nav class="navbar fixed-top navbar-expand-xl navbar-white border  " id="mytop">
+  <div class="d-xl-flex align-items-center inner">
 	<a class="navbar-brand py-0" href="<?php echo G5_URL?>" class="logo"><img src="/cms/pkimg/t_logo.png" class="img-fluid d-block"></a>
-	<button class="navbar-toggler navbar-dark navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+	<button class="navbar-toggler navbar-dark navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" 
+	aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
 	  <span class="navbar-toggler-icon"></span>
 	</button>
-	<div class="navbar-collapse  justify-content-between" id="navbarResponsive" data-hover="dropdown" data-animations="fadeIn fadeIn fadeInUp fadeInRight">
+	<div class="navbar-collapse  justify-content-between" id="navbarResponsive"  >
 	  <ul class="navbar-nav ">
 		<?php
 		$sql = " select *
@@ -82,7 +83,7 @@
 		if ($i == 0) {  ?>
 			<li class="gnb_empty">메뉴 준비 중입니다.<?php if ($is_admin) { ?> <br><a href="<?php echo G5_ADMIN_URL; ?>/menu_list.php">관리자모드 &gt; 환경설정 &gt; 메뉴설정</a>에서 설정하실 수 있습니다.<?php } ?></li>
 		<?php } ?>
-		<li class="nav-item dropdown login">
+		<!-- <li class="nav-item dropdown login">
 		  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownBlog" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 			LOGIN
 		  </a>
@@ -99,9 +100,9 @@
 			<a class="dropdown-item" href="<?php echo G5_BBS_URL; ?>/register.php">회원가입</a>
 			<?php } ?>
 		  </div>
-		</li>
+		</li> -->
 	  </ul>
-	  <ul class="d-lg-flex mx-2 mb-0 mr-lg-0 until px-0 ko">
+	  <ul class="d-xl-flex mx-2 mb-0 mr-lg-0 until px-0 ko">
             <li class="m-2">
                 <a href="">편강한의원</a>
                 <div class="sub bg-white position-absolute rounded" >

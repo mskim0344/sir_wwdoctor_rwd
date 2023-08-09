@@ -38,23 +38,33 @@ $(function() {
 });
 */
 
-$(window).scroll(function (){
-	if( $(window).scrollTop() > 80 ){
-          $('body').addClass('scrolldown');
-		  $('.navbar-brand img').attr('src','/cms/pkimg/t_logo_on.png')
-	}else{
-		$('body').removeClass('scrolldown')
-		$('.navbar-brand img').attr('src','/cms/pkimg/t_logo.png')
-	}
-})
 
-if($(window).width() < 991 ){
+
+	$(window).scroll(function (){
+		if($(window).width() >= 1200){		
+			if( $(window).scrollTop() > 80  ){
+				//햄버거버튼이 없고 스크롤이 80넘었을때만 적용
+				$('body').addClass('scrolldown');
+				$('.navbar-brand img').attr('src','/cms/pkimg/t_logo_on.png')
+			}else{
+				$('body').removeClass('scrolldown')
+				$('.navbar-brand img').attr('src','/cms/pkimg/t_logo.png')
+			}
+		}else{
+
+			$('.navbar-brand img').attr('src','/cms/pkimg/t_logo_on.png')
+			//로고 검정으로 교환
+		}
+	})
+
+if($(window).width() < 1200 ){
 	$('.navbar-brand img').attr('src','/cms/pkimg/t_logo_on.png')
 }
 
+
 $(window).resize(function(){
 
-	if($(window).width() < 991 ){
+	if($(window).width() < 1200 ){
 		$('.navbar-brand img').attr('src','/cms/pkimg/t_logo_on.png')
 	}
 
