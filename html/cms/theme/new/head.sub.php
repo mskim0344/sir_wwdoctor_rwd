@@ -120,7 +120,7 @@ if(!defined('G5_IS_ADMIN'))
 <link href="<?php echo G5_THEME_URL?>/css/animate.css" rel="stylesheet">
 <link href="<?php echo G5_THEME_URL?>/css/bootstrap-dropdownhover.css" rel="stylesheet">
 <!-- Custom & ety -->
-<link href="<?php echo G5_THEME_URL?>/css/modern-business.css" rel="stylesheet">
+<link href="<?php echo G5_THEME_URL?>/css/modern-business.css?ver=<?php echo time(); ?>" rel="stylesheet">
 <link href="<?php echo G5_THEME_URL?>/css/ety.css?ver=<?php echo time(); ?>" rel="stylesheet">
 
 

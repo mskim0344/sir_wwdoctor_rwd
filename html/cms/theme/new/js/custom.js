@@ -48,6 +48,17 @@ $(window).scroll(function (){
 	}
 })
 
+if($(window).width() < 991 ){
+	$('.navbar-brand img').attr('src','/cms/pkimg/t_logo_on.png')
+}
+
+$(window).resize(function(){
+
+	if($(window).width() < 991 ){
+		$('.navbar-brand img').attr('src','/cms/pkimg/t_logo_on.png')
+	}
+
+})
 
 $(".sendmail").click(function(){
 	var surl = $("#send_url").val();

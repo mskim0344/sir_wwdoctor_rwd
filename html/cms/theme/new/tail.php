@@ -34,7 +34,7 @@ if(G5_COMMUNITY_USE === false) {
 	<script type="text/javascript" src="<?php echo G5_THEME_URL?>/assets/countdown/js/kinetic.js"></script>
 	<script type="text/javascript" src="<?php echo G5_THEME_URL?>/assets/countdown/js/jquery.final-countdown.js"></script>
 	<script type="text/javascript" src="<?php echo G5_THEME_URL?>/js/bootstrap-dropdownhover.js"></script>
-	<script type="text/javascript" src="<?php echo G5_THEME_URL?>/js/custom.js"></script>
+	<script type="text/javascript" src="<?php echo G5_THEME_URL?>/js/custom.js?ver=<?php echo time();?>"></script>
 
 
 

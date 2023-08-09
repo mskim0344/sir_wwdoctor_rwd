@@ -43,3 +43,25 @@
         </div>
     </div>
 </footer>
+<aside id="konsol" class="text-white bg-dark fixed-bottom">
+    <div class="container d-flex ailgn-items-center justify-content-between">
+        <h2 class="mt-2">빠른상담신청하기</h2>
+        <input type="text" placeholder="이름을 입력하세요.">
+        <input type="text" placeholder="휴대폰 번호를 입력하세요.">
+        <p class="ko_14 mt-2">
+            <input type="checkbox" id="agree_y">
+            <label  for="agree_y">개인정보 수집과 이용에 동의</label>
+        </p>
+        <input class="bg-danger" type="button" value="상담 신청">
+        <div>
+            <a href="">
+                <div class="icon"></div>
+            </a>            
+        </div>
+        <div>
+            <a href="">
+                <div class="icon_kakao"></div>
+            </a>            
+        </div>
+    </div>
+</aside>

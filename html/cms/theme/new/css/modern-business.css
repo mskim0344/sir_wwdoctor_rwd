@@ -16,12 +16,17 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-logomodern-business-nav/blob/master/LICENSE)
  */
 
+	
+
+	
+	
 
 @font-face {
      font-family: 'S-CoreDream-2ExtraLight';
      src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-2ExtraLight.woff') format('woff');
      font-weight: normal;
      font-style: normal;
+	 
 }
 @font-face {
      font-family: 'S-CoreDream-3Light';
@@ -64,6 +69,7 @@
 }
 
 .white{color: white;}
+
 #navbarResponsive a.white { color:#ffffff }
 
 a:hover { color:#32c5d2; text-decoration: none; }
@@ -200,6 +206,10 @@ h3 {
   line-height: 80px;
 }
 */
+#ul_a_color{
+
+}
+#ul_a_color li a{color: black;}
 .bg-dark {
     background-color: #000000!important;
 }
@@ -771,7 +781,7 @@ footer
 	**********/
 	.navbar-brand { font-size:25px; font-weight:bold; }
 	.navbar-nav li {
-		padding: 20px 0 20px 24px;
+		
 	}
 
 
@@ -793,7 +803,7 @@ footer
 
 .nav-link {
     display: block;
-    padding: .5rem 1rem;
+   
     font-weight: 500;
 	font-family: Noto Sans KR;
     font-size: 20px;
@@ -867,5 +877,57 @@ footer
 /* notice */
 .notice{
 	top: 10px;
-	left: 
+	
+}
+.alarm{
+	padding: 0 20px;
+	border: white 1px solid;
+    border-radius: 15px;
+    margin-right: 10px;
+	color: white;
+}
+
+
+@media (max-width:991px) {
+	#mytop{
+		background-color: white;
+	}
+	#mytop .nav-link,
+	#mytop .until  > li >a{
+	color:#141414;
+     }
+	
+	#navbarResponsive{
+ 		 background-color: white;
+ 		 position: absolute;
+	}
+	/* .navbar-collapse{
+		 display: none;
+	} */
+	
+}
+
+#konsol{
+	height: 82px;
+	display: flex;
+	align-items: center;
+		
+}
+#konsol h2 {
+	font-size: 26px;
+}
+
+ .icon{
+    background: url(https://wwdoctor.com/static/asset/images/main/quick_btn_reserv.png) 50% 50% no-repeat #000;
+    background-size: contain;
+	color: white;
+	height: 40px;	
+	width: 40px;
+}
+.icon_kakao{
+    background: url(https://wwdoctor.com/static/asset/images/main/quick_btn_kakao.png) 50% 50% no-repeat #000;
+    background-size: contain;
+	color: white;
+	height: 40px;	
+	width: 40px;
 }
