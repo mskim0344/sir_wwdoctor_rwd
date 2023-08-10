@@ -30,7 +30,7 @@
             <li><a href="https://twitter.com/wwdoctor"><i class="xi-twitter"></i><span class="sr_only">트위터</span></a></li>
             -->
         </ul>
-        <div id="familysite">
+        <div id="familysite" class="d-none d-lg-block">
             <button type="button" class="tbtn">Family Site</button>
             <ul id="familysite_list">
                 <li><a href="https://mywwdoctor.com/?utm_source=renewalsite">마이크로 Site</a></li>
@@ -43,16 +43,16 @@
         </div>
     </div>
 </footer>
-<aside id="konsol" class="text-white bg-dark fixed-bottom">
-    <div class="container d-flex ailgn-items-center justify-content-between">
-        <h2 class="mt-2">빠른상담신청하기</h2>
-        <input type="text" placeholder="이름을 입력하세요.">
-        <input type="text" placeholder="휴대폰 번호를 입력하세요.">
-        <p class="ko_14 mt-2">
+<aside id="konsol" class="text-white bg-dark fixed-bottom py-0 py-lg-3">
+    <div class="container d-flex ailgn-items-center justify-content-center justify-content-lg-between">
+        <h2 class="mt-2 d-none d-lg-block ">빠른상담신청하기</h2>
+        <input type="text" placeholder="이름을 입력하세요." class=" d-none d-lg-block " >
+        <input type="text" placeholder="휴대폰 번호를 입력하세요."  class=" d-none d-lg-block ">
+        <p class="ko_14 mt-2  d-none d-lg-block " >
             <input type="checkbox" id="agree_y">
             <label  for="agree_y">개인정보 수집과 이용에 동의</label>
         </p>
-        <input class="bg-danger" type="button" value="상담 신청">
+        <input class="bg-danger d-none d-lg-block " type="button" value="상담 신청">
         <div>
             <a href="">
                 <div class="icon"></div>

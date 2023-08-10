@@ -814,7 +814,7 @@ footer
   color:white;
 }
 
-#quickdiv{ opacity: 0; transition: 0.5s; visibility: hidden;}
+#quickdiv{ opacity: 0; transition: 0.5s; visibility: hidden; z-index: 100000;}
 .scrolldown #quickdiv{ opacity: 1; visibility: visible;}
 
 /* 서브메뉴 가로 크기 */
@@ -853,7 +853,7 @@ footer
 /* footer */
 #footer {padding:65px 0 135px; font-size:14px; color:#fff; font-weight:300; background:#272727;}
 #footer .b_logo {width:135px; height:28px; background:url('https://www.wwdoctor.com/static/asset/images/common/b_logo.png') no-repeat center;}
-#footer .container {position:relative; width:1360px; margin:auto;}
+#footer .container {position:relative; max-width:1360px; margin:auto;}
 #footer .fcont {overflow:hidden; margin-top:40px; line-height:26px; letter-spacing:0;}
 #footer .fcont .space {display:inline-block; width:12px;}
 #footer .addr {float:left; width:480px;}
@@ -900,14 +900,24 @@ footer
 	}
 }
 @media (max-width:1199px) {
+
+	.until .sub{
+		position: unset !important;
+		max-height:none !important;
+		box-shadow: none !important;
+
+	}
 	.navbar-expand-lg .navbar-nav .nav-link{
 		font-size: 1rem;
 		padding: 0;
 		
 	}
 	#mytop .navbar-toggler{
+		/* 햄버거버튼 노출 */
 		position: absolute;
 		right:0;
+		top: 0;
+		
 	}
 
 	
@@ -948,7 +958,7 @@ footer
 }
 
 #konsol{
-	height: 82px;
+
 	display: flex;
 	align-items: center;
 		
@@ -957,7 +967,7 @@ footer
 	font-size: 26px;
 }
 
- .icon{
+#konsol .icon{
     background: url(https://wwdoctor.com/static/asset/images/main/quick_btn_reserv.png) 50% 50% no-repeat #000;
     background-size: contain;
 	color: white;
@@ -965,11 +975,42 @@ footer
 	width: 40px;
 	border-radius: 50%;
 }
-.icon_kakao{
+#konsol  .icon_kakao{
     background: url(https://wwdoctor.com/static/asset/images/main/quick_btn_kakao.png) 50% 50% no-repeat #000;
     background-size: contain;
 	color: white;
 	height: 40px;	
 	width: 40px;
 	border-radius: 50%;
+}
+
+/* //햄버거버튼 메뉴들이 노출됨 */
+html.openall,
+html.openall body{
+	overflow: hidden !important;
+}
+#mytop .navbar-dark{
+	background-color: transparent !important;
+	outline: none;
+}
+#mytop .navbar-dark .navbar-toggler-icon {
+	background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 0, 0, 0.8)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+  }
+html.openall #mytop .navbar-dark .navbar-toggler-icon{
+	background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' fill='currentColor' class='bi bi-x-lg' viewBox='0 0 16 16'%3E%3Cpath d='M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8 2.146 2.854Z'/%3E%3C/svg%3E");
+}
+/* 햄버거 버튼 스크롤 완료 */
+#navbarResponsive{
+	overflow: scroll;
+	
+}
+#quickdiv button{
+	position:fixed;bottom:0px;right:0px;width:50px;height:50px;line-height:46px;border:none;color:#333;text-align:center;font-size:15px;z-index:90;background:transparent;
+
+}
+@media (max-width:470px) {
+	.sns_link{
+		display: none;
+	}
+	
 }

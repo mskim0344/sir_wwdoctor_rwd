@@ -42,9 +42,16 @@ if(G5_COMMUNITY_USE === false) {
 
     
     <div id="quickdiv" >
-		<a href="" class="d-block kakao">카카오상담</a>
+		<a href="" class="d-block kakao bg-black ">
+			<img src="https://wwdoctor.com/static/asset/images/main/quick_btn_kakao.png">
+		</a>
 		<button type="button" id="top_btn" class="position-relative">
-			<i class="fa fa-arrow-up" aria-hidden="true"></i><span class="sound_only">상단으로</span>
+		<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-up" viewBox="0 0 16 16">
+  <path fill-rule="evenodd" d="M7.646 4.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1-.708.708L8 5.707l-5.646 5.647a.5.5 0 0 1-.708-.708l6-6z"/>
+</svg>
+			<span class="sound_only">
+상단으로
+			</span>
 		</button>
 	</div>
 

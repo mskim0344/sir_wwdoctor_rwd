@@ -70,6 +70,11 @@ $(window).resize(function(){
 
 })
 
+// 햄버거버튼 클릭시 html태그에 openall클래스 토글처리
+$("button.navbar-toggler").click(function(){
+	$("html").toggleClass("openall")
+})
+
 $(".sendmail").click(function(){
 	var surl = $("#send_url").val();
 	var ety_name = $("input[name=ety_name]").val();
