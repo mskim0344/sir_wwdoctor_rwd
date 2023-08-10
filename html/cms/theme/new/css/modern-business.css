@@ -930,8 +930,11 @@ footer
 	#mytop .until  > li >a{
 	color:#141414;
      }
+	 #navbarResponsive{
+		overflow: scroll;
+		
+		
 	
-	#navbarResponsive{
  		 background-color: white;
  		 position: fixed;
 		 left:-1px;
@@ -941,8 +944,8 @@ footer
 		 overflow: hidden;	
 		 
 		 display: flex !important;
-		 justify-content: center !important;
-		 align-items: start;
+		 justify-content: space-around !important;
+		 align-items: center !important;
 		 transition-duration: 0.5s;
 		 /* transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1); */
 		
@@ -1000,10 +1003,7 @@ html.openall #mytop .navbar-dark .navbar-toggler-icon{
 	background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' fill='currentColor' class='bi bi-x-lg' viewBox='0 0 16 16'%3E%3Cpath d='M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8 2.146 2.854Z'/%3E%3C/svg%3E");
 }
 /* 햄버거 버튼 스크롤 완료 */
-#navbarResponsive{
-	overflow: scroll;
-	
-}
+
 #quickdiv button{
 	position:fixed;bottom:0px;right:0px;width:50px;height:50px;line-height:46px;border:none;color:#333;text-align:center;font-size:15px;z-index:90;background:transparent;
 
@@ -1012,5 +1012,10 @@ html.openall #mytop .navbar-dark .navbar-toggler-icon{
 	.sns_link{
 		display: none;
 	}
+	
+}
+
+.fmenu a{
+	color: white;
 	
 }

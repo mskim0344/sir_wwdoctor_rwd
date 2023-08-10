@@ -20,8 +20,8 @@
         <div class="copyright">© 편강한의원 all rights reserved.</div>
 
         <ul class="sns_link">
-            <li><a href="https://www.instagram.com/pyunkang/"><i class="bi bi-instagram"></i><span class="sr_only">인스타</span></a></li>
-            <li><a href="https://www.youtube.com/user/ThePyunkang"><i class="bi bi-youtube"></i><span class="sr_only">유투브</span></a></li>
+            <li><a href="https://www.instagram.com/pyunkang/"><i class="bi bi-instagram text-white"></i><span class="sr_only">인스타</span></a></li>
+            <li><a href="https://www.youtube.com/user/ThePyunkang"><i class="bi bi-youtube text-white"></i><span class="sr_only">유투브</span></a></li>
             <!--
             <li><a href="https://www.instagram.com/pyunkang/"><i class="xi-instagram"></i><span class="sr_only">인스타</span></a></li>
 
