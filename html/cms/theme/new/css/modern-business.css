@@ -968,6 +968,7 @@ footer
 }
 #konsol h2 {
 	font-size: 26px;
+	font-weight: 300;
 }
 
 #konsol .icon{
@@ -1008,6 +1009,11 @@ html.openall #mytop .navbar-dark .navbar-toggler-icon{
 	position:fixed;bottom:0px;right:0px;width:50px;height:50px;line-height:46px;border:none;color:#333;text-align:center;font-size:15px;z-index:90;background:transparent;
 
 }
+@media (max-width:991px) {
+	#konsol{
+		position: unset;
+	}
+}
 @media (max-width:470px) {
 	.sns_link{
 		display: none;
@@ -1019,3 +1025,27 @@ html.openall #mytop .navbar-dark .navbar-toggler-icon{
 	color: white;
 	
 }
+.ag_bar{
+	width: auto;
+	height: 42px;
+	color: white;
+	background-color: #000000;
+	border: none;
+	border-radius: 25px;
+}
+
+ .bg-222428{
+	background-color:#141414;
+}
+.h-44{
+	height: 44px;
+}
+
+input[type=email], input[type=number], input[type=password], input[type=text] {
+    padding: 0;
+    padding-left: 12px;
+	font-size: 16px;
+    }
+	input::placeholder {
+		font-size: 14px;
+	}

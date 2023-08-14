@@ -43,22 +43,24 @@
         </div>
     </div>
 </footer>
-<aside id="konsol" class="text-white bg-dark fixed-bottom py-0 py-lg-3">
-    <div class="container d-flex ailgn-items-center justify-content-center justify-content-lg-between">
-        <h2 class="mt-2 d-none d-lg-block ">빠른상담신청하기</h2>
-        <input type="text" placeholder="이름을 입력하세요." class=" d-none d-lg-block " >
-        <input type="text" placeholder="휴대폰 번호를 입력하세요."  class=" d-none d-lg-block ">
-        <p class="ko_14 mt-2  d-none d-lg-block " >
+<aside id="konsol" class="text-white bg-222428 fixed-bottom py-3 py-lg-3">
+    <div class="container d-flex  flex-column flex-lg-row ailgn-items-center justify-content-center justify-content-lg-between">
+        <h2 class="mt-2 text-center text-lg-left">빠른상담신청하기</h2>
+        <div class="d-flex justify-content-center">
+            <input type="text" placeholder="이름을 입력하세요." class="  h-44 mx-1" >
+            <input type="text" placeholder="휴대폰 번호를 입력하세요."  class=" h-44 mx-1">
+        </div>
+       
+        <p class="ko_14 mt-2 text-center " >
             <input type="checkbox" id="agree_y">
-            <label  for="agree_y">개인정보 수집과 이용에 동의</label>
+            <label  for="agree_y" class="mb-0">개인정보 수집과 이용에 동의</label>
         </p>
-        <input class="bg-danger d-none d-lg-block " type="button" value="상담 신청">
-        <div>
+        <input class=" ag_bar px-3 " type="button" value="상담 신청">
+        <div class="d-flex justify-content-center">
             <a href="">
                 <div class="icon"></div>
             </a>            
-        </div>
-        <div>
+       
             <a href="">
                 <div class="icon_kakao"></div>
             </a>            
