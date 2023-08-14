@@ -1049,3 +1049,10 @@ input[type=email], input[type=number], input[type=password], input[type=text] {
 	input::placeholder {
 		font-size: 14px;
 	}
+
+	
+.content-A{
+	padding: 180px 0;
+    background: url(https://www.wwdoctor.com/static/asset/images/main/subject_bg.jpg) 50% 60% no-repeat;
+    background-size: 100% auto;
+}
