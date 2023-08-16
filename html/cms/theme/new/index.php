@@ -115,14 +115,17 @@ include_once(G5_THEME_PATH.'/head.php');
 
 
 <!-- notice -->
-<aside class="bg-dark text-white h80">
+<aside class="bg-dark text-white h80" id="noticeRolling">
 	<div class=" container d-flex">
-		<a class="white mt-4 " href="">Notice</a>
+	    <?php echo latest('theme/basic_main_one', 'notice', 3, 40);?>
+		<!-- <a class="white mt-4 " href="">Notice</a>
 		<div class="  mt-4 mx-5 alarm">
-			<a class="" href=""></a>
+			<a class="" href=""></a> -->
 		</div>  
 	</div>
 </aside>
+
+
 
 
 
@@ -1722,64 +1725,6 @@ include_once(G5_THEME_PATH.'/head.php');
 	<!-- LATEST : pic_basic_company -->
 	<?php echo latest('theme/pic_basic_company', 'gallery', 6, 24); ?>
 </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<!-------------------------- 게시판 -------------------------->
-<div class="padding-top-60">
-	<div class="container">
-		<div class="row">
-			<div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
-				<?php echo latest('theme/basic_main_one', 'notice', 5, 40);?>
-			</div>
-			<div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
-				<?php echo latest('theme/basic_main_one', 'free', 5, 40);?>
-			</div>
-		</div>
-	</div>
-</div>
-
-
-
-
-
-<!-------------------------- GALLERY -------------------------->
-<!-- 
-
-테마폴더/tail.php : 43 번째줄에서 수정하시면 됩니다.
-owlcarousel 시간조정, 개수조정, 오토플레이 조정
-
-
--->
-
-<div class="container margin-bottom-60">
-	<?php echo latest('theme/pic_basic_owl', 'gallery', 9, 24); ?>
-</div>
-
-
-
-
-
-
-
 
 
 
