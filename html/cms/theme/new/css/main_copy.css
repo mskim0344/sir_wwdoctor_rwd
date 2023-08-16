@@ -157,7 +157,7 @@
 	content:''; position:absolute; width:1px; height:10px; background:#d9d9d9; right:-11px; top:8px;
 }
 .latest_consult_container .swiper-slide h3 span.title {display:inline-block; width:250px; white-space:nowrap; overflow:hidden; -o-text-overflow:ellipsis; text-overflow:ellipsis;}
-.latest_consult_container .inner .btn_link {display:block; position:absolute; width:50px; height:50px; right:120px; top:50%; margin-top:-25px; background:url(../images/main/btn_latest_consult.png) 50% 50% no-repeat; opacity:0.5; transition:all 0.3s ease;}
+.latest_consult_container .inner .btn_link {display:block; position:absolute; width:50px; height:50px; right:120px; top:50%; margin-top:-25px; background:url(https://www.wwdoctor.com/static/asset/images/main/btn_latest_consult.png;) 50% 50% no-repeat; opacity:0.5; transition:all 0.3s ease;}
 .latest_consult_container .inner .btn_link:hover {opacity:1;}
 
 /* 편강탕 */

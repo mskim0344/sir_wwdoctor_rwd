@@ -337,7 +337,7 @@ img {max-width:100%;}
 
 #footer {padding:65px 0 135px; font-size:14px; color:#fff; font-weight:300; background:#272727;}
 #footer .b_logo {width:135px; height:28px; background:url('../images/common/b_logo.png') no-repeat center;}
-#footer .container {position:relative; width:1360px; margin:auto;}
+#footer .container {position:relative; ; margin:auto;}
 #footer .fcont {overflow:hidden; margin-top:40px; line-height:26px; letter-spacing:0;}
 #footer .fcont .space {display:inline-block; width:12px;}
 #footer .addr {float:left; width:480px;}
@@ -621,7 +621,7 @@ img {max-width:100%;}
 
 
 /* 레이아웃, 사이즈 정의 */
-.csize01 {width:1360px; margin-left:auto; margin-right:auto; position:relative;}
+.csize01 {max-width:1360px; margin-left:auto; margin-right:auto; position:relative;}
 .csize01::after, .f_after::after {content:''; display:block; clear:both;}
 .f_left {float:left;}
 .f_right {float:right;}

@@ -114,6 +114,7 @@ table th, table td{ font-family: 'S-CoreDream-4Regular';font-size: 14px;}
 #mainBannerswiper .swiper-slide{
 	height: 0;
 	padding-top: 51%;
+	background-size: cover;
 }
 
 #mainBannerswiper .swiper-slide .carousel-caption{
@@ -204,8 +205,32 @@ table th, table td{ font-family: 'S-CoreDream-4Regular';font-size: 14px;}
 
 
 
+.notice_border{
+	border: 1px solid white;
+	border-radius: 15px;
+	border-left: 1px solid white;
+	
+}
+.border_right{
+	border-right: 1px solid #999;
+}
 
+#up_down .swiper-button-next{
+	background: url(https://www.wwdoctor.com/static/asset/images/main/btn_notice_up.jpg;)	50% 50% no-repeat;
+	opacity: 0.5;
+	top: 30px;
 
+}
+
+#up_down .swiper-button-prev{
+	background: url(https://www.wwdoctor.com/static/asset/images/main/btn_notice_down.jpg) 50% 50% no-repeat;
+	opacity: 0.5;
+	top: auto;
+}
+
+#up_down{
+	
+}
 
 
 

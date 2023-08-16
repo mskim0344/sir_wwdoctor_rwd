@@ -105,6 +105,7 @@ include_once(G5_THEME_PATH.'/head.php');
 						},
 
 					});
+                   
 	</script>
 <!-------------------------- 메인 슬라이드 swiper -------------------------->
 
@@ -116,7 +117,7 @@ include_once(G5_THEME_PATH.'/head.php');
 
 <!-- notice -->
 <aside class="bg-dark text-white h80" id="noticeRolling">
-	<div class=" container d-flex">
+	<div class="container-lg">
 	    <?php echo latest('theme/basic_main_one', 'notice', 3, 40);?>
 		<!-- <a class="white mt-4 " href="">Notice</a>
 		<div class="  mt-4 mx-5 alarm">
@@ -130,7 +131,7 @@ include_once(G5_THEME_PATH.'/head.php');
 
 
 
-<section class="subject_container">
+<section class="subject_container d-none">
         <div class="csize01">
 
             <div class="subject_list_container">
@@ -283,7 +284,7 @@ include_once(G5_THEME_PATH.'/head.php');
 
         </div>
 </section>
-<aside class="check_symtom_container">
+<aside class="check_symtom_container d-none">
         <div class="csize01">
 
             <h2 class="title notoS f42 semibold fc_dark wow fadeInUp" data-wow-delay="0.3s" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInUp;">
@@ -296,353 +297,149 @@ include_once(G5_THEME_PATH.'/head.php');
 
         </div>
 </aside>
-<aside class="latest_consult_container">
-        <div class="csize01">
+<aside class="latest_consult_container d-none">
+        <div class="csize01 d-block d-lg-flex">
 
             <h2 class="title notoS f42 semibold fc_white wow fadeInUp" data-wow-delay="0.3s" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInUp;">
                 의료진 상담하기
             </h2>
 
-            <div class="inner wow fadeInUp" data-wow-delay="0.3s" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInUp;">
-                <div class="latest_consult">
+            <div class="container" >
+                <div class="latest_consult ">
 
-                    <div class="swiper-container swiper-container-initialized swiper-container-vertical">
-                        <ul class="swiper-wrapper" style="transition-duration: 0ms; transform: translate3d(0px, -144px, 0px);"><li class="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-prev" style="height: 24px;" data-swiper-slide-index="2">
-                                            <a href="/counsel/counsel.do">
-                                                <h3 class="f16 fc_white f_after">
-                                                    <table style="width:600px;table-layout: fixed;">
-                                                        <colgroup>
-                                                            <col style="width:70px;">
-                                                            <col style="width:60px;">
-                                                            <col style="width:250px;">
-                                                            <col style="width:50px;">
-                                                            <col style="width:100px;">
-                                                            <col style="width:70px;">
-                                                        </colgroup>
-                                                        <tbody>
-                                                            <tr>
-                                                                <td>[편강한약]</td>
-                                                                <td> 서초점</td>
-                                                                <td class="ellipsis">약주문</td>
-                                                                <td>양**</td>
-                                                                <td>2023-07-21</td>
-                                                                <td>답변완료</td>
-                                                            </tr>
-                                                        </tbody>
-                                                    </table>
+                    <div class="swiper ">
+                        <ul class="swiper-wrapper" style="height:130px">
+                                   
+                            <li class="swiper-slide " >
+                                            <div>
+                                                
+                                                        <p class="d-flex w-100 justify-content-between text-white">
+                                                            <span>[편강한약]</span>
+                                                            <span> 서초점</span>
+                                                            <span class="mx-auto">약주문</span>
+                                                            <span>양**</span>
+                                                            <span>2023-07-21</span>
+                                                            <span>답변완료</span>
+                                                        </p>
+                                                        <p class="d-flex w-100 justify-content-between text-white">
+                                                            <span>[편강한약]</span>
+                                                            <span> 서초점</span>
+                                                            <span class="mx-auto">약주문</span>
+                                                            <span>양**</span>
+                                                            <span>2023-07-21</span>
+                                                            <span>답변완료</span>
+                                                        </p>
+                                                        <p class="d-flex w-100 justify-content-between text-white">
+                                                            <span>[편강한약]</span>
+                                                            <span> 서초점</span>
+                                                            <span class="mx-auto">약주문</span>
+                                                            <span>양**</span>
+                                                            <span>2023-07-21</span>
+                                                            <span>답변완료</span>
+                                                        </p>
+                                                        <p class="d-flex w-100 justify-content-between text-white">
+                                                            <span>[편강한약]</span>
+                                                            <span> 서초점</span>
+                                                            <span class="mx-auto">약주문</span>
+                                                            <span>양**</span>
+                                                            <span>2023-07-21</span>
+                                                            <span>답변완료</span>
+                                                        </p>
+                                                    
 
+                                            </div>                                     
+                            </li>    
+                            <li class="swiper-slide " >
+                                            <div>
+                                                
+                                                        <p class="d-flex w-100 justify-content-between text-white">
+                                                            <span>[편강한약]</span>
+                                                            <span> 서초점</span>
+                                                            <span class="mx-auto">약주문</span>
+                                                            <span>양**</span>
+                                                            <span>2023-07-21</span>
+                                                            <span>답변완료</span>
+                                                        </p>
+                                                    
 
-                                                </h3>
-                                            </a>
-                                        </li><li class="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-active" style="height: 24px;" data-swiper-slide-index="3">
-                                            <a href="/counsel/counsel.do">
-                                                <h3 class="f16 fc_white f_after">
-                                                    <table style="width:600px;table-layout: fixed;">
-                                                        <colgroup>
-                                                            <col style="width:70px;">
-                                                            <col style="width:60px;">
-                                                            <col style="width:250px;">
-                                                            <col style="width:50px;">
-                                                            <col style="width:100px;">
-                                                            <col style="width:70px;">
-                                                        </colgroup>
-                                                        <tbody>
-                                                            <tr>
-                                                                <td>[천식]</td>
-                                                                <td> 안산점</td>
-                                                                <td class="ellipsis">비염 천식</td>
-                                                                <td>김**</td>
-                                                                <td>2023-07-13</td>
-                                                                <td>답변완료</td>
-                                                            </tr>
-                                                        </tbody>
-                                                    </table>
+                                            </div>                                     
+                            </li>  
+                            <li class="swiper-slide " >
+                                            <div>
+                                                
+                                                        <p class="d-flex w-100 justify-content-between text-white">
+                                                            <span>[편강한약]</span>
+                                                            <span> 서초점</span>
+                                                            <span class="mx-auto">약주문</span>
+                                                            <span>양**</span>
+                                                            <span>2023-07-21</span>
+                                                            <span>답변완료</span>
+                                                        </p>
+                                                    
 
+                                            </div>                                     
+                            </li>  
+                            <li class="swiper-slide " >
+                                            <div>
+                                                
+                                                        <p class="d-flex w-100 justify-content-between text-white">
+                                                            <span>[편강한약]</span>
+                                                            <span> 서초점</span>
+                                                            <span class="mx-auto">약주문</span>
+                                                            <span>양**</span>
+                                                            <span>2023-07-21</span>
+                                                            <span>답변완료</span>
+                                                        </p>
+                                                    
 
-                                                </h3>
-                                            </a>
-                                        </li><li class="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-next" style="height: 24px;" data-swiper-slide-index="4">
-                                            <a href="/counsel/counsel.do">
-                                                <h3 class="f16 fc_white f_after">
-                                                    <table style="width:600px;table-layout: fixed;">
-                                                        <colgroup>
-                                                            <col style="width:70px;">
-                                                            <col style="width:60px;">
-                                                            <col style="width:250px;">
-                                                            <col style="width:50px;">
-                                                            <col style="width:100px;">
-                                                            <col style="width:70px;">
-                                                        </colgroup>
-                                                        <tbody>
-                                                            <tr>
-                                                                <td>[기타]</td>
-                                                                <td> 대구점</td>
-                                                                <td class="ellipsis">교통사고 한약</td>
-                                                                <td>최**</td>
-                                                                <td>2023-07-06</td>
-                                                                <td>답변완료</td>
-                                                            </tr>
-                                                        </tbody>
-                                                    </table>
+                                            </div>                                     
+                            </li>  
+                            <li class="swiper-slide " >
+                                            <div>
+                                                
+                                                        <p class="d-flex w-100 justify-content-between text-white">
+                                                            <span>[편강한약]</span>
+                                                            <span> 서초점</span>
+                                                            <span class="mx-auto">약주문</span>
+                                                            <span>양**</span>
+                                                            <span>2023-07-21</span>
+                                                            <span>답변완료</span>
+                                                        </p>
+                                                    
 
-
-                                                </h3>
-                                            </a>
-                                        </li>
-                            
-                            
-                                
-                                    
-                                        <li class="swiper-slide" style="height: 24px;" data-swiper-slide-index="0">
-                                            <a href="/counsel/counsel.do">
-                                                <h3 class="f16 fc_white f_after">
-                                                    <table style="width:600px;table-layout: fixed;">
-                                                        <colgroup>
-                                                            <col style="width:70px;">
-                                                            <col style="width:60px;">
-                                                            <col style="width:250px;">
-                                                            <col style="width:50px;">
-                                                            <col style="width:100px;">
-                                                            <col style="width:70px;">
-                                                        </colgroup>
-                                                        <tbody>
-                                                            <tr>
-                                                                <td>[비염]</td>
-                                                                <td> 명동점</td>
-                                                                <td class="ellipsis">만성 비염입니다</td>
-                                                                <td>박**</td>
-                                                                <td>2023-08-08</td>
-                                                                <td>답변완료</td>
-                                                            </tr>
-                                                        </tbody>
-                                                    </table>
-
-
-                                                </h3>
-                                            </a>
-                                        </li>
-                                        
-                                        
-                                    
-                                        <li class="swiper-slide" style="height: 24px;" data-swiper-slide-index="1">
-                                            <a href="/counsel/counsel.do">
-                                                <h3 class="f16 fc_white f_after">
-                                                    <table style="width:600px;table-layout: fixed;">
-                                                        <colgroup>
-                                                            <col style="width:70px;">
-                                                            <col style="width:60px;">
-                                                            <col style="width:250px;">
-                                                            <col style="width:50px;">
-                                                            <col style="width:100px;">
-                                                            <col style="width:70px;">
-                                                        </colgroup>
-                                                        <tbody>
-                                                            <tr>
-                                                                <td>[편강한약]</td>
-                                                                <td> 부산점</td>
-                                                                <td class="ellipsis">천식 </td>
-                                                                <td>남**</td>
-                                                                <td>2023-07-31</td>
-                                                                <td>답변완료</td>
-                                                            </tr>
-                                                        </tbody>
-                                                    </table>
-
-
-                                                </h3>
-                                            </a>
-                                        </li>
-                                        
-                                        
-                                    
-                                        <li class="swiper-slide swiper-slide-prev" style="height: 24px;" data-swiper-slide-index="2">
-                                            <a href="/counsel/counsel.do">
-                                                <h3 class="f16 fc_white f_after">
-                                                    <table style="width:600px;table-layout: fixed;">
-                                                        <colgroup>
-                                                            <col style="width:70px;">
-                                                            <col style="width:60px;">
-                                                            <col style="width:250px;">
-                                                            <col style="width:50px;">
-                                                            <col style="width:100px;">
-                                                            <col style="width:70px;">
-                                                        </colgroup>
-                                                        <tbody>
-                                                            <tr>
-                                                                <td>[편강한약]</td>
-                                                                <td> 서초점</td>
-                                                                <td class="ellipsis">약주문</td>
-                                                                <td>양**</td>
-                                                                <td>2023-07-21</td>
-                                                                <td>답변완료</td>
-                                                            </tr>
-                                                        </tbody>
-                                                    </table>
-
-
-                                                </h3>
-                                            </a>
-                                        </li>
-                                        
-                                        
-                                    
-                                        <li class="swiper-slide swiper-slide-active" style="height: 24px;" data-swiper-slide-index="3">
-                                            <a href="/counsel/counsel.do">
-                                                <h3 class="f16 fc_white f_after">
-                                                    <table style="width:600px;table-layout: fixed;">
-                                                        <colgroup>
-                                                            <col style="width:70px;">
-                                                            <col style="width:60px;">
-                                                            <col style="width:250px;">
-                                                            <col style="width:50px;">
-                                                            <col style="width:100px;">
-                                                            <col style="width:70px;">
-                                                        </colgroup>
-                                                        <tbody>
-                                                            <tr>
-                                                                <td>[천식]</td>
-                                                                <td> 안산점</td>
-                                                                <td class="ellipsis">비염 천식</td>
-                                                                <td>김**</td>
-                                                                <td>2023-07-13</td>
-                                                                <td>답변완료</td>
-                                                            </tr>
-                                                        </tbody>
-                                                    </table>
-
-
-                                                </h3>
-                                            </a>
-                                        </li>
-                                        
-                                        
-                                    
-                                        <li class="swiper-slide swiper-slide-next" style="height: 24px;" data-swiper-slide-index="4">
-                                            <a href="/counsel/counsel.do">
-                                                <h3 class="f16 fc_white f_after">
-                                                    <table style="width:600px;table-layout: fixed;">
-                                                        <colgroup>
-                                                            <col style="width:70px;">
-                                                            <col style="width:60px;">
-                                                            <col style="width:250px;">
-                                                            <col style="width:50px;">
-                                                            <col style="width:100px;">
-                                                            <col style="width:70px;">
-                                                        </colgroup>
-                                                        <tbody>
-                                                            <tr>
-                                                                <td>[기타]</td>
-                                                                <td> 대구점</td>
-                                                                <td class="ellipsis">교통사고 한약</td>
-                                                                <td>최**</td>
-                                                                <td>2023-07-06</td>
-                                                                <td>답변완료</td>
-                                                            </tr>
-                                                        </tbody>
-                                                    </table>
-
-
-                                                </h3>
-                                            </a>
-                                        </li>
-                                        
+                                            </div>                                     
+                            </li>            
                                         
                                     
                                 
                                 
-                            
-                        <li class="swiper-slide swiper-slide-duplicate" style="height: 24px;" data-swiper-slide-index="0">
-                                            <a href="/counsel/counsel.do">
-                                                <h3 class="f16 fc_white f_after">
-                                                    <table style="width:600px;table-layout: fixed;">
-                                                        <colgroup>
-                                                            <col style="width:70px;">
-                                                            <col style="width:60px;">
-                                                            <col style="width:250px;">
-                                                            <col style="width:50px;">
-                                                            <col style="width:100px;">
-                                                            <col style="width:70px;">
-                                                        </colgroup>
-                                                        <tbody>
-                                                            <tr>
-                                                                <td>[비염]</td>
-                                                                <td> 명동점</td>
-                                                                <td class="ellipsis">만성 비염입니다</td>
-                                                                <td>박**</td>
-                                                                <td>2023-08-08</td>
-                                                                <td>답변완료</td>
-                                                            </tr>
-                                                        </tbody>
-                                                    </table>
-
-
-                                                </h3>
-                                            </a>
-                                        </li><li class="swiper-slide swiper-slide-duplicate" style="height: 24px;" data-swiper-slide-index="1">
-                                            <a href="/counsel/counsel.do">
-                                                <h3 class="f16 fc_white f_after">
-                                                    <table style="width:600px;table-layout: fixed;">
-                                                        <colgroup>
-                                                            <col style="width:70px;">
-                                                            <col style="width:60px;">
-                                                            <col style="width:250px;">
-                                                            <col style="width:50px;">
-                                                            <col style="width:100px;">
-                                                            <col style="width:70px;">
-                                                        </colgroup>
-                                                        <tbody>
-                                                            <tr>
-                                                                <td>[편강한약]</td>
-                                                                <td> 부산점</td>
-                                                                <td class="ellipsis">천식 </td>
-                                                                <td>남**</td>
-                                                                <td>2023-07-31</td>
-                                                                <td>답변완료</td>
-                                                            </tr>
-                                                        </tbody>
-                                                    </table>
-
-
-                                                </h3>
-                                            </a>
-                                        </li><li class="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-prev" style="height: 24px;" data-swiper-slide-index="2">
-                                            <a href="/counsel/counsel.do">
-                                                <h3 class="f16 fc_white f_after">
-                                                    <table style="width:600px;table-layout: fixed;">
-                                                        <colgroup>
-                                                            <col style="width:70px;">
-                                                            <col style="width:60px;">
-                                                            <col style="width:250px;">
-                                                            <col style="width:50px;">
-                                                            <col style="width:100px;">
-                                                            <col style="width:70px;">
-                                                        </colgroup>
-                                                        <tbody>
-                                                            <tr>
-                                                                <td>[편강한약]</td>
-                                                                <td> 서초점</td>
-                                                                <td class="ellipsis">약주문</td>
-                                                                <td>양**</td>
-                                                                <td>2023-07-21</td>
-                                                                <td>답변완료</td>
-                                                            </tr>
-                                                        </tbody>
-                                                    </table>
-
-
-                                                </h3>
-                                            </a>
-                                        </li></ul>
+                      
+                    
+                        </ul>
                     <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span></div>
                 </div>
                 <a href="/counsel/counsel.do" class="btn_link">
                     <span class="sr_only">상담하기 게시판 바로가기</span>
                 </a>
             </div>
+            <script>
+                 var swiper_store = new Swiper(".latest_consult .swiper", {
+
+                    direction: "vertical",
+                    spaceBetween:0,
+                    loop:true,
+
+                    autoplay: {
+                        delay: 3000,
+                        disableOnInteraction: false,
+                    },
+
+                    });
+            </script>
 
         </div>
 </aside>
-<section class="pyeonkang">
+<section class="pyeonkang d-none">
         <div class="csize01">
 
             <div class="image wow fadeInUp" data-wow-delay="0.3s" data-wow-offset="500" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInUp;">
@@ -682,7 +479,7 @@ include_once(G5_THEME_PATH.'/head.php');
 
         </div>
 </section>
-<aside class="main_review">
+<aside class="main_review d-none">
         <div class="csize01">
 
             <h2 class="title notoS f42 semibold fc_white wow fadeInUp" data-wow-delay="0.3s" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInUp;">
@@ -794,7 +591,7 @@ include_once(G5_THEME_PATH.'/head.php');
             </div>
         </div>
     </aside>
-	<section class="main_youtube">
+	<section class="main_youtube d-none">
         <div class="csize01">
 
             <h2 class="title notoS f42 semibold fc_dark wow fadeInUp" data-wow-delay="0.3s" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInUp;">

@@ -1055,7 +1055,7 @@ footer .copylight{
 
 #footer {padding:65px 0 135px; font-size:14px; color:#fff; font-weight:300; background:#272727;}
 #footer .b_logo {width:135px; height:28px; background:url('https://www.wwdoctor.com/static/asset/images/common/b_logo.png') no-repeat center;}
-#footer .container {position:relative; width:1360px; margin:auto;}
+#footer .container {position:relative;  margin:auto;}
 #footer .fcont {overflow:hidden; margin-top:40px; line-height:26px; letter-spacing:0;}
 #footer .fcont .space {display:inline-block; width:12px;}
 #footer .addr {float:left; width:480px;}
