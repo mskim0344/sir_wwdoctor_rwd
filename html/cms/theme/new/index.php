@@ -592,7 +592,7 @@ include_once(G5_THEME_PATH.'/head.php');
             </div>
         </div>
     </aside>
-	<section class="main_youtube d-none">
+	<section class="main_youtube">
         <div class="csize01">
 
             <h2 class="title notoS f42 semibold fc_dark wow fadeInUp" data-wow-delay="0.3s" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInUp;">
