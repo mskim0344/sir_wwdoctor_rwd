@@ -594,17 +594,20 @@ include_once(G5_THEME_PATH.'/head.php');
     </aside>
 	<section class="main_youtube">
         <div class="csize01">
+            <div class="d-flex align-items-center flex-column none">
+                <h2 class="title notoS f42 semibold fc_dark wow fadeInUp" data-wow-delay="0.3s" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInUp;">
+                    서효석의 ‘청폐’
+                </h2>
+                <p class="f20 medium mt_20 wow fadeInUp" data-wow-delay="0.3s" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInUp;">
+                    대표원장님이 알려주는 건강이야기
+                </p>
+            </div>
 
-            <h2 class="title notoS f42 semibold fc_dark wow fadeInUp" data-wow-delay="0.3s" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInUp;">
-                서효석의 ‘청폐’
-            </h2>
-            <p class="f20 medium mt_20 wow fadeInUp" data-wow-delay="0.3s" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInUp;">
-                대표원장님이 알려주는 건강이야기
-            </p>
+            
 
             <div class="inner mt_50 wow fadeInUp" data-wow-delay="0.3s" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInUp;">
 
-                <div class="tags">
+                <div class="tags none">
                     <ul class="f_after">
                         <li class="f20 medium fc_dark">
                             #청폐
@@ -620,10 +623,10 @@ include_once(G5_THEME_PATH.'/head.php');
 
                 <div class="video video_main_youtube wow fadeInUp" data-wow-delay="0.3s" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInUp;">
                     <!-- youtube -->
-                    <iframe src="https://www.youtube.com/embed/OvpWpauAr-A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+                    <iframe id="video_pk"src="https://www.youtube.com/embed/OvpWpauAr-A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
                 </div>
 
-                <div class="video_indicator wow fadeIn" data-wow-delay="0.3s" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeIn;">
+                <div class="video_indicator wow fadeIn d-xl-block d-none" data-wow-delay="0.3s" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeIn;">
                     <ul>
                         <li class="on">
                             <a href="#" data-youtube="https://youtu.be/OvpWpauAr-A">
