@@ -480,7 +480,7 @@ include_once(G5_THEME_PATH.'/head.php');
 
         </div>
 </section>
-<aside class="main_review ">
+<aside class="main_review justify-content-md-center d-flex">
         <div class="csize01">
 
             <h2 class="title notoS f42 semibold fc_white wow fadeInUp" data-wow-delay="0.3s" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInUp;">
@@ -504,7 +504,7 @@ include_once(G5_THEME_PATH.'/head.php');
 
         </div>
 
-        <div class="right">
+        <div class="right d-none d-xl-block">
             <div class="inner wow fadeInUp" data-wow-delay="0.3s" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInUp;">
                 <ul class="subject">
                     <li>

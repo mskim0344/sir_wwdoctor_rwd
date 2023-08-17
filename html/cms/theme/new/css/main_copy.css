@@ -175,7 +175,7 @@
 .main_review {position:relative; padding:190px 0; background:url(https://www.wwdoctor.com/static/asset/images/main/review_bg.jpg) left 50%/cover no-repeat;}
 .main_review .video {position:relative; width:754px; height:424px; background:url(../images/main/review_video_bg.jpg) 50% 50%/cover no-repeat;}
 .main_review .video iframe {position:absolute; left:0; top:0; width:100%; height:100%;}
-.main_review .right {position:absolute; width:calc(50% - 215px); height:100%; top:0; left:50%; margin-left:215px; background:rgba(27,27,27,0.6);}
+.main_review .right {position:absolute; width:calc(50% - 215px); height:100%; top:0; left:0%; overflow: hidden; background:rgba(27,27,27,0.6);}
 .main_review .right .inner {position:relative; width:100%; height:100%;}
 .main_review .subject {position:absolute; left:120px; top:50%; transform:translateY(-50%);}
 .main_review .subject > li {margin-top:50px; min-width:200px;}
