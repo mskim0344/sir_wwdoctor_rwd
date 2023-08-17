@@ -172,10 +172,10 @@
 .pyeonkang .pop .btn_close {position:absolute; width:30px; height:30px; background:url(../images/main/pkt_pop_close.png) 50% 50% no-repeat; right:5px; top:5px;}
 
 /* 메인 리뷰 */
-.main_review {position:relative; padding:190px 0; background:url(https://www.wwdoctor.com/static/asset/images/main/review_bg.jpg) left 50%/cover no-repeat;}
-.main_review .video {position:relative; width:754px; height:424px; background:url(../images/main/review_video_bg.jpg) 50% 50%/cover no-repeat;}
+.main_review {position:relative; padding:5vw 0; background:url(https://www.wwdoctor.com/static/asset/images/main/review_bg.jpg) left 50%/cover no-repeat;}
+.main_review .video {position:relative; height:0; padding-top: 56%; background:url(../images/main/review_video_bg.jpg) 50% 50%/cover no-repeat;}
 .main_review .video iframe {position:absolute; left:0; top:0; width:100%; height:100%;}
-.main_review .right {position:absolute; width:calc(50% - 215px); height:100%; top:0; left:0%; overflow: hidden; background:rgba(27,27,27,0.6);}
+.main_review .right {position:absolute; width:calc(50% - 215px); height:100%; top:0; left:50%; margin-left:215px; background:rgba(27,27,27,0.6);}
 .main_review .right .inner {position:relative; width:100%; height:100%;}
 .main_review .subject {position:absolute; left:120px; top:50%; transform:translateY(-50%);}
 .main_review .subject > li {margin-top:50px; min-width:200px;}
@@ -188,6 +188,13 @@
 .main_review .subject > li > .sub li:first-child {margin-top:0;}
 .main_review .subject > li > .sub li a {opacity:0.5; transition:all 0.3s ease;}
 .main_review .subject > li > .sub li a:hover {opacity:1;}
+
+
+@media (min-width:991px) {
+	.main_review {padding:190px 0; }
+	.main_review .video {width:754px; height:424px; padding-top: 0; margin: 0 !important;}
+	
+}
 
 /* 메인 유튜브 */
 .main_youtube {padding:180px 0;}

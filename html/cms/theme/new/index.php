@@ -16,7 +16,7 @@ include_once(G5_THEME_PATH.'/head.php');
 ?>
 
 <link rel="stylesheet" href="/cms/theme/new/css/common_copy.css">
-<link rel="stylesheet" href="/cms/theme/new/css/main_copy.css">
+<link rel="stylesheet" href="/cms/theme/new/css/main_copy.css?ver=<?php echo time(); ?>">
 <link rel="stylesheet" href="/cms/theme/new/css/sub_copy.css">
 
 
@@ -480,17 +480,17 @@ include_once(G5_THEME_PATH.'/head.php');
 
         </div>
 </section>
-<aside class="main_review justify-content-md-center d-flex">
-        <div class="csize01">
+<aside class="main_review justify-content-center d-flex flex-column  d-xl-block">
+        <div class="csize01 container-xl ">
 
-            <h2 class="title notoS f42 semibold fc_white wow fadeInUp" data-wow-delay="0.3s" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInUp;">
+            <h2 class="title notoS f42 semibold fc_white text-center text-xl-left" >
                 원인 치료 경험담
             </h2>
-            <p class="f20 medium fc_white mt_20 wow fadeInUp" data-wow-delay="0.3s" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInUp;">
+            <p class="f20 medium fc_white mt_20  text-center text-xl-left" >
                 편강의학을 경험하신 분들의 소중한 치료 후기
             </p>
 
-            <div class="video mt_60 wow fadeInUp" data-wow-delay="0.3s" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInUp;">
+            <div class="video mt_60 col-10 mx-auto"  >
                 <!-- 유튜브 입력 -->
                 <!--임시 리뷰용 백업
                 -->

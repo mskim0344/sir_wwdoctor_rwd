@@ -234,6 +234,9 @@ table th, table td{ font-family: 'S-CoreDream-4Regular';font-size: 14px;}
 	
 }
 
+.radius{
+border-radius: 50%;
+}
 
 
 

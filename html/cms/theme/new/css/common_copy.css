@@ -621,8 +621,8 @@ img {max-width:100%;}
 
 
 /* 레이아웃, 사이즈 정의 */
-.csize01 {max-width:1360px; margin-left:auto; margin-right:auto; position:relative;}
-.csize01::after, .f_after::after {content:''; display:block; clear:both;}
+.csize01 {  position:relative;}
+
 .f_left {float:left;}
 .f_right {float:right;}
 .rela {position:relative;}

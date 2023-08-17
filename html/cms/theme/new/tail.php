@@ -42,7 +42,7 @@ if(G5_COMMUNITY_USE === false) {
 
     
     <div id="quickdiv" >
-		<a href="" class="d-block kakao bg-black ">
+		<a href="" class="d-block kakao bg-black radius ">
 			<img src="https://wwdoctor.com/static/asset/images/main/quick_btn_kakao.png">
 		</a>
 		<button type="button" id="top_btn" class="position-relative">
