@@ -278,8 +278,9 @@ include_once(G5_THEME_PATH.'/head.php');
               
             </div>
 
-            <div class="deco_image wow fadeInUp" data-wow-delay="0.8s" style="visibility: visible; animation-delay: 0.8s; animation-name: fadeInUp;">
+            <div class="deco_image wow fadeInUp d-xl-block d-none" data-wow-delay="0.8s" style="visibility: visible; animation-delay: 0.8s; animation-name: fadeInUp;">
                 <img src="https://www.wwdoctor.com/static/asset/images/main/subject_img_02.jpg" alt="" clas="">
+                <!-- Visible only on xl 	.d-none .d-xl-block .d-xxl-none 활용해서 xl일때만 화면에 출력이 된다.-->
             </div>
 
         </div>
