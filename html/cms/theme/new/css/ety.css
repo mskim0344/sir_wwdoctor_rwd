@@ -31,11 +31,13 @@
 		right: 0;
 		left: 0;
 		z-index: 1030;
+		
 	}
 
 
 }
-
+body{overflow-x: hidden}  
+/* x축에서 화면에 넘치는 내용들을 숨겨준다. */
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
 .Noto-ko{
 	font-family: 'Noto Sans KR', sans-serif;
