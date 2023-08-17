@@ -131,7 +131,7 @@ include_once(G5_THEME_PATH.'/head.php');
 
 
 
-<section class="subject_container d-none">
+<section class="subject_container ">
         <div class="csize01">
 
             <div class="subject_list_container">
