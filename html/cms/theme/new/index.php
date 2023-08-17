@@ -131,7 +131,7 @@ include_once(G5_THEME_PATH.'/head.php');
 
 
 
-<section class="subject_container ">
+<section class="subject_container d-none">
         <div class="csize01">
 
             <div class="subject_list_container">
@@ -480,7 +480,7 @@ include_once(G5_THEME_PATH.'/head.php');
 
         </div>
 </section>
-<aside class="main_review d-none">
+<aside class="main_review ">
         <div class="csize01">
 
             <h2 class="title notoS f42 semibold fc_white wow fadeInUp" data-wow-delay="0.3s" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInUp;">
