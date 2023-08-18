@@ -1,4 +1,10 @@
 /* mobile */
+@media (max-width:620px) {
+	.pcview{
+		display: none !important;
+	}
+	
+}
 @media (min-width: 1px) and (max-width: 1089px) {
 
 	.fixed-header {display:none;}
@@ -45,7 +51,7 @@ body{overflow-x: hidden}
 
 
 
-.footer h2{margin:0 0 20px; 0}
+.footer h2{margin:0 0 20px;}
 
 
 .list-group-item:first-child {

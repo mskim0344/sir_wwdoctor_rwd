@@ -298,10 +298,10 @@ include_once(G5_THEME_PATH.'/head.php');
 
         </div>
 </aside>
-<aside class="latest_consult_container d-none">
+<aside class="latest_consult_container ">
         <div class="csize01 d-block d-lg-flex">
 
-            <h2 class="title notoS f42 semibold fc_white wow fadeInUp" data-wow-delay="0.3s" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInUp;">
+            <h2 class="title notoS f42 semibold fc_white" >
                 의료진 상담하기
             </h2>
 
@@ -311,105 +311,196 @@ include_once(G5_THEME_PATH.'/head.php');
                     <div class="swiper ">
                         <ul class="swiper-wrapper" style="height:130px">
                                    
-                            <li class="swiper-slide " >
-                                            <div>
-                                                
+                            <li class="swiper-slide" >
+                                            <div>                                                
                                                         <p class="d-flex w-100 justify-content-between text-white">
-                                                            <span>[편강한약]</span>
-                                                            <span> 서초점</span>
+                                                            <span class="pcview">[편강한약]</span>
+                                                            <span>서초점</span>
                                                             <span class="mx-auto">약주문</span>
                                                             <span>양**</span>
                                                             <span>2023-07-21</span>
-                                                            <span>답변완료</span>
+                                                            <span class="pcview">답변완료</span>
                                                         </p>
                                                         <p class="d-flex w-100 justify-content-between text-white">
-                                                            <span>[편강한약]</span>
-                                                            <span> 서초점</span>
+                                                            <span class="pcview">[편강한약]</span>
+                                                            <span>서초점</span>
                                                             <span class="mx-auto">약주문</span>
                                                             <span>양**</span>
                                                             <span>2023-07-21</span>
-                                                            <span>답변완료</span>
+                                                            <span class="pcview">답변완료</span>
                                                         </p>
                                                         <p class="d-flex w-100 justify-content-between text-white">
-                                                            <span>[편강한약]</span>
-                                                            <span> 서초점</span>
+                                                            <span class="pcview">[편강한약]</span>
+                                                            <span>서초점</span>
                                                             <span class="mx-auto">약주문</span>
                                                             <span>양**</span>
                                                             <span>2023-07-21</span>
-                                                            <span>답변완료</span>
+                                                            <span class="pcview">답변완료</span>
                                                         </p>
                                                         <p class="d-flex w-100 justify-content-between text-white">
-                                                            <span>[편강한약]</span>
-                                                            <span> 서초점</span>
+                                                            <span class="pcview">[편강한약]</span>
+                                                            <span>서초점</span>
                                                             <span class="mx-auto">약주문</span>
                                                             <span>양**</span>
                                                             <span>2023-07-21</span>
-                                                            <span>답변완료</span>
-                                                        </p>
-                                                    
+                                                            <span class="pcview">답변완료</span>
+                                                        </p>                                                    
 
                                             </div>                                     
                             </li>    
-                            <li class="swiper-slide " >
-                                            <div>
-                                                
+                            <li class="swiper-slide" >
+                                            <div>                                                
                                                         <p class="d-flex w-100 justify-content-between text-white">
-                                                            <span>[편강한약]</span>
-                                                            <span> 서초점</span>
+                                                            <span class="pcview">[편강한약]</span>
+                                                            <span>서초점</span>
                                                             <span class="mx-auto">약주문</span>
                                                             <span>양**</span>
                                                             <span>2023-07-21</span>
-                                                            <span>답변완료</span>
+                                                            <span class="pcview">답변완료</span>
                                                         </p>
-                                                    
-
-                                            </div>                                     
-                            </li>  
-                            <li class="swiper-slide " >
-                                            <div>
-                                                
                                                         <p class="d-flex w-100 justify-content-between text-white">
-                                                            <span>[편강한약]</span>
-                                                            <span> 서초점</span>
+                                                            <span class="pcview">[편강한약]</span>
+                                                            <span>서초점</span>
                                                             <span class="mx-auto">약주문</span>
                                                             <span>양**</span>
                                                             <span>2023-07-21</span>
-                                                            <span>답변완료</span>
+                                                            <span class="pcview">답변완료</span>
                                                         </p>
-                                                    
-
-                                            </div>                                     
-                            </li>  
-                            <li class="swiper-slide " >
-                                            <div>
-                                                
                                                         <p class="d-flex w-100 justify-content-between text-white">
-                                                            <span>[편강한약]</span>
-                                                            <span> 서초점</span>
+                                                            <span class="pcview">[편강한약]</span>
+                                                            <span>서초점</span>
                                                             <span class="mx-auto">약주문</span>
                                                             <span>양**</span>
                                                             <span>2023-07-21</span>
-                                                            <span>답변완료</span>
+                                                            <span class="pcview">답변완료</span>
                                                         </p>
-                                                    
-
-                                            </div>                                     
-                            </li>  
-                            <li class="swiper-slide " >
-                                            <div>
-                                                
                                                         <p class="d-flex w-100 justify-content-between text-white">
-                                                            <span>[편강한약]</span>
-                                                            <span> 서초점</span>
+                                                            <span class="pcview">[편강한약]</span>
+                                                            <span>서초점</span>
                                                             <span class="mx-auto">약주문</span>
                                                             <span>양**</span>
                                                             <span>2023-07-21</span>
-                                                            <span>답변완료</span>
-                                                        </p>
-                                                    
+                                                            <span class="pcview">답변완료</span>
+                                                        </p>                                                    
 
                                             </div>                                     
-                            </li>            
+                            </li>    
+                                  
+                            <li class="swiper-slide" >
+                                            <div>                                                
+                                                        <p class="d-flex w-100 justify-content-between text-white">
+                                                            <span class="pcview">[편강한약]</span>
+                                                            <span>서초점</span>
+                                                            <span class="mx-auto">약주문</span>
+                                                            <span>양**</span>
+                                                            <span>2023-07-21</span>
+                                                            <span class="pcview">답변완료</span>
+                                                        </p>
+                                                        <p class="d-flex w-100 justify-content-between text-white">
+                                                            <span class="pcview">[편강한약]</span>
+                                                            <span>서초점</span>
+                                                            <span class="mx-auto">약주문</span>
+                                                            <span>양**</span>
+                                                            <span>2023-07-21</span>
+                                                            <span class="pcview">답변완료</span>
+                                                        </p>
+                                                        <p class="d-flex w-100 justify-content-between text-white">
+                                                            <span class="pcview">[편강한약]</span>
+                                                            <span>서초점</span>
+                                                            <span class="mx-auto">약주문</span>
+                                                            <span>양**</span>
+                                                            <span>2023-07-21</span>
+                                                            <span class="pcview">답변완료</span>
+                                                        </p>
+                                                        <p class="d-flex w-100 justify-content-between text-white">
+                                                            <span class="pcview">[편강한약]</span>
+                                                            <span>서초점</span>
+                                                            <span class="mx-auto">약주문</span>
+                                                            <span>양**</span>
+                                                            <span>2023-07-21</span>
+                                                            <span class="pcview">답변완료</span>
+                                                        </p>                                                    
+
+                                            </div>                                     
+                            </li>    
+                                  
+                            <li class="swiper-slide" >
+                                            <div>                                                
+                                                        <p class="d-flex w-100 justify-content-between text-white">
+                                                            <span class="pcview">[편강한약]</span>
+                                                            <span>서초점</span>
+                                                            <span class="mx-auto">약주문</span>
+                                                            <span>양**</span>
+                                                            <span>2023-07-21</span>
+                                                            <span class="pcview">답변완료</span>
+                                                        </p>
+                                                        <p class="d-flex w-100 justify-content-between text-white">
+                                                            <span class="pcview">[편강한약]</span>
+                                                            <span>서초점</span>
+                                                            <span class="mx-auto">약주문</span>
+                                                            <span>양**</span>
+                                                            <span>2023-07-21</span>
+                                                            <span class="pcview">답변완료</span>
+                                                        </p>
+                                                        <p class="d-flex w-100 justify-content-between text-white">
+                                                            <span class="pcview">[편강한약]</span>
+                                                            <span>서초점</span>
+                                                            <span class="mx-auto">약주문</span>
+                                                            <span>양**</span>
+                                                            <span>2023-07-21</span>
+                                                            <span class="pcview">답변완료</span>
+                                                        </p>
+                                                        <p class="d-flex w-100 justify-content-between text-white">
+                                                            <span class="pcview">[편강한약]</span>
+                                                            <span>서초점</span>
+                                                            <span class="mx-auto">약주문</span>
+                                                            <span>양**</span>
+                                                            <span>2023-07-21</span>
+                                                            <span class="pcview">답변완료</span>
+                                                        </p>                                                    
+
+                                            </div>                                     
+                            </li>    
+                                  
+                            <li class="swiper-slide" >
+                                            <div>                                                
+                                                        <p class="d-flex w-100 justify-content-between text-white">
+                                                            <span class="pcview">[편강한약]</span>
+                                                            <span>서초점</span>
+                                                            <span class="mx-auto">약주문</span>
+                                                            <span>양**</span>
+                                                            <span>2023-07-21</span>
+                                                            <span class="pcview">답변완료</span>
+                                                        </p>
+                                                        <p class="d-flex w-100 justify-content-between text-white">
+                                                            <span class="pcview">[편강한약]</span>
+                                                            <span>서초점</span>
+                                                            <span class="mx-auto">약주문</span>
+                                                            <span>양**</span>
+                                                            <span>2023-07-21</span>
+                                                            <span class="pcview">답변완료</span>
+                                                        </p>
+                                                        <p class="d-flex w-100 justify-content-between text-white">
+                                                            <span class="pcview">[편강한약]</span>
+                                                            <span>서초점</span>
+                                                            <span class="mx-auto">약주문</span>
+                                                            <span>양**</span>
+                                                            <span>2023-07-21</span>
+                                                            <span class="pcview">답변완료</span>
+                                                        </p>
+                                                        <p class="d-flex w-100 justify-content-between text-white">
+                                                            <span class="pcview">[편강한약]</span>
+                                                            <span>서초점</span>
+                                                            <span class="mx-auto">약주문</span>
+                                                            <span>양**</span>
+                                                            <span>2023-07-21</span>
+                                                            <span class="pcview">답변완료</span>
+                                                        </p>                                                    
+
+                                            </div>                                     
+                            </li>    
+                                  
+                                  
                                         
                                     
                                 
@@ -592,8 +683,8 @@ include_once(G5_THEME_PATH.'/head.php');
             </div>
         </div>
     </aside>
-	<section class="main_youtube">
-        <div class="csize01">
+	<section class="main_youtube d-none">
+        <div class="csize01 container p-0">
             <div class="d-flex align-items-center flex-column none">
                 <h2 class="title notoS f42 semibold fc_dark wow fadeInUp" data-wow-delay="0.3s" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInUp;">
                     서효석의 ‘청폐’
