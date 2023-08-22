@@ -531,7 +531,7 @@ include_once(G5_THEME_PATH.'/head.php');
 
         </div>
 </aside>
-<section class="pyeonkang d-none">
+<section class="pyeonkang">
         <div class="csize01">
 
             <div class="image wow fadeInUp" data-wow-delay="0.3s" data-wow-offset="500" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInUp;">
@@ -683,8 +683,8 @@ include_once(G5_THEME_PATH.'/head.php');
             </div>
         </div>
     </aside>
-	<section class="main_youtube d-none">
-        <div class="csize01 container p-0">
+	<section class="main_youtube ">
+        <div class="csize01 container">
             <div class="d-flex align-items-center flex-column none">
                 <h2 class="title notoS f42 semibold fc_dark wow fadeInUp" data-wow-delay="0.3s" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInUp;">
                     서효석의 ‘청폐’
@@ -756,7 +756,7 @@ include_once(G5_THEME_PATH.'/head.php');
 
         </div>
     </section>
-	<aside class="branch">
+<aside class="branch">
     <div class="csize01">
         <h2>언제라도 문의주세요<br>친절하고 자세히 설명해 드리겠습니다</h2>
         <div class="cbox">
