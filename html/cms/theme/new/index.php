@@ -15,9 +15,11 @@ if(G5_COMMUNITY_USE === false) {
 include_once(G5_THEME_PATH.'/head.php');
 ?>
 
+
+
 <link rel="stylesheet" href="/cms/theme/new/css/common_copy.css">
 <link rel="stylesheet" href="/cms/theme/new/css/main_copy.css?ver=<?php echo time(); ?>">
-<link rel="stylesheet" href="/cms/theme/new/css/sub_copy.css">
+<!-- <link rel="stylesheet" href="/cms/theme/new/css/sub_copy.css"> -->
 
 
 
@@ -117,7 +119,7 @@ include_once(G5_THEME_PATH.'/head.php');
 
 <!-- notice -->
 <aside class="bg-dark text-white h80" id="noticeRolling">
-	<div class="container-lg">
+	<div class="container-lg ">
 	    <?php echo latest('theme/basic_main_one', 'notice', 3, 40);?>
 		<!-- <a class="white mt-4 " href="">Notice</a>
 		<div class="  mt-4 mx-5 alarm">
@@ -288,28 +290,28 @@ include_once(G5_THEME_PATH.'/head.php');
 <aside class="check_symtom_container d-none">
         <div class="csize01">
 
-            <h2 class="title notoS f42 semibold fc_dark wow fadeInUp" data-wow-delay="0.3s" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInUp;">
+            <h2 class="title notoS f42 semibold fc_dark ">
                 내 증상 확인하기
             </h2>
-            <p class="fc_dark wow fadeInUp" data-wow-delay="0.3s" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInUp;">증상을 먼저 알면 치료에 도움이 됩니다.</p>
-            <a href="javascript:layer_open('self_diagnosis');" class="btn_submit f20 medium fc_white wow fadeInUp" data-wow-delay="0.3s" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInUp;">
+            <p class="fc_dark " >증상을 먼저 알면 치료에 도움이 됩니다.</p>
+            <a href="javascript:layer_open('self_diagnosis');" class="btn_submit f20 medium fc_white " >
                 자가진단 시작하기
             </a>
 
         </div>
 </aside>
 <aside class="latest_consult_container ">
-        <div class="csize01 d-block d-lg-flex">
+        <div class="csize01 d-block d-lg-flex container-lg justify-content-between">
 
-            <h2 class="title notoS f42 semibold fc_white" >
+            <h2 class="title notoS f42 semibold fc_white text-center text-lg-left mr-0 mr-lg-5" >
                 의료진 상담하기
             </h2>
 
-            <div class="container" >
+            <div class="col" >
                 <div class="latest_consult ">
 
                     <div class="swiper ">
-                        <ul class="swiper-wrapper" style="height:130px">
+                        <ul class="swiper-wrapper" style="height:8rem; line-height:2">
                                    
                             <li class="swiper-slide" >
                                             <div>                                                
@@ -531,22 +533,22 @@ include_once(G5_THEME_PATH.'/head.php');
 
         </div>
 </aside>
-<section class="pyeonkang">
-        <div class="csize01">
+<section class="pyeonkang py-5">
+        <div class="csize01 d-xl-flex py-xl-5 my-5 container-xl">
 
-            <div class="image wow fadeInUp" data-wow-delay="0.3s" data-wow-offset="500" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInUp;">
+            <div class="image order-1 mb-5 mb-xl-0" >
                 <img src="https://www.wwdoctor.com/static/asset/images/main/pkt_product.jpg" alt="">
             </div>
 
-            <div class="contents">
-                <h2 class="title notoS f42 semibold fc_dark wow fadeInUp" data-wow-delay="0.3s" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInUp;">
+            <div class="contents order-0">
+                <h2 class="title notoS f42 semibold fc_dark " >
                     편강탕(扁康湯)
                 </h2>
-                <p class="f20 mt_40 wow fadeInUp" data-wow-delay="0.3s" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInUp;">
+                <p class="f20 mt_40 " >
                     면역력과 자가 치유 능력을 극대화 시키고 폐의 기능을 활발하게 해줍니다.<br>
                     <b>편한, 편도선의 (편 : 扁) 몸을 건강하게 한다(강 : 康)</b>
                 </p>
-                <a href="/s_medicine/medical05.do" class="btn_link move_arrow mt_80 wow fadeInUp" data-wow-delay="0.3s" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInUp;">
+                <a href="/s_medicine/medical05.do" class="btn_link move_arrow mt_80 " >
                     자세히 보기
                     <div class="btn_arrow">
                         <span class="arrow"></span>
@@ -554,7 +556,7 @@ include_once(G5_THEME_PATH.'/head.php');
                 </a>
             </div>
 
-            <div class="pop wow fadeInUp" data-wow-delay="0.3s" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInUp;">
+            <!-- <div class="pop " >
                 <a href="https://www.pkmall.co.kr/?utm_source=wwdoctor.com&amp;utm_medium=referral" target="_blank">
                     <img src="https://www.wwdoctor.com/static/asset/images/main/pkt_pop.png" alt="">
                 </a>
@@ -567,7 +569,7 @@ include_once(G5_THEME_PATH.'/head.php');
                 <button type="button" class="btn_close">
                     <span class="sr_only">편강탕 팝업 닫기</span>
                 </button>
-            </div>
+            </div> -->
 
         </div>
 </section>

@@ -1,25 +1,4 @@
-/*
- * BOOTSTRAP 4.X 기반
- * http://ETY.KR
- * 상업적 또는 영리로 이용 가능하며 제작의뢰 받아서 유료로 작업을 해도 됩니다.
- * 사용하셔도 되지만 다른곳에 배포하지 마세요.(저작권관련 문제가 발생될 수 있습니다.)
- * 배포, 재배포는 에티테마(http://ety.kr) ,소프트존(http://www.softzone.co.kr) 만 가능하며 솔루션으로 재판매할 수 없으며 지적재산권을 주장할 수 없습니다.
- 	
-	font-family: 'Roboto', sans-serif;
-	font-family: 'Nanum Gothic', sans-serif;
-	font-family: 'Noto Sans KR', sans-serif;
-	font-family: 'Open Sans', sans-serif;
-	font-family: 'Raleway', sans-serif;
 
- * Start Bootstrap - Modern Business (https://startbootstrap.com/template-overviews/modern-business)
- * Copyright 2018-2021 Start Bootstrap
- * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-logomodern-business-nav/blob/master/LICENSE)
- */
-
-	
-
-	
-	
 
 @font-face {
      font-family: 'S-CoreDream-2ExtraLight';
@@ -888,19 +867,24 @@ footer
 }
 
 /* footer */
-#footer {padding:65px 0 135px; font-size:14px; color:#fff; font-weight:300; background:#272727;}
+#footer { font-size:14px; color:#fff; font-weight:300; background:#272727;}
 #footer .b_logo {width:135px; height:28px; background:url('https://www.wwdoctor.com/static/asset/images/common/b_logo.png') no-repeat center;}
 #footer .container {position:relative; max-width:1360px; margin:auto;}
 #footer .fcont {overflow:hidden; margin-top:40px; line-height:26px; letter-spacing:0;}
 #footer .fcont .space {display:inline-block; width:12px;}
-#footer .addr {float:left; width:480px;}
-#footer .fmenu {float:left; overflow:hidden; width:280px;}
-#footer .fmenu li {float:left; width:50%;}
-#footer .copyright {margin-top:55px; color:rgba(255,255,255,0.3); letter-spacing:0;}
-#footer .sns_link {overflow:hidden; position:absolute; top:70px; right:120px;}
-#footer .sns_link li {float:left; margin-left:30px;}
+
+/* #footer .addr {float:left; width:480px;} */
+/* #footer .fmenu {float:left; overflow:hidden; width:280px;}
+#footer .fmenu li {float:left; width:50%;} */
+
+#footer .copyright { color:rgba(255,255,255,0.3); letter-spacing:0;}
+
+/* #footer .sns_link {overflow:hidden; position:absolute; top:70px; right:120px;} */
+/* #footer .sns_link li {float:left; margin-left:30px;} */
+
 #footer .sns_link a {font-size:16px;}
-#familysite {position:absolute; top:128px; right:0; z-index:100; width:182px;}
+/* #familysite {position:absolute; top:128px; right:0; z-index:100; width:182px;} */
+
 #familysite .tbtn {width:100%; border:1px solid #383838; height:35px; padding-left:18px; text-align:left; color:#fff; font-weight:300; font-size:14px; letter-spacing:0; background:url('../images/common/icon_family_arr.jpg') no-repeat right 12px center;}
 #familysite ul {display:none; position:absolute; bottom:35px; width:100%; padding:10px 0; border:1px solid #383838; border-bottom:0; background:#272727;}
 #familysite ul a {display:block; padding-left:18px; line-height:24px;}

@@ -161,11 +161,11 @@
 .latest_consult_container .inner .btn_link:hover {opacity:1;}
 
 /* 편강탕 */
-.pyeonkang {padding:120px 0; background:#fef7f1;}
-.pyeonkang .image {float:right; margin-right:-200px;}
-.pyeonkang .contents {position:absolute; left:0; top:50%; transform:translateY(-50%);}
+.pyeonkang { background:#fef7f1;}
+.pyeonkang .image {}
+.pyeonkang .contents {}
 .pyeonkang .btn_link {display:inline-block; padding-right:90px; font-size:18px; font-weight:500; line-height:92px;}
-.pyeonkang .pop {position:absolute; right:-200px; top:-80px;}
+.pyeonkang .pop {}
 .pyeonkang .pop .close {margin-top:15px; text-align:center;}
 .pyeonkang .pop .close label {cursor:pointer;}
 .pyeonkang .pop .close input {margin-left:5px;}
@@ -384,3 +384,17 @@
 
 .process_main {color: #000; background-color: #e3e3e3;width:970px;margin:auto;margin-bottom:25px}
 #myBar {height:3px;width:1%;color: #fff; background-color: #2f2f2f;}
+
+
+
+@media (max-width:768px) {
+	.f42{
+		font-size: 1.8rem !important;
+	}
+	.f20{
+		font-size: 1rem !important;
+	}
+	.mt_20{
+		margin-top: 10px !important;
+	}
+}
