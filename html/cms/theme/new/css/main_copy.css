@@ -25,10 +25,10 @@
 
 /* arrow 아이콘 */
 .move_arrow {position:relative;}
-.move_arrow .btn_arrow {position:absolute; width:56px; height:56px; right:0; top:50%; margin-top:-28px; background:url(../images/sub/icon_arr_bg.png) no-repeat; overflow:hidden;}
-.move_arrow .btn_arrow .arrow {position:absolute; display:block; width:100%; height:100%; left:0; top:0; background:url(../images/sub/icon_arr_arrow.png) no-repeat;}
-.move_arrow.light .btn_arrow {background:url(../images/sub/icon_arr_bg_light.png) no-repeat;}
-.move_arrow.light .btn_arrow .arrow {background:url(../images/sub/icon_arr_arrow_light.png) no-repeat;}
+.move_arrow .btn_arrow {position:absolute; width:56px; height:56px; right:0; top:50%; margin-top:-28px; background:url(https://www.wwdoctor.com/static/asset/images//sub/icon_arr_bg.png) no-repeat; overflow:hidden;}
+.move_arrow .btn_arrow .arrow {position:absolute; display:block; width:100%; height:100%; left:0; top:0; background:url(https://www.wwdoctor.com/static/asset/images//sub/icon_arr_arrow.png) no-repeat;}
+.move_arrow.light .btn_arrow {background:url(https://www.wwdoctor.com/static/asset/images//sub/icon_arr_bg_light.png) no-repeat;}
+.move_arrow.light .btn_arrow .arrow {background:url(https://www.wwdoctor.com/static/asset/images//sub/icon_arr_arrow_light.png) no-repeat;}
 .move_arrow:hover .btn_arrow, .move_arrow:hover .btn_arrow .arrow {-webkit-transform: scale(1.04);-ms-transform: scale(1.04);transform: scale(1.04); -webkit-transition: all 0.3s; -o-transition: all 0.3s; transition: all 0.3s;}
 .move_arrow:hover .btn_arrow .arrow {-webkit-animation:arrowNext 0.5s ease; animation:arrowNext 0.5s ease;}
 
@@ -40,9 +40,9 @@
 #main_banner .swiper-slide {position:relative;}
 #main_banner .swiper-slide .bg {position:absolute; left:0; top:0; width:100%; height:100%; overflow:hidden; transition:transform 4s ease;}
 #main_banner .swiper-slide .bg .inner {width:100%; height:100%; background:50% 50% no-repeat; background-size:cover; transition:transform 4s ease;}
-#main_banner .swiper-slide.banner01 .bg .inner {background-image:url(../images/main/banner_bg_01.jpg);}
-#main_banner .swiper-slide.banner02 .bg .inner {background-image:url(../images/main/banner_bg_02.jpg);}
-#main_banner .swiper-slide.banner03 .bg .inner {background-image:url(../images/main/banner_bg_03.jpg);}
+#main_banner .swiper-slide.banner01 .bg .inner {background-image:url(https://www.wwdoctor.com/static/asset/images//main/banner_bg_01.jpg);}
+#main_banner .swiper-slide.banner02 .bg .inner {background-image:url(https://www.wwdoctor.com/static/asset/images//main/banner_bg_02.jpg);}
+#main_banner .swiper-slide.banner03 .bg .inner {background-image:url(https://www.wwdoctor.com/static/asset/images//main/banner_bg_03.jpg);}
 #main_banner .swiper-slide .contents {position:relative; width:1360px; height:100%; z-index:1; left:50%; margin-left:-680px;}
 #main_banner .swiper-slide .contents .inner {position:absolute; left:0; top:34%;}
 #main_banner .swiper-slide .contents .inner .btn_link {display:inline-block; position:relative; vertical-align:middle;}
@@ -89,12 +89,12 @@
 .latest_notice_container .latest .latest_notice .swiper-slide h3 span.date {float:right;}
 .latest_notice_container .latest .latest_notice .swiper-slide h3 span.subject {width:425px; white-space:nowrap; overflow:hidden; -o-text-overflow:ellipsis; text-overflow:ellipsis;}
 .latest_notice_container .latest_notice_prev, .latest_notice_container .latest_notice_next {position:absolute; width:30px; height:20px; right:0; top:15px; opacity:0.5; transition:all 0.3s ease;}
-.latest_notice_container .latest_notice_prev {background:url(../images/main/btn_notice_up.jpg) 50% 50% no-repeat;}
-.latest_notice_container .latest_notice_next {background:url(../images/main/btn_notice_down.jpg) 50% 50% no-repeat; top:auto; bottom:15px;}
+.latest_notice_container .latest_notice_prev {background:url(https://www.wwdoctor.com/static/asset/images//main/btn_notice_up.jpg) 50% 50% no-repeat;}
+.latest_notice_container .latest_notice_next {background:url(https://www.wwdoctor.com/static/asset/images//main/btn_notice_down.jpg) 50% 50% no-repeat; top:auto; bottom:15px;}
 .latest_notice_container .latest_notice_prev:hover, .latest_notice_container .latest_notice_next:hover {opacity:1;}
 
 /* 메인 진료과목 */
-.subject_container {padding:180px 0; background:url(../images/main/subject_bg.jpg) 50% 60% no-repeat; background-size:100% auto;}
+.subject_container {padding:180px 0; background:url(https://www.wwdoctor.com/static/asset/images//main/subject_bg.jpg) 50% 60% no-repeat; background-size:100% auto;}
 .subject_list_container {position:relative;left:400px;width:960px;min-height:870px;}
 .subject_list_container .subject {position:absolute; left:0; top:0; width:960px; height:870px; display:none;}
 .subject_list_container .subject .image {position:relative; width:560px; height:752px;}
@@ -122,8 +122,8 @@
 .subject_indicator .btn_wrap {position:relative; margin-top:30px; text-align:center;}
 .subject_indicator .prev, .subject_indicator .next {position:relative; width:54px; height:54px; margin:0 5px; border:1px solid #c4c4c4; border-radius:50%; overflow:hidden;}
 .subject_indicator .prev::before, .subject_indicator .next::before {content:''; position:absolute; left:0; top:0; width:100%; height:100%;}
-.subject_indicator .prev::before {background:url(../images/main/icon_arr_left02.png) 50% 50% no-repeat;}
-.subject_indicator .next::before {background:url(../images/main/icon_arr_right02.png) 50% 50% no-repeat;}
+.subject_indicator .prev::before {background:url(https://www.wwdoctor.com/static/asset/images//main/icon_arr_left02.png) 50% 50% no-repeat;}
+.subject_indicator .next::before {background:url(https://www.wwdoctor.com/static/asset/images//main/icon_arr_right02.png) 50% 50% no-repeat;}
 .subject_indicator .prev:hover::before {-webkit-animation:arrowPrevT 0.5s ease; animation:arrowPrevT 0.5s ease;}
 .subject_indicator .next:hover::before {-webkit-animation:arrowNextT 0.5s ease; animation:arrowNextT 0.5s ease;}
 
@@ -136,7 +136,7 @@
 .check_symtom_container .symtom_box .contents .select {display:inline-block; position:relative; transition:all 0.2s ease;}
 .check_symtom_container .symtom_box .contents .select .selected {position:relative; padding:0 20px 0px 6px; cursor:pointer;}
 .check_symtom_container .symtom_box .contents .select .selected::before {content:''; position:absolute; width:100%; height:2px; background:#141414; left:0; bottom:-3px;}
-.check_symtom_container .symtom_box .contents .select .selected::after {content:''; position:absolute; width:12px; height:8px; background:url(../images/main/symtom_arrow.png); right:0; top:12px;}
+.check_symtom_container .symtom_box .contents .select .selected::after {content:''; position:absolute; width:12px; height:8px; background:url(https://www.wwdoctor.com/static/asset/images//main/symtom_arrow.png); right:0; top:12px;}
 .check_symtom_container .symtom_box .contents .select .list {position:absolute; width:100%; max-height:0; background:#fff; border:1px solid #000; border-top:none; border-bottom:none; left:0; top:calc(100% + 2px); overflow:hidden; transition:all 0.4s ease;}
 .check_symtom_container .symtom_box .contents .select.open .list {max-height:500px;}
 .check_symtom_container .symtom_box .contents .select .list li {text-align: center; font-size:15px; color:#272727; font-weight:400; line-height:1; padding:15px 14px; cursor:pointer;}
@@ -169,11 +169,11 @@
 .pyeonkang .pop .close {margin-top:15px; text-align:center;}
 .pyeonkang .pop .close label {cursor:pointer;}
 .pyeonkang .pop .close input {margin-left:5px;}
-.pyeonkang .pop .btn_close {position:absolute; width:30px; height:30px; background:url(../images/main/pkt_pop_close.png) 50% 50% no-repeat; right:5px; top:5px;}
+.pyeonkang .pop .btn_close {position:absolute; width:30px; height:30px; background:url(https://www.wwdoctor.com/static/asset/images//main/pkt_pop_close.png) 50% 50% no-repeat; right:5px; top:5px;}
 
 /* 메인 리뷰 */
 .main_review {position:relative; padding:5vw 0; background:url(https://www.wwdoctor.com/static/asset/images/main/review_bg.jpg) left 50%/cover no-repeat;}
-.main_review .video {position:relative; height:0; padding-top: 56%; background:url(../images/main/review_video_bg.jpg) 50% 50%/cover no-repeat;}
+.main_review .video {position:relative; height:0; padding-top: 56%; background:url(https://www.wwdoctor.com/static/asset/images//main/review_video_bg.jpg) 50% 50%/cover no-repeat;}
 .main_review .video iframe {position:absolute; left:0; top:0; width:100%; height:100%;}
 .main_review .right {position:absolute; width:calc(50% - 215px); height:100%; top:0; left:50%; margin-left:215px; background:rgba(27,27,27,0.6);}
 .main_review .right .inner {position:relative; width:100%; height:100%;}
@@ -199,7 +199,7 @@
 /* 메인 유튜브 */
 .main_youtube {padding:180px 0;}
 .main_youtube .inner {position:relative;}
-/*.main_youtube .inner .video {position:relative; width:960px; height:540px; left:60px; background:url(../images/main/youtube_video_bg.jpg) 50% 50%/cover no-repeat;}*/
+/*.main_youtube .inner .video {position:relative; width:960px; height:540px; left:60px; background:url(https://www.wwdoctor.com/static/asset/images//main/youtube_video_bg.jpg) 50% 50%/cover no-repeat;}*/
 .main_youtube .inner .video {position:relative; padding-top: 54%;  }
 .main_youtube .inner .video iframe {position:absolute; left:0; top:0; width:100%; height:100%;}
 .main_youtube .inner .tags {position:absolute; left:0; bottom:0; transform:rotate(-90deg) translateY(100%); transform-origin:left bottom;}
@@ -219,8 +219,8 @@
 .main_awards .awards_prev {left:-140px; top:50%; margin-top:-27px;}
 .main_awards .awards_next {right:-140px; top:50%; margin-top:-27px;}
 .main_awards .awards_prev::before, .main_awards .awards_next::before {content:''; position:absolute; left:0; top:0; width:100%; height:100%;}
-.main_awards .awards_prev::before {background:url(../images/main/icon_arr_left.png) 50% 50% no-repeat;}
-.main_awards .awards_next::before {background:url(../images/main/icon_arr_right.png) 50% 50% no-repeat;}
+.main_awards .awards_prev::before {background:url(https://www.wwdoctor.com/static/asset/images//main/icon_arr_left.png) 50% 50% no-repeat;}
+.main_awards .awards_next::before {background:url(https://www.wwdoctor.com/static/asset/images//main/icon_arr_right.png) 50% 50% no-repeat;}
 .main_awards .awards_prev:hover::before {-webkit-animation:arrowPrevT 0.5s ease; animation:arrowPrevT 0.5s ease;}
 .main_awards .awards_next:hover::before {-webkit-animation:arrowNextT 0.5s ease; animation:arrowNextT 0.5s ease;}
 
@@ -230,22 +230,22 @@
 .quick_container {position:fixed; right:0; bottom:0; z-index:11;}
 .quick_container .quick_open {position:absolute; width:90px; height:90px; right:70px; bottom:240px; opacity:0; pointer-events:none; cursor: auto}
 .quick_container .quick_open.on {opacity:1; pointer-events:all; transition:all 0.3s ease;}
-.quick_container .quick_open .btn_open {position:absolute; width:100%; height:100%; left:0; top:0; border:1px solid #e7e7e7; border-radius:50%; background:url(../images/main/quick_btn_open.png) 50% 50% no-repeat #fff;}
+.quick_container .quick_open .btn_open {position:absolute; width:100%; height:100%; left:0; top:0; border:1px solid #e7e7e7; border-radius:50%; background:url(https://www.wwdoctor.com/static/asset/images//main/quick_btn_open.png) 50% 50% no-repeat #fff;}
 .quick_container .quick_open .box {display:block; position:absolute; padding:20px 25px; background:#907141; opacity: 0.9; left:-280px; top:13px; border-radius:8px; white-space:nowrap; -webkit-animation:bounce 2s linear infinite; animation:bounce 2s linear infinite;}
-.quick_container .quick_open .box::after {content:''; position:absolute; width:12px; height:24px; background:url(../images/main/quick_box_triangle.png); right:-12px; top:50%; margin-top:-12px;}
-.quick_container .quick_open .box .btn_close_info {display:block; position:absolute; width:22px; height:22px; background:url(../images/main/quick_btn_close.png); left:-11px; top:-11px;}
+.quick_container .quick_open .box::after {content:''; position:absolute; width:12px; height:24px; background:url(https://www.wwdoctor.com/static/asset/images//main/quick_box_triangle.png); right:-12px; top:50%; margin-top:-12px;}
+.quick_container .quick_open .box .btn_close_info {display:block; position:absolute; width:22px; height:22px; background:url(https://www.wwdoctor.com/static/asset/images//main/quick_btn_close.png); left:-11px; top:-11px;}
 .quick_container .quick_list {position:absolute; width:100px; max-height:0; right:60px; bottom:240px; background:#fff; border-radius:50px; text-align:center; overflow:hidden; opacity:0;}
 .quick_container .quick_list.on {max-height:590px; border:1px solid #141414; opacity:1; border-radius:50px; transition:all 0.4s ease;}
-.quick_container .quick_list .top {display:block;margin: 0 auto;  width:80%; height:90px; background:url(../images/main/quick_title.jpg) 50% 60% no-repeat; border-bottom:1px solid #141414;}
+.quick_container .quick_list .top {display:block;margin: 0 auto;  width:80%; height:90px; background:url(https://www.wwdoctor.com/static/asset/images//main/quick_title.jpg) 50% 60% no-repeat; border-bottom:1px solid #141414;}
 .quick_container .quick_list li {margin-top:20px;}
 .quick_container .quick_list li:first-child {margin-top:30px;}
 .quick_container .quick_list li .icon {position:relative; width:50px; height:50px; border-radius:50%; margin:0 auto; overflow:hidden;}
-.quick_container .quick_list li .icon.reserve {background:url(../images/main/quick_btn_reserv.png) 50% 50% no-repeat #000;}
-.quick_container .quick_list li .icon.review {background:url(../images/main/quick_btn_review.png) 50% 50% no-repeat #000;}
-.quick_container .quick_list li .icon.clinic {background:url(../images/main/quick_btn_branch.png) 50% 50% no-repeat #000;}
-.quick_container .quick_list li .icon.kakao {background:url(../images/main/quick_btn_kakao.png) 50% 50% no-repeat #000;}
+.quick_container .quick_list li .icon.reserve {background:url(https://www.wwdoctor.com/static/asset/images//main/quick_btn_reserv.png) 50% 50% no-repeat #000;}
+.quick_container .quick_list li .icon.review {background:url(https://www.wwdoctor.com/static/asset/images//main/quick_btn_review.png) 50% 50% no-repeat #000;}
+.quick_container .quick_list li .icon.clinic {background:url(https://www.wwdoctor.com/static/asset/images//main/quick_btn_branch.png) 50% 50% no-repeat #000;}
+.quick_container .quick_list li .icon.kakao {background:url(https://www.wwdoctor.com/static/asset/images//main/quick_btn_kakao.png) 50% 50% no-repeat #000;}
 .quick_container .quick_list li a span {display:inline-block; padding-top:5px;}
-.quick_container .quick_list .btn_close_quick {position:relative; width:100%; height:60px; margin-top:20px; background:url(../images/main/quick_btn_close_all.png) 50% 35% no-repeat;}
+.quick_container .quick_list .btn_close_quick {position:relative; width:100%; height:60px; margin-top:20px; background:url(https://www.wwdoctor.com/static/asset/images//main/quick_btn_close_all.png) 50% 35% no-repeat;}
 
 /* 팝업 추가 */
 #hd_pop .hd_pops_footer {padding: 24.5px; background: #fff; color: #555; text-align: right;display: flex;	justify-content: space-between;	align-items: center;}
@@ -398,3 +398,57 @@
 		margin-top: 10px !important;
 	}
 }
+
+.branch{
+	background: url(https://wwdoctor.com/static/asset/images/sub/branch_bg.jpg) no-repeat;
+	padding-top: 130px;
+	background-size: cover;
+}
+.branch h2{
+	font-family: 'Noto Serif KR', serif;
+    font-size: 42px;
+    color: #fff;
+    line-height: 58px;
+    font-weight: 600;
+}
+.branch .cbox {
+    overflow: hidden;
+    height: 655px;
+    margin-top: 75px;
+    background: #fff;}
+
+
+/* 
+
+	.subject_list_container {position:relative; left:400px; width:960px; min-height:870px;}
+	.subject_list_container .subject {position:absolute; left:0; top:0; width:960px; height:870px; display:none;}
+	.subject_list_container .subject .image {position:relative; width:560px; height:752px;}
+	.subject_list_container .subject .image .inner {position:absolute; left:0; top:100%; right:0; bottom:0;}
+	.subject_list_container .subject.on .image .inner {top:0; transition:all 1s ease;}
+	.subject_list_container .subject.subject01 .image .inner {background:url(https://www.wwdoctor.com/static/asset/images//main/subject_img_01_01.jpg) left bottom no-repeat;}
+	.subject_list_container .subject.subject02 .image .inner {background:url(https://www.wwdoctor.com/static/asset/images//main/subject_img_01_02.jpg) left bottom no-repeat;}
+	.subject_list_container .subject.subject03 .image .inner {background:url(https://www.wwdoctor.com/static/asset/images//main/subject_img_01_03.jpg) left bottom no-repeat;}
+	.subject_list_container .subject.subject04 .image .inner {background:url(https://www.wwdoctor.com/static/asset/images//main/subject_img_01_04.jpg) left bottom no-repeat;}
+	.subject_list_container .subject.subject05 .image .inner {background:url(https://www.wwdoctor.com/static/asset/images//main/subject_img_01_05.jpg) left bottom no-repeat;}
+	.subject_list_container .subject.subject06 .image .inner {background:url(https://www.wwdoctor.com/static/asset/images//main/subject_img_01_06.jpg) left bottom no-repeat;}
+	.subject_list_container .subject .title {position:absolute; top:35%; right:0; overflow:hidden;}
+	.subject_list_container .subject .title span {display:block; opacity:0; transform:translateY(100%);}
+	.subject_list_container .subject.on .title span {opacity:1; transform:translateY(0); transition:all 0.8s ease; transition-delay:0.3s;}
+	.subject_list_container .subject .contents {opacity:0; transform:translateY(100%);}
+	.subject_list_container .subject.on .contents {opacity:1; transform:translateY(0); transition:all 0.6s ease; transition-delay:0.3s;}
+	.subject_container .deco_image {position:relative; display:block; width:340px; left:100%; margin-top:-160px; margin-left:-200px;}
+	.subject_indicator {position:absolute; left:0; top:0;}
+	.subject_indicator .subject_selector li {width:275px; padding:30px 0; border-bottom:1px solid #e7e7e7;}
+	.subject_indicator .subject_selector li button {opacity:0.4; transition:all 0.3s ease;}
+	.subject_indicator .subject_selector li button:hover, .subject_indicator .subject_selector li.on button {opacity:1;}
+	.subject_indicator .subject_selector li button .number {display:inline-block; width:20px; text-align:center;}
+	
+	
+	.subject_indicator .btn_wrap {position:relative; margin-top:30px; text-align:center;}
+	.subject_indicator .prev, .subject_indicator .next {position:relative; width:54px; height:54px; margin:0 5px; border:1px solid #c4c4c4; border-radius:50%; overflow:hidden;}
+	.subject_indicator .prev::before, .subject_indicator .next::before {content:''; position:absolute; left:0; top:0; width:100%; height:100%;}
+	.subject_indicator .prev::before {background:url(https://www.wwdoctor.com/static/asset/images//main/icon_arr_left02.png) 50% 50% no-repeat;}
+	.subject_indicator .next::before {background:url(https://www.wwdoctor.com/static/asset/images//main/icon_arr_right02.png) 50% 50% no-repeat;}
+	.subject_indicator .prev:hover::before {-webkit-animation:arrowPrevT 0.5s ease; animation:arrowPrevT 0.5s ease;}
+	.subject_indicator .next:hover::before {-webkit-animation:arrowNextT 0.5s ease; animation:arrowNextT 0.5s ease;} */
+	

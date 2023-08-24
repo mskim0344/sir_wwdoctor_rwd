@@ -102,7 +102,7 @@ include_once(G5_THEME_PATH.'/head.php');
 						loop:true,
 						centeredSlides: true,
 						autoplay: {
-							delay: 10000,
+							delay: 2500,
 							disableOnInteraction: false,
 						},
 
@@ -127,166 +127,96 @@ include_once(G5_THEME_PATH.'/head.php');
 		</div>  
 	</div>
 </aside>
+<section id="pk_slide" class="py-5">
+    <h2 class="m-3">역시,평강한의원</h2>
+    <div class="wrap">
+        <div class="swiper">
+            <div class="rela swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="nth1 absol"></div>                
 
+                </div>
+                <div class="swiper-slide">
+                    <div class="nth2 absol"></div>                
 
+                </div>
+                <div class="  swiper-slide">
+                    <div class="nth3 absol"></div>                
 
+                </div>
+                <div class="  swiper-slide">
+                    <div class="nth4 absol"></div>                
 
+                </div>
+                <div class="  swiper-slide">
+                    <div class="nth5 absol"></div>                
 
+                </div>
+                <div class="  swiper-slide">
+                    <div class="nth6 absol"></div>                
 
-<section class="subject_container d-none">
-        <div class="csize01">
+                </div>
+                <div class="  swiper-slide">
+                    <div class="nth7 absol"></div>                
 
-            <div class="subject_list_container">
-                <ul>
-
-                    <li class="subject subject01 on" style="display: block;">
-                        <div class="image">
-                            <div class="inner"></div>
-                        </div>
-                        <h2 class="title notoS f64 medium fc_dark">
-                            <span>역시, 편강한의원</span>
-                        </h2>
-                        <div class="contents mt_30">
-                            <p class="subtitle f28 medium">
-                                콧병의 원인을 바로잡아 만성비염을 치료하다
-                            </p>
-                            <p class="text f20 fc_gray mt_10">
-                                [비염]  폐 기능이 약해지면 찾아오는 비염
-                            </p>
-                        </div>
-                    </li>
-
-                    <li class="subject subject02" style="display: none;">
-                        <div class="image">
-                            <div class="inner"></div>
-                        </div>
-                        <h2 class="title notoS f64 medium fc_dark">
-                            <span> 천식, 편강한의원</span>
-                        </h2>
-                        <div class="contents mt_30">
-                            <p class="subtitle f28 medium">
-                                악화 요인을 차단하여 천식을 치료하다
-                            </p>
-                            <p class="text f20 fc_gray mt_10">
-                                [천식]  근본 치료가 필요한 천식
-                            </p>
-                        </div>
-                    </li>
-
-                    <li class="subject subject03" style="display: none;">
-                        <div class="image">
-                            <div class="inner"></div>
-                        </div>
-                        <h2 class="title notoS f64 medium fc_dark">
-                            <span>COPD, 편강한의원</span>
-                        </h2>
-                        <div class="contents mt_30">
-                            <p class="subtitle f28 medium">
-                                폐 기능을 회복하여 COPD를 치료하다
-                            </p>
-                            <p class="text f20 fc_gray mt_10">
-                                [COPD]  치료의 핵심, 면역력
-                            </p>
-                        </div>
-                    </li>
-
-                    <li class="subject subject04" style="display: none;">
-                        <div class="image">
-                            <div class="inner"></div>
-                        </div>
-                        <h2 class="title notoS f64 medium fc_dark">
-                            <span>호흡기질환, 편강한의원</span>
-                        </h2>
-                        <div class="contents mt_30">
-                            <p class="subtitle f28 medium">
-                                폐포와 기관지 강화로 호흡기질환을 치료하다
-                            </p>
-                            <p class="text f20 fc_gray mt_10">
-                                [호흡기질환]  폐 기능을 강화로 호흡기를 튼튼하게
-                            </p>
-                        </div>
-                    </li>
-
-                    <li class="subject subject05" style="display: none;">
-                        <div class="image">
-                            <div class="inner"></div>
-                        </div>
-                        <h2 class="title notoS f64 medium fc_dark">
-                            <span>피부질환, 편강한의원</span>
-                        </h2>
-                        <div class="contents mt_30">
-                            <p class="subtitle f28 medium">
-                                아토피는 치료할 수 있습니다
-                            </p>
-                            <p class="text f20 fc_gray mt_10">
-                                [피부질환]  종합적인 근본 치료
-                            </p>
-                        </div>
-                    </li>
-
-                    <li class="subject subject06" style="display: none;">
-                        <div class="image">
-                            <div class="inner"></div>
-                        </div>
-                        <h2 class="title notoS f64 medium fc_dark">
-                            <span>기타질환, 편강한의원</span>
-                        </h2>
-                        <div class="contents mt_30">
-                            <p class="subtitle f28 medium">
-                                면역력과 심폐기능 강화로 질환 치료가 가능합니다
-                            </p>
-                            <p class="text f20 fc_gray mt_10">
-                                [기타질환]  편강한의원의 근본적 치료
-                            </p>
-                        </div>
-                    </li>
-
-                </ul>
-            </div>
-
-            <div class="subject_indicator">
-                <ul class="subject_selector">
-                    <li class="on">
-                        <button type="button" class="f28 medium fc_dark" data-index="1">
-                            <span class="number pretendard">1</span> 비염  鼻炎
-                        </button>
-                    </li>
-                    <li>
-                        <button type="button" class="f28 medium fc_dark" data-index="2">
-                            <span class="number pretendard">2</span> 천식  喘息
-                        </button>
-                    </li>
-                    <li>
-                        <button type="button" class="f28 medium fc_dark" data-index="3">
-                            <span class="number pretendard">3</span> COPD
-                        </button>
-                    </li>
-                    <li>
-                        <button type="button" class="f28 medium fc_dark" data-index="4">
-                            <span class="number pretendard">4</span> 호흡기질환  呼吸氣
-                        </button>
-                    </li>
-                    <li>
-                        <button type="button" class="f28 medium fc_dark" data-index="5">
-                            <span class="number pretendard">5</span> 피부질환  皮膚
-                        </button>
-                    </li>
-                    <li>
-                        <button type="button" class="f28 medium fc_dark" data-index="6">
-                            <span class="number pretendard">6</span> 기타질환
-                        </button>
-                    </li>
-                </ul>
+                </div>
               
             </div>
-
-            <div class="deco_image wow fadeInUp d-xl-block d-none" data-wow-delay="0.8s" style="visibility: visible; animation-delay: 0.8s; animation-name: fadeInUp;">
-                <img src="https://www.wwdoctor.com/static/asset/images/main/subject_img_02.jpg" alt="" clas="">
-                <!-- Visible only on xl 	.d-none .d-xl-block .d-xxl-none 활용해서 xl일때만 화면에 출력이 된다.-->
-            </div>
-
+            <div class="swiper-scrollbar"></div>
         </div>
+    </div>
 </section>
+
+
+
+
+
+
+
+    <!-- 스와이퍼 슬라이드 식 -->
+<script>
+    var swiper = new Swiper("#pk_slide .swiper", {
+      spaceBetween: 15, 
+      slidesPerView: 1.5,
+      loop:true,   
+      loopAddtionalSlides : 1,  
+      centeredSlides: true,
+      autoplay: {
+        delay: 2500,
+        disableOnInteraction: false,
+      },
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+      scrollbar: {
+        el: ".swiper-scrollbar",
+        hide: true,
+      },
+      breakpoints: {
+        640: {
+          slidesPerView: 1.5,
+          spaceBetween: 20,
+        },       
+        1024: {
+          slidesPerView: 2,
+          spaceBetween: 50,
+        },
+        1280: {
+          slidesPerView: 3.5,
+          spaceBetween: 50,
+        },
+        1440: {
+          slidesPerView: 5,
+          spaceBetween: 50,
+        }
+      },
+    });
+  </script>
 <aside class="check_symtom_container d-none">
         <div class="csize01">
 
@@ -758,867 +688,58 @@ include_once(G5_THEME_PATH.'/head.php');
 
         </div>
     </section>
+
+
+<!-- 스와이퍼 처리할 것 -->
 <aside class="branch">
-    <div class="csize01">
-        <h2>언제라도 문의주세요<br>친절하고 자세히 설명해 드리겠습니다</h2>
-        <div class="cbox">
-            <div class="menu">
-                <ul>
-                    <li class=""><a href="/s_branch/seocho.do">편강한의원 서초점</a></li>
-                    <li class=""><a href="/s_branch/myeongdong.do">편강한의원 명동점</a></li>
-                    <li class=""><a href="/s_branch/sanbon.do">편강한의원 산본점</a></li>
-                    <li class=""><a href="/s_branch/ansan.do">편강한의원 안산점</a></li>
-                    <li class="on"><a href="/s_branch/daegu.do">편강한의원 대구점</a></li>
-                    <li class=""><a href="/s_branch/busan.do">편강한의원 부산점</a></li>
-                </ul>
-                <div class="controls">
-                    <div class="swiper-button-next" tabindex="0" role="button" aria-label="Next slide"></div>
-                    <div class="swiper-button-prev" tabindex="0" role="button" aria-label="Previous slide"></div>
-                    <div class="swiper-pagination swiper-pagination-fraction"><span class="swiper-pagination-current">5</span> / <span class="swiper-pagination-total">6</span></div>
-                </div>
-            </div>
-            <div id="branch_swiper">
-                <div class="swiper-container swiper-container-initialized swiper-container-horizontal">
-                    <div class="swiper-wrapper" style="transform: translate3d(-9980px, 0px, 0px); transition-duration: 0ms;"><div class="swiper-slide swiper-slide-duplicate" data-swiper-slide-index="0" style="margin-right: 36px;">
-                            <div class="cont01">
-                                <p class="title">진료안내</p>
-                                <ul class="time">
-                                    <li>
-                                        <p class="st"><span>평</span><span>일</span></p>
-                                        <p class="cont">
-                                            09 : 30 - 18 : 30<br>
-                                            09 : 30 - 18 : 00 (동절기 1/2/12월)<br>
-                                            10 : 00 - 18 : 00 (서효석 대표원장)
-                                        </p>
-                                    </li>
-                                    <li>
-                                        <p class="st"><span>토</span><span>요</span><span>일</span></p>
-                                        <p class="cont">
-                                            09 : 30 - 16 : 00
-                                        </p>
-                                    </li>
-                                    <li>
-                                        <p class="st"><span>점</span><span>심</span><span>시</span><span>간</span></p>
-                                        <p class="cont">
-                                            13 : 00 - 14 : 00
-                                        </p>
-                                    </li>
-                                    <li>
-                                        <p class="st"><span>휴</span><span>진</span></p>
-                                        <p class="cont">
-                                            공휴일 · 일요일
-                                        </p>
-                                    </li>
-                                </ul>
-                                <a href="/counsel/reserv.do" class="btn_reserv move_arrow">
-                                    진료예약 하기
-                                    <div class="btn_arrow">
-                                        <span class="arrow"></span>
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="cont02">
-                                <img src="/static/asset/images/sub/branch_s01_img.jpg" alt="">
-                                <p class="title"><a href="/s_branch/seocho.do">편강한의원 서초점</a></p>
-                                <p class="addr">서울시 서초구 서운로 1길 21 (서초동, 편강한의원)</p>
-                                <p class="tel"><span>TEL 02.518.7777</span><span>FAX 02.581.1570</span></p>
-                            </div>
-                        </div><div class="swiper-slide swiper-slide-duplicate" data-swiper-slide-index="1" style="margin-right: 36px;">
-                            <div class="cont01">
-                                <p class="title">진료안내</p>
-                                <ul class="time">
-                                    <li>
-                                        <p class="st"><span>평</span><span>일</span></p>
-                                        <p class="cont">
-                                            오전 9 : 30 ~ 오후 6 : 30<br>
-                                            오전 9 : 30 ~ 오후 6 : 00 (동절기 1/2/12월)
-                                        </p>
-                                    </li>
-                                    <li>
-                                        <p class="st"><span>토</span><span>요</span><span>일</span></p>
-                                        <p class="cont">
-                                            오전 9 : 30 ~ 오후 4 : 00
-                                        </p>
-                                    </li>
-                                    <li>
-                                        <p class="st"><span>점</span><span>심</span><span>시</span><span>간</span></p>
-                                        <p class="cont">
-                                            오후 1 : 00 ~ 오후 2 : 00
-                                        </p>
-                                    </li>
-                                    <li>
-                                        <p class="st"><span>휴</span><span>진</span></p>
-                                        <p class="cont">
-                                            공휴일·일요일·매주 수요일<br>
-                                            *단, 공휴일이 있는 주에는 수요일 정상 진료
-                                        </p>
-                                    </li>
-                                </ul>
-                                <a href="/counsel/reserv.do" class="btn_reserv move_arrow">
-                                    진료예약 하기
-                                    <div class="btn_arrow">
-                                        <span class="arrow"></span>
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="cont02">
-                                <img src="/static/asset/images/sub/branch_m01_img.jpg" alt="">
-                                <p class="title"><a href="/s_branch/myeongdong.do">편강한의원 명동점</a></p>
-                                <p class="addr">서울특별시 중구 수표로5 1,2층 (충무로2가)</p>
-                                <p class="tel"><span>TEL 02.757.1717</span><span>FAX 02.757.1713</span></p>
-                            </div>
-                        </div><div class="swiper-slide swiper-slide-duplicate" data-swiper-slide-index="2" style="margin-right: 36px;">
-                            <div class="cont01">
-                                <p class="title">진료안내</p>
-                                <ul class="time">
-                                    <li>
-                                        <p class="st"><span>평</span><span>일</span></p>
-                                        <p class="cont">
-                                            오전 9 : 30 ~ 오후 6 : 30<br>
-                                            오전 9 : 30 ~ 오후 6 : 00 (동절기 1/2/12월)
-                                        </p>
-                                    </li>
-                                    <li>
-                                        <p class="st"><span>토</span><span>요</span><span>일</span></p>
-                                        <p class="cont">
-                                            오전 9 : 30 ~ 오후 4 : 00
-                                        </p>
-                                    </li>
-                                    <li>
-                                        <p class="st"><span>점</span><span>심</span><span>시</span><span>간</span></p>
-                                        <p class="cont">
-                                            오후 1 : 00 ~ 오후 2 : 00
-                                        </p>
-                                    </li>
-                                    <li>
-                                        <p class="st"><span>휴</span><span>진</span></p>
-                                        <p class="cont">
-                                            공휴일·일요일·매주 수요일<br>
-                                            *단, 공휴일이 있는 주에는 수요일 정상 진료
-                                        </p>
-                                    </li>
-                                </ul>
-                                <a href="/counsel/reserv.do" class="btn_reserv move_arrow">
-                                    진료예약 하기
-                                    <div class="btn_arrow">
-                                        <span class="arrow"></span>
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="cont02">
-                                <img src="/static/asset/images/sub/branch_sb01_img.jpg" alt="">
-                                <p class="title"><a href="/s_branch/sanbon.do">편강한의원 산본점</a></p>
-                                <p class="addr">경기도 군포시 산본로323번길 16-15 5층 (산본동, 광림빌딩)</p>
-                                <p class="tel"><span>TEL 031.397.7733</span><span>FAX 031.397.6766</span></p>
-                            </div>
-                        </div><div class="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-prev" data-swiper-slide-index="3" style="margin-right: 36px;">
-                            <div class="cont01">
-                                <p class="title">진료안내</p>
-                                <ul class="time">
-                                    <li>
-                                        <p class="st"><span>평</span><span>일</span></p>
-                                        <p class="cont">
-                                            오전 9 : 30 ~ 오후 6 : 30<br>
-                                            오전 9 : 30 ~ 오후 6 : 00 (동절기 1/2/12월)
-                                        </p>
-                                    </li>
-                                    <li>
-                                        <p class="st"><span>토</span><span>요</span><span>일</span></p>
-                                        <p class="cont">
-                                            오전 9 : 30 ~ 오후 4 : 00
-                                        </p>
-                                    </li>
-                                    <li>
-                                        <p class="st"><span>점</span><span>심</span><span>시</span><span>간</span></p>
-                                        <p class="cont">
-                                            오후 1 : 00 ~ 오후 2 : 00
-                                        </p>
-                                    </li>
-                                    <li>
-                                        <p class="st"><span>휴</span><span>진</span></p>
-                                        <p class="cont">
-                                            공휴일·일요일·매주 수요일<br>
-                                            *단, 공휴일이 있는 주에는 수요일 정상 진료
-                                        </p>
-                                    </li>
-                                </ul>
-                                <a href="/counsel/reserv.do" class="btn_reserv move_arrow">
-                                    진료예약 하기
-                                    <div class="btn_arrow">
-                                        <span class="arrow"></span>
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="cont02">
-                                <img src="/static/asset/images/sub/branch_a01_img.jpg" alt="">
-                                <p class="title"><a href="/s_branch/ansan.do">편강한의원 안산점</a></p>
-                                <p class="addr">경기도 안산시 단원구 광덕4로 250 (고잔동) 씨티프라자 201호</p>
-                                <p class="tel"><span>TEL 031.487.7773</span><span>FAX 031.485.7773</span></p>
-                            </div>
-                        </div><div class="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-active" data-swiper-slide-index="4" style="margin-right: 36px;">
-                            <div class="cont01">
-                                <p class="title">진료안내</p>
-                                <ul class="time">
-                                    <li>
-                                        <p class="st"><span>평</span><span>일</span></p>
-                                        <p class="cont">
-                                            오전 9 : 30 ~ 오후 6 : 30<br>
-                                            오전 9 : 30 ~ 오후 6 : 00 (동절기 1/2/12월)
-                                        </p>
-                                    </li>
-                                    <li>
-                                        <p class="st"><span>토</span><span>요</span><span>일</span></p>
-                                        <p class="cont">
-                                            오전 9 : 30 ~ 오후 4 : 00
-                                        </p>
-                                    </li>
-                                    <li>
-                                        <p class="st"><span>점</span><span>심</span><span>시</span><span>간</span></p>
-                                        <p class="cont">
-                                            오후 1 : 00 ~ 오후 2 : 00
-                                        </p>
-                                    </li>
-                                    <li>
-                                        <p class="st"><span>휴</span><span>진</span></p>
-                                        <p class="cont">
-                                            공휴일·일요일·매주 수요일<br>
-                                            *단, 공휴일이 있는 주에는 수요일 정상 진료
-                                        </p>
-                                    </li>
-                                </ul>
-                                <a href="/counsel/reserv.do" class="btn_reserv move_arrow">
-                                    진료예약 하기
-                                    <div class="btn_arrow">
-                                        <span class="arrow"></span>
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="cont02">
-                                <img src="/static/asset/images/sub/branch_d01_img.jpg" alt="">
-                                <p class="title"><a href="/s_branch/daegu.do">편강한의원 대구점</a></p>
-                                <p class="addr">대구광역시 수성구 달구벌대로 2262(수성동, 편강한의원)</p>
-                                <p class="tel"><span>TEL 053.953.7777</span><span>FAX 053.755.5506</span></p>
-                            </div>
-                        </div><div class="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-next" data-swiper-slide-index="5" style="margin-right: 36px;">
-                            <div class="cont01">
-                                <p class="title">진료안내</p>
-                                <ul class="time">
-                                    <li>
-                                        <p class="st"><span>평</span><span>일</span></p>
-                                        <p class="cont">
-                                            오전 9 : 30 ~ 오후 6 : 30<br>
-                                            오전 9 : 30 ~ 오후 6 : 00 (동절기 1/2/12월)
-                                        </p>
-                                    </li>
-                                    <li>
-                                        <p class="st"><span>토</span><span>요</span><span>일</span></p>
-                                        <p class="cont">
-                                            오전 9 : 30 ~ 오후 4 : 00
-                                        </p>
-                                    </li>
-                                    <li>
-                                        <p class="st"><span>점</span><span>심</span><span>시</span><span>간</span></p>
-                                        <p class="cont">
-                                            오후 1 : 00 ~ 오후 2 : 00
-                                        </p>
-                                    </li>
-                                    <li>
-                                        <p class="st"><span>휴</span><span>진</span></p>
-                                        <p class="cont">
-                                            공휴일·일요일·매주 수요일<br>
-                                            *단, 공휴일이 있는 주에는 수요일 정상 진료
-                                        </p>
-                                    </li>
-                                </ul>
-                                <a href="/counsel/reserv.do" class="btn_reserv move_arrow">
-                                    진료예약 하기
-                                    <div class="btn_arrow">
-                                        <span class="arrow"></span>
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="cont02">
-                                <img src="/static/asset/images/sub/branch_b01_img.jpg" alt="">
-                                <p class="title"><a href="/s_branch/busan.do">편강한의원 부산점</a></p>
-                                <p class="addr">부산 부산진구 서면로 74 17층 1702호 (부전동, 아이온시티)</p>
-                                <p class="tel"><span>TEL 051.636.7777</span><span>FAX 051.805.7771</span></p>
-                            </div>
-                        </div>
-                        <div class="swiper-slide" data-swiper-slide-index="0" style="margin-right: 36px;">
-                            <div class="cont01">
-                                <p class="title">진료안내</p>
-                                <ul class="time">
-                                    <li>
-                                        <p class="st"><span>평</span><span>일</span></p>
-                                        <p class="cont">
-                                            09 : 30 - 18 : 30<br>
-                                            09 : 30 - 18 : 00 (동절기 1/2/12월)<br>
-                                            10 : 00 - 18 : 00 (서효석 대표원장)
-                                        </p>
-                                    </li>
-                                    <li>
-                                        <p class="st"><span>토</span><span>요</span><span>일</span></p>
-                                        <p class="cont">
-                                            09 : 30 - 16 : 00
-                                        </p>
-                                    </li>
-                                    <li>
-                                        <p class="st"><span>점</span><span>심</span><span>시</span><span>간</span></p>
-                                        <p class="cont">
-                                            13 : 00 - 14 : 00
-                                        </p>
-                                    </li>
-                                    <li>
-                                        <p class="st"><span>휴</span><span>진</span></p>
-                                        <p class="cont">
-                                            공휴일 · 일요일
-                                        </p>
-                                    </li>
-                                </ul>
-                                <a href="/counsel/reserv.do" class="btn_reserv move_arrow">
-                                    진료예약 하기
-                                    <div class="btn_arrow">
-                                        <span class="arrow"></span>
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="cont02">
-                                <img src="/static/asset/images/sub/branch_s01_img.jpg" alt="">
-                                <p class="title"><a href="/s_branch/seocho.do">편강한의원 서초점</a></p>
-                                <p class="addr">서울시 서초구 서운로 1길 21 (서초동, 편강한의원)</p>
-                                <p class="tel"><span>TEL 02.518.7777</span><span>FAX 02.581.1570</span></p>
-                            </div>
-                        </div>
-                        <div class="swiper-slide" data-swiper-slide-index="1" style="margin-right: 36px;">
-                            <div class="cont01">
-                                <p class="title">진료안내</p>
-                                <ul class="time">
-                                    <li>
-                                        <p class="st"><span>평</span><span>일</span></p>
-                                        <p class="cont">
-                                            오전 9 : 30 ~ 오후 6 : 30<br>
-                                            오전 9 : 30 ~ 오후 6 : 00 (동절기 1/2/12월)
-                                        </p>
-                                    </li>
-                                    <li>
-                                        <p class="st"><span>토</span><span>요</span><span>일</span></p>
-                                        <p class="cont">
-                                            오전 9 : 30 ~ 오후 4 : 00
-                                        </p>
-                                    </li>
-                                    <li>
-                                        <p class="st"><span>점</span><span>심</span><span>시</span><span>간</span></p>
-                                        <p class="cont">
-                                            오후 1 : 00 ~ 오후 2 : 00
-                                        </p>
-                                    </li>
-                                    <li>
-                                        <p class="st"><span>휴</span><span>진</span></p>
-                                        <p class="cont">
-                                            공휴일·일요일·매주 수요일<br>
-                                            *단, 공휴일이 있는 주에는 수요일 정상 진료
-                                        </p>
-                                    </li>
-                                </ul>
-                                <a href="/counsel/reserv.do" class="btn_reserv move_arrow">
-                                    진료예약 하기
-                                    <div class="btn_arrow">
-                                        <span class="arrow"></span>
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="cont02">
-                                <img src="/static/asset/images/sub/branch_m01_img.jpg" alt="">
-                                <p class="title"><a href="/s_branch/myeongdong.do">편강한의원 명동점</a></p>
-                                <p class="addr">서울특별시 중구 수표로5 1,2층 (충무로2가)</p>
-                                <p class="tel"><span>TEL 02.757.1717</span><span>FAX 02.757.1713</span></p>
-                            </div>
-                        </div>
-                        <div class="swiper-slide" data-swiper-slide-index="2" style="margin-right: 36px;">
-                            <div class="cont01">
-                                <p class="title">진료안내</p>
-                                <ul class="time">
-                                    <li>
-                                        <p class="st"><span>평</span><span>일</span></p>
-                                        <p class="cont">
-                                            오전 9 : 30 ~ 오후 6 : 30<br>
-                                            오전 9 : 30 ~ 오후 6 : 00 (동절기 1/2/12월)
-                                        </p>
-                                    </li>
-                                    <li>
-                                        <p class="st"><span>토</span><span>요</span><span>일</span></p>
-                                        <p class="cont">
-                                            오전 9 : 30 ~ 오후 4 : 00
-                                        </p>
-                                    </li>
-                                    <li>
-                                        <p class="st"><span>점</span><span>심</span><span>시</span><span>간</span></p>
-                                        <p class="cont">
-                                            오후 1 : 00 ~ 오후 2 : 00
-                                        </p>
-                                    </li>
-                                    <li>
-                                        <p class="st"><span>휴</span><span>진</span></p>
-                                        <p class="cont">
-                                            공휴일·일요일·매주 수요일<br>
-                                            *단, 공휴일이 있는 주에는 수요일 정상 진료
-                                        </p>
-                                    </li>
-                                </ul>
-                                <a href="/counsel/reserv.do" class="btn_reserv move_arrow">
-                                    진료예약 하기
-                                    <div class="btn_arrow">
-                                        <span class="arrow"></span>
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="cont02">
-                                <img src="/static/asset/images/sub/branch_sb01_img.jpg" alt="">
-                                <p class="title"><a href="/s_branch/sanbon.do">편강한의원 산본점</a></p>
-                                <p class="addr">경기도 군포시 산본로323번길 16-15 5층 (산본동, 광림빌딩)</p>
-                                <p class="tel"><span>TEL 031.397.7733</span><span>FAX 031.397.6766</span></p>
-                            </div>
-                        </div>
-                        <div class="swiper-slide swiper-slide-prev" data-swiper-slide-index="3" style="margin-right: 36px;">
-                            <div class="cont01">
-                                <p class="title">진료안내</p>
-                                <ul class="time">
-                                    <li>
-                                        <p class="st"><span>평</span><span>일</span></p>
-                                        <p class="cont">
-                                            오전 9 : 30 ~ 오후 6 : 30<br>
-                                            오전 9 : 30 ~ 오후 6 : 00 (동절기 1/2/12월)
-                                        </p>
-                                    </li>
-                                    <li>
-                                        <p class="st"><span>토</span><span>요</span><span>일</span></p>
-                                        <p class="cont">
-                                            오전 9 : 30 ~ 오후 4 : 00
-                                        </p>
-                                    </li>
-                                    <li>
-                                        <p class="st"><span>점</span><span>심</span><span>시</span><span>간</span></p>
-                                        <p class="cont">
-                                            오후 1 : 00 ~ 오후 2 : 00
-                                        </p>
-                                    </li>
-                                    <li>
-                                        <p class="st"><span>휴</span><span>진</span></p>
-                                        <p class="cont">
-                                            공휴일·일요일·매주 수요일<br>
-                                            *단, 공휴일이 있는 주에는 수요일 정상 진료
-                                        </p>
-                                    </li>
-                                </ul>
-                                <a href="/counsel/reserv.do" class="btn_reserv move_arrow">
-                                    진료예약 하기
-                                    <div class="btn_arrow">
-                                        <span class="arrow"></span>
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="cont02">
-                                <img src="/static/asset/images/sub/branch_a01_img.jpg" alt="">
-                                <p class="title"><a href="/s_branch/ansan.do">편강한의원 안산점</a></p>
-                                <p class="addr">경기도 안산시 단원구 광덕4로 250 (고잔동) 씨티프라자 201호</p>
-                                <p class="tel"><span>TEL 031.487.7773</span><span>FAX 031.485.7773</span></p>
-                            </div>
-                        </div>
-                        <div class="swiper-slide swiper-slide-active" data-swiper-slide-index="4" style="margin-right: 36px;">
-                            <div class="cont01">
-                                <p class="title">진료안내</p>
-                                <ul class="time">
-                                    <li>
-                                        <p class="st"><span>평</span><span>일</span></p>
-                                        <p class="cont">
-                                            오전 9 : 30 ~ 오후 6 : 30<br>
-                                            오전 9 : 30 ~ 오후 6 : 00 (동절기 1/2/12월)
-                                        </p>
-                                    </li>
-                                    <li>
-                                        <p class="st"><span>토</span><span>요</span><span>일</span></p>
-                                        <p class="cont">
-                                            오전 9 : 30 ~ 오후 4 : 00
-                                        </p>
-                                    </li>
-                                    <li>
-                                        <p class="st"><span>점</span><span>심</span><span>시</span><span>간</span></p>
-                                        <p class="cont">
-                                            오후 1 : 00 ~ 오후 2 : 00
-                                        </p>
-                                    </li>
-                                    <li>
-                                        <p class="st"><span>휴</span><span>진</span></p>
-                                        <p class="cont">
-                                            공휴일·일요일·매주 수요일<br>
-                                            *단, 공휴일이 있는 주에는 수요일 정상 진료
-                                        </p>
-                                    </li>
-                                </ul>
-                                <a href="/counsel/reserv.do" class="btn_reserv move_arrow">
-                                    진료예약 하기
-                                    <div class="btn_arrow">
-                                        <span class="arrow"></span>
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="cont02">
-                                <img src="/static/asset/images/sub/branch_d01_img.jpg" alt="">
-                                <p class="title"><a href="/s_branch/daegu.do">편강한의원 대구점</a></p>
-                                <p class="addr">대구광역시 수성구 달구벌대로 2262(수성동, 편강한의원)</p>
-                                <p class="tel"><span>TEL 053.953.7777</span><span>FAX 053.755.5506</span></p>
-                            </div>
-                        </div>
-                        <div class="swiper-slide swiper-slide-next" data-swiper-slide-index="5" style="margin-right: 36px;">
-                            <div class="cont01">
-                                <p class="title">진료안내</p>
-                                <ul class="time">
-                                    <li>
-                                        <p class="st"><span>평</span><span>일</span></p>
-                                        <p class="cont">
-                                            오전 9 : 30 ~ 오후 6 : 30<br>
-                                            오전 9 : 30 ~ 오후 6 : 00 (동절기 1/2/12월)
-                                        </p>
-                                    </li>
-                                    <li>
-                                        <p class="st"><span>토</span><span>요</span><span>일</span></p>
-                                        <p class="cont">
-                                            오전 9 : 30 ~ 오후 4 : 00
-                                        </p>
-                                    </li>
-                                    <li>
-                                        <p class="st"><span>점</span><span>심</span><span>시</span><span>간</span></p>
-                                        <p class="cont">
-                                            오후 1 : 00 ~ 오후 2 : 00
-                                        </p>
-                                    </li>
-                                    <li>
-                                        <p class="st"><span>휴</span><span>진</span></p>
-                                        <p class="cont">
-                                            공휴일·일요일·매주 수요일<br>
-                                            *단, 공휴일이 있는 주에는 수요일 정상 진료
-                                        </p>
-                                    </li>
-                                </ul>
-                                <a href="/counsel/reserv.do" class="btn_reserv move_arrow">
-                                    진료예약 하기
-                                    <div class="btn_arrow">
-                                        <span class="arrow"></span>
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="cont02">
-                                <img src="/static/asset/images/sub/branch_b01_img.jpg" alt="">
-                                <p class="title"><a href="/s_branch/busan.do">편강한의원 부산점</a></p>
-                                <p class="addr">부산 부산진구 서면로 74 17층 1702호 (부전동, 아이온시티)</p>
-                                <p class="tel"><span>TEL 051.636.7777</span><span>FAX 051.805.7771</span></p>
-                            </div>
-                        </div>
-                    <div class="swiper-slide swiper-slide-duplicate" data-swiper-slide-index="0" style="margin-right: 36px;">
-                            <div class="cont01">
-                                <p class="title">진료안내</p>
-                                <ul class="time">
-                                    <li>
-                                        <p class="st"><span>평</span><span>일</span></p>
-                                        <p class="cont">
-                                            09 : 30 - 18 : 30<br>
-                                            09 : 30 - 18 : 00 (동절기 1/2/12월)<br>
-                                            10 : 00 - 18 : 00 (서효석 대표원장)
-                                        </p>
-                                    </li>
-                                    <li>
-                                        <p class="st"><span>토</span><span>요</span><span>일</span></p>
-                                        <p class="cont">
-                                            09 : 30 - 16 : 00
-                                        </p>
-                                    </li>
-                                    <li>
-                                        <p class="st"><span>점</span><span>심</span><span>시</span><span>간</span></p>
-                                        <p class="cont">
-                                            13 : 00 - 14 : 00
-                                        </p>
-                                    </li>
-                                    <li>
-                                        <p class="st"><span>휴</span><span>진</span></p>
-                                        <p class="cont">
-                                            공휴일 · 일요일
-                                        </p>
-                                    </li>
-                                </ul>
-                                <a href="/counsel/reserv.do" class="btn_reserv move_arrow">
-                                    진료예약 하기
-                                    <div class="btn_arrow">
-                                        <span class="arrow"></span>
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="cont02">
-                                <img src="/static/asset/images/sub/branch_s01_img.jpg" alt="">
-                                <p class="title"><a href="/s_branch/seocho.do">편강한의원 서초점</a></p>
-                                <p class="addr">서울시 서초구 서운로 1길 21 (서초동, 편강한의원)</p>
-                                <p class="tel"><span>TEL 02.518.7777</span><span>FAX 02.581.1570</span></p>
-                            </div>
-                        </div><div class="swiper-slide swiper-slide-duplicate" data-swiper-slide-index="1" style="margin-right: 36px;">
-                            <div class="cont01">
-                                <p class="title">진료안내</p>
-                                <ul class="time">
-                                    <li>
-                                        <p class="st"><span>평</span><span>일</span></p>
-                                        <p class="cont">
-                                            오전 9 : 30 ~ 오후 6 : 30<br>
-                                            오전 9 : 30 ~ 오후 6 : 00 (동절기 1/2/12월)
-                                        </p>
-                                    </li>
-                                    <li>
-                                        <p class="st"><span>토</span><span>요</span><span>일</span></p>
-                                        <p class="cont">
-                                            오전 9 : 30 ~ 오후 4 : 00
-                                        </p>
-                                    </li>
-                                    <li>
-                                        <p class="st"><span>점</span><span>심</span><span>시</span><span>간</span></p>
-                                        <p class="cont">
-                                            오후 1 : 00 ~ 오후 2 : 00
-                                        </p>
-                                    </li>
-                                    <li>
-                                        <p class="st"><span>휴</span><span>진</span></p>
-                                        <p class="cont">
-                                            공휴일·일요일·매주 수요일<br>
-                                            *단, 공휴일이 있는 주에는 수요일 정상 진료
-                                        </p>
-                                    </li>
-                                </ul>
-                                <a href="/counsel/reserv.do" class="btn_reserv move_arrow">
-                                    진료예약 하기
-                                    <div class="btn_arrow">
-                                        <span class="arrow"></span>
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="cont02">
-                                <img src="/static/asset/images/sub/branch_m01_img.jpg" alt="">
-                                <p class="title"><a href="/s_branch/myeongdong.do">편강한의원 명동점</a></p>
-                                <p class="addr">서울특별시 중구 수표로5 1,2층 (충무로2가)</p>
-                                <p class="tel"><span>TEL 02.757.1717</span><span>FAX 02.757.1713</span></p>
-                            </div>
-                        </div><div class="swiper-slide swiper-slide-duplicate" data-swiper-slide-index="2" style="margin-right: 36px;">
-                            <div class="cont01">
-                                <p class="title">진료안내</p>
-                                <ul class="time">
-                                    <li>
-                                        <p class="st"><span>평</span><span>일</span></p>
-                                        <p class="cont">
-                                            오전 9 : 30 ~ 오후 6 : 30<br>
-                                            오전 9 : 30 ~ 오후 6 : 00 (동절기 1/2/12월)
-                                        </p>
-                                    </li>
-                                    <li>
-                                        <p class="st"><span>토</span><span>요</span><span>일</span></p>
-                                        <p class="cont">
-                                            오전 9 : 30 ~ 오후 4 : 00
-                                        </p>
-                                    </li>
-                                    <li>
-                                        <p class="st"><span>점</span><span>심</span><span>시</span><span>간</span></p>
-                                        <p class="cont">
-                                            오후 1 : 00 ~ 오후 2 : 00
-                                        </p>
-                                    </li>
-                                    <li>
-                                        <p class="st"><span>휴</span><span>진</span></p>
-                                        <p class="cont">
-                                            공휴일·일요일·매주 수요일<br>
-                                            *단, 공휴일이 있는 주에는 수요일 정상 진료
-                                        </p>
-                                    </li>
-                                </ul>
-                                <a href="/counsel/reserv.do" class="btn_reserv move_arrow">
-                                    진료예약 하기
-                                    <div class="btn_arrow">
-                                        <span class="arrow"></span>
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="cont02">
-                                <img src="/static/asset/images/sub/branch_sb01_img.jpg" alt="">
-                                <p class="title"><a href="/s_branch/sanbon.do">편강한의원 산본점</a></p>
-                                <p class="addr">경기도 군포시 산본로323번길 16-15 5층 (산본동, 광림빌딩)</p>
-                                <p class="tel"><span>TEL 031.397.7733</span><span>FAX 031.397.6766</span></p>
-                            </div>
-                        </div><div class="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-prev" data-swiper-slide-index="3" style="margin-right: 36px;">
-                            <div class="cont01">
-                                <p class="title">진료안내</p>
-                                <ul class="time">
-                                    <li>
-                                        <p class="st"><span>평</span><span>일</span></p>
-                                        <p class="cont">
-                                            오전 9 : 30 ~ 오후 6 : 30<br>
-                                            오전 9 : 30 ~ 오후 6 : 00 (동절기 1/2/12월)
-                                        </p>
-                                    </li>
-                                    <li>
-                                        <p class="st"><span>토</span><span>요</span><span>일</span></p>
-                                        <p class="cont">
-                                            오전 9 : 30 ~ 오후 4 : 00
-                                        </p>
-                                    </li>
-                                    <li>
-                                        <p class="st"><span>점</span><span>심</span><span>시</span><span>간</span></p>
-                                        <p class="cont">
-                                            오후 1 : 00 ~ 오후 2 : 00
-                                        </p>
-                                    </li>
-                                    <li>
-                                        <p class="st"><span>휴</span><span>진</span></p>
-                                        <p class="cont">
-                                            공휴일·일요일·매주 수요일<br>
-                                            *단, 공휴일이 있는 주에는 수요일 정상 진료
-                                        </p>
-                                    </li>
-                                </ul>
-                                <a href="/counsel/reserv.do" class="btn_reserv move_arrow">
-                                    진료예약 하기
-                                    <div class="btn_arrow">
-                                        <span class="arrow"></span>
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="cont02">
-                                <img src="/static/asset/images/sub/branch_a01_img.jpg" alt="">
-                                <p class="title"><a href="/s_branch/ansan.do">편강한의원 안산점</a></p>
-                                <p class="addr">경기도 안산시 단원구 광덕4로 250 (고잔동) 씨티프라자 201호</p>
-                                <p class="tel"><span>TEL 031.487.7773</span><span>FAX 031.485.7773</span></p>
-                            </div>
-                        </div><div class="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-active" data-swiper-slide-index="4" style="margin-right: 36px;">
-                            <div class="cont01">
-                                <p class="title">진료안내</p>
-                                <ul class="time">
-                                    <li>
-                                        <p class="st"><span>평</span><span>일</span></p>
-                                        <p class="cont">
-                                            오전 9 : 30 ~ 오후 6 : 30<br>
-                                            오전 9 : 30 ~ 오후 6 : 00 (동절기 1/2/12월)
-                                        </p>
-                                    </li>
-                                    <li>
-                                        <p class="st"><span>토</span><span>요</span><span>일</span></p>
-                                        <p class="cont">
-                                            오전 9 : 30 ~ 오후 4 : 00
-                                        </p>
-                                    </li>
-                                    <li>
-                                        <p class="st"><span>점</span><span>심</span><span>시</span><span>간</span></p>
-                                        <p class="cont">
-                                            오후 1 : 00 ~ 오후 2 : 00
-                                        </p>
-                                    </li>
-                                    <li>
-                                        <p class="st"><span>휴</span><span>진</span></p>
-                                        <p class="cont">
-                                            공휴일·일요일·매주 수요일<br>
-                                            *단, 공휴일이 있는 주에는 수요일 정상 진료
-                                        </p>
-                                    </li>
-                                </ul>
-                                <a href="/counsel/reserv.do" class="btn_reserv move_arrow">
-                                    진료예약 하기
-                                    <div class="btn_arrow">
-                                        <span class="arrow"></span>
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="cont02">
-                                <img src="/static/asset/images/sub/branch_d01_img.jpg" alt="">
-                                <p class="title"><a href="/s_branch/daegu.do">편강한의원 대구점</a></p>
-                                <p class="addr">대구광역시 수성구 달구벌대로 2262(수성동, 편강한의원)</p>
-                                <p class="tel"><span>TEL 053.953.7777</span><span>FAX 053.755.5506</span></p>
-                            </div>
-                        </div><div class="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-next" data-swiper-slide-index="5" style="margin-right: 36px;">
-                            <div class="cont01">
-                                <p class="title">진료안내</p>
-                                <ul class="time">
-                                    <li>
-                                        <p class="st"><span>평</span><span>일</span></p>
-                                        <p class="cont">
-                                            오전 9 : 30 ~ 오후 6 : 30<br>
-                                            오전 9 : 30 ~ 오후 6 : 00 (동절기 1/2/12월)
-                                        </p>
-                                    </li>
-                                    <li>
-                                        <p class="st"><span>토</span><span>요</span><span>일</span></p>
-                                        <p class="cont">
-                                            오전 9 : 30 ~ 오후 4 : 00
-                                        </p>
-                                    </li>
-                                    <li>
-                                        <p class="st"><span>점</span><span>심</span><span>시</span><span>간</span></p>
-                                        <p class="cont">
-                                            오후 1 : 00 ~ 오후 2 : 00
-                                        </p>
-                                    </li>
-                                    <li>
-                                        <p class="st"><span>휴</span><span>진</span></p>
-                                        <p class="cont">
-                                            공휴일·일요일·매주 수요일<br>
-                                            *단, 공휴일이 있는 주에는 수요일 정상 진료
-                                        </p>
-                                    </li>
-                                </ul>
-                                <a href="/counsel/reserv.do" class="btn_reserv move_arrow">
-                                    진료예약 하기
-                                    <div class="btn_arrow">
-                                        <span class="arrow"></span>
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="cont02">
-                                <img src="/static/asset/images/sub/branch_b01_img.jpg" alt="">
-                                <p class="title"><a href="/s_branch/busan.do">편강한의원 부산점</a></p>
-                                <p class="addr">부산 부산진구 서면로 74 17층 1702호 (부전동, 아이온시티)</p>
-                                <p class="tel"><span>TEL 051.636.7777</span><span>FAX 051.805.7771</span></p>
-                            </div>
-                        </div></div>
-                <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span></div>
-            </div>
+    <div class="swiper">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">Slide 1</div>
+            <div class="swiper-slide">Slide 2</div>
+            <div class="swiper-slide">Slide 3</div>
+            <div class="swiper-slide">Slide 4</div>
+            <div class="swiper-slide">Slide 5</div>
+            <div class="swiper-slide">Slide 6</div>
+            <div class="swiper-slide">Slide 7</div>
+            <div class="swiper-slide">Slide 8</div>
+            <div class="swiper-slide">Slide 9</div>
         </div>
+        <div class="swiper-pagination"></div>
     </div>
+
+
+    
+    <!-- <div class="container py-5">
+        <h2 class="pb-5">언제라도 문의주세요<br>친절하고 자세히 설명해 드리겠습니다</h2>
+        <div class="pb-5">
+                <div class="pb-5">
+                    <ul class="d-flex justify-content-center">
+                        <li class=""><a href="/s_branch/seocho.do">편강한의원 서초점</a></li>
+                        <li class=""><a href="/s_branch/myeongdong.do">편강한의원 명동점</a></li>
+                        <li class=""><a href="/s_branch/sanbon.do">편강한의원 산본점</a></li>
+                        <li class=""><a href="/s_branch/ansan.do">편강한의원 안산점</a></li>
+                        <li class=""><a href="/s_branch/daegu.do">편강한의원 대구점</a></li>
+                        <li class=""><a href="/s_branch/busan.do">편강한의원 부산점</a></li>
+                    </ul>
+                    
+                </div> -->
+           
 </aside>
 
+<script>
+    var swiper = new Swiper(".branch", {
+      direction: "vertical",
+      slidesPerView: 1,
+      spaceBetween: 30,
+      mousewheel: true,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+    });
+  </script>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<!-------------------------- 제품안내 갤러리 -------------------------->
-<div class="container margin-top-60 margin-bottom-60">
-	<div class="center-heading margin-top-40">
-		<h2 class="ks4">제품안내</h2>
-		<span class="center-line"></span>
-		<p class="sub-text margin-bottom-80 ks5 f19">
-		해당 제품에 대한 소개내용 입니다.
-		</p>
-	</div>
-	<!-- LATEST : pic_basic_company -->
-	<?php echo latest('theme/pic_basic_company', 'gallery', 6, 24); ?>
-</div>
 
 
 
