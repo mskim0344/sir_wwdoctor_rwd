@@ -381,7 +381,7 @@ border-radius: 50%;
 	background: #ccc;
 }
 .shop-branch{
-	
+
 
 }
 
@@ -409,18 +409,32 @@ border-radius: 50%;
 
   @media (min-width:991px) {
 
-	.branch h2{ font-size: 28px;
+	.branch h2{ font-size: 26px;
 	color: #4c4f6f;}
+	.branch .fss{
+		font-size: 20px;
+	}
 	
 	
   }
   @media (max-width:990px){
-	.branch h2{ font-size: 4vw;
+	.branch h2{ font-size: 3vw;
 		color: #4c4f6f;}
+	.branch .fss{
+			font-size: 2vw;
+		}
+		
   }
   @media (max-width:420px){
-	.branch h2{ font-size: 18px;
+	.branch h2{ font-size: 15px;
 		color: #4c4f6f;}
+	.branch .fss{
+			font-size: 13px;
+			
+		}
+		
   }
-
+.fss{
+	font-size: 20px;
+}
  

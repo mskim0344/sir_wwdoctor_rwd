@@ -692,16 +692,16 @@ include_once(G5_THEME_PATH.'/head.php');
 
 <!-- 스와이퍼 처리할 것 -->
 <section class="branch py-lg-5">
-<div class="container-lg py-lg-3 my-5 d-flex px-0" style="border-radius: 19px;">
-        <div class=" mb-4 d-flex align-items-center justify-content-center flex-column" style="width: 25%; height: auto; background-color :#f9f9f9">
-        <h2>평강 한의원 지점</h2>
+<div class="container-lg py-lg-3 my-5 d-flex px-0 align-items-center" style="border-radius: 19px;">
+        <div class=" mb-4 d-flex align-items-center justify-content-center flex-column" style="width: 25%; height: auto;  border-radius: 30px">
+        <h2 class="p-3">평강 한의원 지점</h2>
             
-            <div class="p-3">서울</div>
-            <div class="p-3">부산</div>
-            <div class="p-3">대구</div>
-            <div class="p-3">광주</div>
-            <div class="p-3">제주도</div>
-            <div class="p-3">대전</div>
+            <div class="p-3 fss"><a href="">서울</a></div>
+            <div class="p-3 fss"><a href="">부산</a></div>
+            <div class="p-3 fss"><a href="">대구</a></div>
+            <div class="p-3 fss"><a href="">광주</a></div>
+            <div class="p-3 fss"><a href="">제주</a></div>
+            <div class="p-3 fss"><a href="">대전</a></div>
         </div>
 
         
@@ -765,6 +765,7 @@ include_once(G5_THEME_PATH.'/head.php');
       direction: "vertical",
       slidesPerView: 1,
       spaceBetween: 0,
+      loop:true,
       mousewheel: true,
       pagination: {
         el: ".swiper-pagination",
