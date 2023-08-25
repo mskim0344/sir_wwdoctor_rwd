@@ -691,21 +691,75 @@ include_once(G5_THEME_PATH.'/head.php');
 
 
 <!-- 스와이퍼 처리할 것 -->
-<aside class="branch">
-    <div class="swiper">
-        <div class="swiper-wrapper">
-            <div class="swiper-slide">Slide 1</div>
-            <div class="swiper-slide">Slide 2</div>
-            <div class="swiper-slide">Slide 3</div>
-            <div class="swiper-slide">Slide 4</div>
-            <div class="swiper-slide">Slide 5</div>
-            <div class="swiper-slide">Slide 6</div>
-            <div class="swiper-slide">Slide 7</div>
-            <div class="swiper-slide">Slide 8</div>
-            <div class="swiper-slide">Slide 9</div>
-        </div>
+<section class="branch py-lg-5">
+    <div class="container-lg py-lg-5 my-5">
+        <h2 class="text-center mb-4">광고홍보</h2>
+        <div class="swiper mySwiper swiper-branch" style="height:50vw; max-height:600px; ">
+            <div class="swiper-wrapper" >
+                <div class="swiper-slide swiper-slide-kms">
+                    <div style="position:relative; height:100%;
+                    background:url(https://www.maisonette.co.kr/web/upload/appfiles/ZaReJam3QiELznoZeGGkMG/3c9b73a32ab7fbd9f9fadc7e8d103c1c.jpg) center;
+                    background-size:cover">                        
+                    </div>
+                </div>
+                <div class="swiper-slide swiper-slide-kms">
+                    <div style="position:relative; height:100%;
+                    background:url(https://www.maisonette.co.kr/web/upload/appfiles/ZaReJam3QiELznoZeGGkMG/3c9b73a32ab7fbd9f9fadc7e8d103c1c.jpg) center;
+                    background-size:cover">                        
+                    </div>
+                </div>
+                <div class="swiper-slide swiper-slide-kms">
+                    <div style="position:relative; height:100%;
+                    background:url(https://www.maisonette.co.kr/web/upload/appfiles/ZaReJam3QiELznoZeGGkMG/3c9b73a32ab7fbd9f9fadc7e8d103c1c.jpg) center;
+                    background-size:cover">                        
+                    </div>
+                </div>
+                <div class="swiper-slide swiper-slide-kms">
+                    <div style="position:relative; height:100%;
+                    background:url(https://www.maisonette.co.kr/web/upload/appfiles/ZaReJam3QiELznoZeGGkMG/3c9b73a32ab7fbd9f9fadc7e8d103c1c.jpg) center;
+                    background-size:cover">                        
+                    </div>
+                </div>
+                <div class="swiper-slide swiper-slide-kms">
+                    <div style="position:relative; height:100%;
+                    background:url(https://www.maisonette.co.kr/web/upload/appfiles/ZaReJam3QiELznoZeGGkMG/3c9b73a32ab7fbd9f9fadc7e8d103c1c.jpg) center;
+                    background-size:cover">                        
+                    </div>
+                </div>
+                <div class="swiper-slide swiper-slide-kms">
+                    <div style="position:relative; height:100%;
+                    background:url(https://www.maisonette.co.kr/web/upload/appfiles/ZaReJam3QiELznoZeGGkMG/3c9b73a32ab7fbd9f9fadc7e8d103c1c.jpg) center;
+                    background-size:cover">                        
+                    </div>
+                </div>
+             
+            </div>
         <div class="swiper-pagination"></div>
-    </div>
+    </div>   
+
+</section>
+
+  
+
+</div>
+
+  
+  
+
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper(".swiper-branch", {
+      direction: "vertical",
+      slidesPerView: 1,
+      spaceBetween: 0,
+      mousewheel: true,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+    });
+  </script>
+   
 
 
     
@@ -726,18 +780,7 @@ include_once(G5_THEME_PATH.'/head.php');
            
 </aside>
 
-<script>
-    var swiper = new Swiper(".branch", {
-      direction: "vertical",
-      slidesPerView: 1,
-      spaceBetween: 30,
-      mousewheel: true,
-      pagination: {
-        el: ".swiper-pagination",
-        clickable: true,
-      },
-    });
-  </script>
+
 
 
 
