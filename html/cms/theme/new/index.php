@@ -694,7 +694,7 @@ include_once(G5_THEME_PATH.'/head.php');
 <section class="branch py-lg-5">
 <div class="container-lg py-lg-3 my-5 d-flex px-0 align-items-center" style="border-radius: 19px;">
         <div class=" mb-4 d-flex align-items-center justify-content-center flex-column" style="width: 25%; height: auto;  border-radius: 30px">
-        <h2 class="p-3">평강 한의원 지점</h2>
+        <h2 class="p-3" style="line-height:1.5;">평강 한의원 지점</h2>
             
             <div class="p-3 fss"><a href="">서울</a></div>
             <div class="p-3 fss"><a href="">부산</a></div>
