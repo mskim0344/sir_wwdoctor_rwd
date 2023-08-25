@@ -381,11 +381,12 @@ border-radius: 50%;
 	background: #ccc;
 }
 .shop-branch{
+	
 
 }
 
 .swiper-branch {
-	width: 100%;
+	width: 50%;
 	height: 100%;
   }
 
@@ -394,7 +395,7 @@ border-radius: 50%;
 	font-size: 18px;
 	background: #fff;
 	display: flex;
-	justify-content: center;
+	
 	align-items: center;
   }
 
@@ -408,12 +409,18 @@ border-radius: 50%;
 
   @media (min-width:991px) {
 
-	.branch h2{ font-size: 28px;}
+	.branch h2{ font-size: 28px;
+	color: #4c4f6f;}
+	
 	
   }
   @media (max-width:990px){
-	.branch h2{ font-size: 4vw;}
+	.branch h2{ font-size: 4vw;
+		color: #4c4f6f;}
   }
   @media (max-width:420px){
-	.branch h2{ font-size: 18px;}
+	.branch h2{ font-size: 18px;
+		color: #4c4f6f;}
   }
+
+ 

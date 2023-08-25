@@ -692,52 +692,64 @@ include_once(G5_THEME_PATH.'/head.php');
 
 <!-- 스와이퍼 처리할 것 -->
 <section class="branch py-lg-5">
-    <div class="container-lg py-lg-5 my-5">
-        <h2 class="text-center mb-4">광고홍보</h2>
-        <div class="swiper mySwiper swiper-branch" style="height:50vw; max-height:600px; ">
-            <div class="swiper-wrapper" >
-                <div class="swiper-slide swiper-slide-kms">
-                    <div style="position:relative; height:100%;
-                    background:url(https://m.wwdoctor.com/static/asset/images/sub/branch_s01_img.jpg) center;
-                    background-size:cover; width:100%; ">                        
-                    
-                    </div>
-                </div>
-                <div class="swiper-slide swiper-slide-kms">
-                    <div style="position:relative; height:100%;
-                    background:url(https://m.wwdoctor.com/static/asset/images/sub/branch_m01_img.jpg) center;
-                    background-size:cover; width:100%;">                        
-                    </div>
-                </div>
-                <div class="swiper-slide swiper-slide-kms">
-                    <div style="position:relative; height:100%;
-                    background:url(https://m.wwdoctor.com/static/asset/images/sub/branch_sb01_img.jpg) center;
-                    background-size:cover; width:100%;">                        
-                    </div>
-                </div>
-                <div class="swiper-slide swiper-slide-kms">
-                    <div style="position:relative; height:100%;
-                    background:url(https://m.wwdoctor.com/static/asset/images/sub/branch_a01_img.jpg) center;
-                    background-size:cover; width:100%;">                        
-                    </div>
-                </div>
-                <div class="swiper-slide swiper-slide-kms">
-                    <div style="position:relative; height:100%;
-                    background:url(https://m.wwdoctor.com/static/asset/images/sub/branch_d01_img.jpg) center;
-                    background-size:cover; width:100%;">                        
-                    </div>
-                </div>
-                <div class="swiper-slide swiper-slide-kms">
-                    <div style="position:relative; height:100%;
-                    background:url(https://www.maisonette.co.kr/web/upload/appfiles/ZaReJam3QiELznoZeGGkMG/3c9b73a32ab7fbd9f9fadc7e8d103c1c.jpg) center;
-                    background-size:cover; width:100%;">                        
-                    </div>
-                </div>
-             
-            </div>
-        <div class="swiper-pagination"></div>
-    </div>   
+<div class="container-lg py-lg-3 my-5 d-flex px-0" style="border-radius: 19px;">
+        <div class=" mb-4 d-flex align-items-center justify-content-center flex-column" style="width: 25%; height: auto; background-color :#f9f9f9">
+        <h2>평강 한의원 지점</h2>
+            
+            <div class="p-3">서울</div>
+            <div class="p-3">부산</div>
+            <div class="p-3">대구</div>
+            <div class="p-3">광주</div>
+            <div class="p-3">제주도</div>
+            <div class="p-3">대전</div>
+        </div>
 
+        
+            
+            <div class="swiper mySwiper swiper-branch " style="height:50vw; max-height:600px;border-radius: 50px;">
+                <div class="swiper-wrapper " >
+                    <div class="swiper-slide swiper-slide-kms">
+                        <div style="position:relative; height:100%;
+                        background:url(https://m.wwdoctor.com/static/asset/images/sub/branch_s01_img.jpg) center;
+                        background-size:cover; width:100%; ">                        
+                        
+                        </div>
+                    </div>
+                    <div class="swiper-slide swiper-slide-kms">
+                        <div style="position:relative; height:100%;
+                        background:url(https://m.wwdoctor.com/static/asset/images/sub/branch_m01_img.jpg) center;
+                        background-size:cover; width:100%;">                        
+                        </div>
+                    </div>
+                    <div class="swiper-slide swiper-slide-kms">
+                        <div style="position:relative; height:100%;
+                        background:url(https://m.wwdoctor.com/static/asset/images/sub/branch_sb01_img.jpg) center;
+                        background-size:cover; width:100%;">                        
+                        </div>
+                    </div>
+                    <div class="swiper-slide swiper-slide-kms">
+                        <div style="position:relative; height:100%;
+                        background:url(https://m.wwdoctor.com/static/asset/images/sub/branch_a01_img.jpg) center;
+                        background-size:cover; width:100%;">                        
+                        </div>
+                    </div>
+                    <div class="swiper-slide swiper-slide-kms">
+                        <div style="position:relative; height:100%;
+                        background:url(https://m.wwdoctor.com/static/asset/images/sub/branch_d01_img.jpg) center;
+                        background-size:cover; width:100%;">                        
+                        </div>
+                    </div>
+                    <div class="swiper-slide swiper-slide-kms">
+                        <div style="position:relative; height:100%;
+                        background:url(https://www.maisonette.co.kr/web/upload/appfiles/ZaReJam3QiELznoZeGGkMG/3c9b73a32ab7fbd9f9fadc7e8d103c1c.jpg) center;
+                        background-size:cover; width:100%;">                        
+                        </div>
+                    </div>
+                
+                </div>
+            
+        </div>   
+    </div>
 </section>
 
   
