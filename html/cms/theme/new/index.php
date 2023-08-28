@@ -33,33 +33,33 @@ include_once(G5_THEME_PATH.'/head.php');
   <div class="swiper" id="mainBannerswiper">
 
 	<div class="swiper-wrapper" >
-	  <!-- Slide One - Set the background image for this slide in the line below -->
+	 
 	  <div class="swiper-slide" style="background-image: url('/cms/pkimg/banner_bg_01.jpg')">
 	  
-	    <div class="carousel-caption  container">
-		  	<h2 class="Noto-ko fw fs">
-				기침,천식,폐질환
-		  		<p class="Noto-ko fw fs">편강 한의원</p>
-			</h2>
-		</div>
+            <div class="carousel-caption  container">
+                <h2 class="Noto-ko fw fs">
+                    기침,천식,폐질환
+                    <p class="Noto-ko fw fs">편강 한의원</p>
+                </h2>
+            </div>
 		
 		
 	  </div>
-	  <!-- Slide Two - Set the background image for this slide in the line below -->
+	
 	  <div class="swiper-slide" style="background-image: url('/cms/pkimg/banner_bg_02.jpg')">
 	  
-	  <div class="carousel-caption  container">
-		  	<h2 class="Noto-ko fw fs">
-			  근본치유에 집중하는
-		  		<p class="Noto-ko fw fs">평강 원인 치유법</p>
-			</h2>
-		</div>
+            <div class="carousel-caption  container">
+                <h2 class="Noto-ko fw fs">
+                근본치유에 집중하는
+                    <p class="Noto-ko fw fs">평강 원인 치유법</p>
+                </h2>
+            </div>
 	  
 	  </div>
-	  <!-- Slide Three - Set the background image for this slide in the line below -->
+	 
 	  <div class="swiper-slide" style="background-image: url('/cms/pkimg/banner_bg_03.jpg')">
 	 
-	  <div class="carousel-caption  container">
+	    <div class="carousel-caption  container">
 		  	<h2 class="Noto-ko fw fs">
 			  평강의학이
 		  		<p class="Noto-ko fw fs">세계로 갑니다</p>
@@ -67,12 +67,13 @@ include_once(G5_THEME_PATH.'/head.php');
 		</div>
 	 
 	  </div>
+
 	</div>
+
 	<div class="swiper-button-next"></div>
     <div class="swiper-button-prev"></div>
 	<div class="container position-absolute paginationbox">
 		<div class="swiper-pagination "></div>
-
 	</div>
 
 	
@@ -84,19 +85,19 @@ include_once(G5_THEME_PATH.'/head.php');
 </header>
 <script>
 	    const mainbannerttext = ['기침, 천식, 폐질환 편강한의원','편강 원인 치유법','편강의학이 세계로 갑니다'];
-		var swiper = new Swiper("#mainBannerswiper", {
+		const swipermain = new Swiper("#mainBannerswiper", {
 
 						pagination: {
-							el: ".swiper-pagination",
+							el: "#mainBannerswiper .swiper-pagination",
 							clickable: true,
 							renderBullet: function (index, className) {
-							return '<span class="' + className + '">' + mainbannerttext[index] + "</span>";
+							return '<span class="' + className + ' aaaa">' + mainbannerttext[index] + "</span>";
 							},
 							
 						},
 						navigation: {
-								nextEl: ".swiper-button-next",
-								prevEl: ".swiper-button-prev",
+								nextEl: "#mainBannerswiper .swiper-button-next",
+								prevEl: "#mainBannerswiper .swiper-button-prev",
 						},
 						spaceBetween:0,
 						loop:true,
@@ -108,7 +109,7 @@ include_once(G5_THEME_PATH.'/head.php');
 
 					});
                    
-	</script>
+</script>
 <!-------------------------- 메인 슬라이드 swiper -------------------------->
 
 
@@ -186,15 +187,15 @@ include_once(G5_THEME_PATH.'/head.php');
         disableOnInteraction: false,
       },
       pagination: {
-        el: ".swiper-pagination",
+        el: "#pk_slide .swiper-pagination",
         clickable: true,
       },
       navigation: {
-        nextEl: ".swiper-button-next",
-        prevEl: ".swiper-button-prev",
+        nextEl: "#pk_slide .swiper-button-next",
+        prevEl: "#pk_slide .swiper-button-prev",
       },
       scrollbar: {
-        el: ".swiper-scrollbar",
+        el: "#pk_slide .swiper-scrollbar",
         hide: true,
       },
       breakpoints: {
@@ -761,14 +762,14 @@ include_once(G5_THEME_PATH.'/head.php');
 
   <!-- Initialize Swiper -->
   <script>
-    var swiper = new Swiper(".swiper-branch", {
+    var swiperbranch = new Swiper(".swiper-branch", {
       direction: "vertical",
       slidesPerView: 1,
       spaceBetween: 0,
       loop:true,
       mousewheel: true,
       pagination: {
-        el: ".swiper-pagination",
+        el: ".swiper-branch .swiper-pagination",
         clickable: true,
       },
     });

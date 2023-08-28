@@ -195,9 +195,12 @@ table th, table td{ font-family: 'S-CoreDream-4Regular';font-size: 14px;}
 }
 #mainBannerswiper .swiper-pagination{
     display: inline-block; /*너비 100% 포기*/
-	width: auto;
+	width: 100%;
 	position: relative;	
-	border-bottom:2px solid rgba(255,255,255,.4)
+	border-bottom:2px solid rgba(255,255,255,.4);
+	bottom: -20px;
+	
+	
 }
 
 .fa + .sound_only{
@@ -416,6 +419,7 @@ border-radius: 50%;
 	}
 	
 	
+	
   }
   @media (max-width:990px){
 	.branch h2{ font-size: 3vw;
@@ -423,6 +427,9 @@ border-radius: 50%;
 	.branch .fss{
 			font-size: 2vw;
 		}
+	.carousel-caption .fs{
+		font-size: 2rem;
+	}
 		
   }
   @media (max-width:420px){
@@ -432,9 +439,17 @@ border-radius: 50%;
 			font-size: 13px;
 			
 		}
+	.carousel-caption .fs{
+		display: none;
+
+	}
 		
   }
 .fss{
 	font-size: 20px;
 }
  
+
+
+
+

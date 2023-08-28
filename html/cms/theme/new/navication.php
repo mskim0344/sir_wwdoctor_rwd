@@ -9,7 +9,7 @@
 }
 
 </style>
-<nav class="navbar fixed-top navbar-expand-xl navbar-white border  " id="mytop">
+<nav class="navbar fixed-top navbar-expand-xl navbar-white border-bottom " id="mytop">
   <div class="d-xl-flex align-items-center inner">
 	<a class="navbar-brand py-0" href="<?php echo G5_URL?>" class="logo"><img src="/cms/pkimg/t_logo.png" class="img-fluid d-block"></a>
 	<button class="navbar-toggler navbar-dark navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" 
