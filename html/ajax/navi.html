@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script
+  src="https://code.jquery.com/jquery-2.2.4.js"
+  integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI="
+  crossorigin="anonymous"></script>
+    <script >
+        $(function(){
+        
+            var strongdb = "";
+            $.ajax({
+                type: "GET",
+                url : "/hcode/index.php",
+                dataType : "json", //json, text, html, xml, script
+                success : function(data){
+                   console.log(data, typeof data)
+                   data.strong.map((v, i)=>{
+                    strongdb +=`<li>
+                        <a href=${v.link} >
+                        ${v.text}</a>
+                        </li>`    
+                   })
+                   $("#json").html(strongdb)
+                },
+                error : function(){
+                    console.log("연결안됨 그래서 못가져옴")
+                }
+            })    
+        })
+    </script>
+</head>
+<body>
+    <button id="trigger">출력해줘</button>
+    <ul id="html"></ul>
+    <ul id="json"></ul>
+</body>
+</html>
+
