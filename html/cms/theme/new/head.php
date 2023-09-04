@@ -58,10 +58,10 @@ if(defined('_INDEX_')) {
 <?php 
 	if($bo_table){
 		//include_once(G5_THEME_PATH.'/top_banner.php');
-		echo "게시판상단";
+		echo "";
 	}
 	if($co_id){
-		echo "내용관리 상단";
+		echo "";
 	}
 ?>
 <!-------------------------- ./게시판 상단 배경 수정하는 곳 -------------------------->
