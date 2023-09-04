@@ -104,7 +104,7 @@
 	  </ul>
 	  <ul class="d-xl-flex mx-2 mb-0 mr-lg-0 until px-0 ko">
             <li class="m-2">
-                <a href="">편강한의원</a>
+                <a href="/cms/bbs/content.php?co_id=company">편강한의원</a>
                 <div class="sub bg-white position-absolute rounded" >
                     <ul id="ul_a_color" class="m-3 ko_13">
                         <li><a href="/s_intro/greeting.do">인사말</a></li>
@@ -121,7 +121,7 @@
                 </div>
             </li>
             <li class="m-2">
-                <a href="/s_medicine/medical01.do">편강의학</a>
+                <a href="/cms/bbs/content.php?co_id=pk_medicine">편강의학</a>
                 <div class="sub  bg-white position-absolute rounded" >
                     <ul id="ul_a_color" class="m-3 ko_13">
                         <li><a href="/s_medicine/medical01.do">원인 치유법</a></li>
@@ -134,7 +134,7 @@
                 </div>
             </li>
             <li class="m-2">
-                <a href="/board/interview.do">사례/후기</a>
+                <a href="/cms/bbs/board.php?bo_table=review">사례/후기</a>
                 <div class="sub  bg-white position-absolute rounded" >
                     <ul id="ul_a_color" class="m-3 ko_13">
                         <li><a href="javascript:PageView('/board/interview.do','','','','','');">치료 인터뷰</a></li>
@@ -145,7 +145,7 @@
                 </div>
             </li>
             <li class="m-2">
-                <a href="/counsel/counsel.do">상담/예약</a>
+                <a href="/cms/bbs/board.php?bo_table=Reservation">상담/예약</a>
                 <div class="sub  bg-white position-absolute rounded" >
                     <ul id="ul_a_color" class="m-3 ko_13">
                         <li><a href="javascript:PageView('/counsel/counsel.do','','','','','');">의료진상담</a></li>
