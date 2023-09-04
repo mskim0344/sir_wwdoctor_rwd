@@ -22,13 +22,6 @@
             <ul class="sns_link d-flex mb-4  justify-content-lg-end mt-4">
                 <li class="px-lg-3 pr-3"><a href="https://www.instagram.com/pyunkang/"><i class="bi bi-instagram text-white"></i><span class="sr_only">인스타</span></a></li>
                 <li><a href="https://www.youtube.com/user/ThePyunkang"><i class="bi bi-youtube text-white"></i><span class="sr_only">유투브</span></a></li>
-                <!--
-                <li><a href="https://www.instagram.com/pyunkang/"><i class="xi-instagram"></i><span class="sr_only">인스타</span></a></li>
-
-                <li><a href="https://www.facebook.com/Pyunkang"><i class="xi-facebook"></i><span class="sr_only">페이스북</span></a></li>
-                <li><a href="https://pk9988.tistory.com/"><i class="xi-naver"></i><span class="sr_only">네이버</span></a></li>
-                <li><a href="https://twitter.com/wwdoctor"><i class="xi-twitter"></i><span class="sr_only">트위터</span></a></li>
-                -->
             </ul>
             <div id="familysite" class="d-none d-lg-block">
                 <button type="button" class="tbtn">Family Site</button>

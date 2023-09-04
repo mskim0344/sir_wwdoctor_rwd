@@ -179,7 +179,8 @@ include_once(G5_THEME_PATH.'/head.php');
     var swiper = new Swiper("#pk_slide .swiper", {
       spaceBetween: 15, 
       slidesPerView: 1.5,
-      loop:true,   
+      loop:true,
+      mousewheel: true,   
       loopAddtionalSlides : 1,  
       centeredSlides: true,
       autoplay: {
@@ -711,32 +712,32 @@ include_once(G5_THEME_PATH.'/head.php');
                 <div class="swiper-wrapper " >
                     <div class="swiper-slide swiper-slide-kms">
                         <div style="position:relative; height:100%;
-                        background:url(https://m.wwdoctor.com/static/asset/images/sub/branch_s01_img.jpg) center;
+                        background:url(https://wwdoctor.com/static/asset/images/sub/branch_s01_img.jpg) center;
                         background-size:cover; width:100%; ">                        
                         
                         </div>
                     </div>
                     <div class="swiper-slide swiper-slide-kms">
                         <div style="position:relative; height:100%;
-                        background:url(https://m.wwdoctor.com/static/asset/images/sub/branch_m01_img.jpg) center;
+                        background:url(https://wwdoctor.com/static/asset/images/sub/branch_m01_img.jpg) center;
                         background-size:cover; width:100%;">                        
                         </div>
                     </div>
                     <div class="swiper-slide swiper-slide-kms">
                         <div style="position:relative; height:100%;
-                        background:url(https://m.wwdoctor.com/static/asset/images/sub/branch_sb01_img.jpg) center;
+                        background:url(https://wwdoctor.com/static/asset/images/sub/branch_sb01_img.jpg) center;
                         background-size:cover; width:100%;">                        
                         </div>
                     </div>
                     <div class="swiper-slide swiper-slide-kms">
                         <div style="position:relative; height:100%;
-                        background:url(https://m.wwdoctor.com/static/asset/images/sub/branch_a01_img.jpg) center;
+                        background:url(https://wwdoctor.com/static/asset/images/sub/branch_a01_img.jpg) center;
                         background-size:cover; width:100%;">                        
                         </div>
                     </div>
                     <div class="swiper-slide swiper-slide-kms">
                         <div style="position:relative; height:100%;
-                        background:url(https://m.wwdoctor.com/static/asset/images/sub/branch_d01_img.jpg) center;
+                        background:url(https://wwdoctor.com/static/asset/images/sub/branch_d01_img.jpg) center;
                         background-size:cover; width:100%;">                        
                         </div>
                     </div>
