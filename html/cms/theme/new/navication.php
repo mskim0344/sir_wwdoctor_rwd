@@ -16,7 +16,7 @@
 	aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
 	  <span class="navbar-toggler-icon"></span>
 	</button>
-	<div class="navbar-collapse  justify-content-around" id="navbarResponsive"  >
+	<div class="navbar-collapse  justify-content-between beforin" id="navbarResponsive"  >
 	  <ul class="navbar-nav ">
 		<?php
 		$sql = " select *

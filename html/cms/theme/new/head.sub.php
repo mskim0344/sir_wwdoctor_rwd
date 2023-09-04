@@ -126,7 +126,13 @@ if(!defined('G5_IS_ADMIN'))
 
 
 </head>
-<body<?php echo isset($g5['body_script']) ? $g5['body_script'] : ''; ?>>
+<body id="kimminseok" class="
+<?php if($bo_table) echo "boardpage"; else echo "lastpage";  ?> 
+<?php echo $co_id; ?> 
+<?php echo $g5_kms; ?> 
+<?php echo $g5_kkk; ?>
+<?php if(defined('_INDEX_')) echo "whiteNavi"; ?>
+">
 <?php
 if ($is_member) { // 회원이라면 로그인 중이라는 메세지를 출력해준다.
     $sr_admin_msg = '';

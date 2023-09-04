@@ -48,10 +48,7 @@
 </style>
 <nav class="navbar fixed-top navbar-expand-lg navbar-white  fixed-top">
   <div class="d-flex">
-	<a class="navbar-brand" href="<?php echo G5_URL?>" class="logo">
-	<img src="https://www.wwdoctor.com/static/asset/images/common/t_logo.png" class="white_logo">
-	<img src="https://www.wwdoctor.com/static/asset/images/common/t_logo_on.png" class="black_logo">
-    </a>
+	<a class="navbar-brand" href="<?php echo G5_URL?>" class="logo"><img src="https://www.wwdoctor.com/static/asset/images/common/t_logo.png"></a>
 	<button class="navbar-toggler navbar-dark navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
 	  <span class="navbar-toggler-icon"></span>
 	</button>

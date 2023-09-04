@@ -42,24 +42,14 @@ if(defined('_INDEX_')) {
 }
 
 ?>
-<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
 
 <!-------------------------- 네비게이션 -------------------------->
 <?php include_once(G5_THEME_PATH.'/navication.php');?>
 
 
 
-<style>
-/* mobile */
-@media (min-width: 1px) and (max-width: 1089px) {
-	.ety-main{margin-bottom:63px;}
-}
 
-/* desktop */
-@media (min-width: 1090px) {
-	.ety-main{margin-bottom:130px;}
-}
-</style>
 
 
 
@@ -67,7 +57,11 @@ if(defined('_INDEX_')) {
 <!-------------------------- 게시판 상단 배경 수정하는 곳 -------------------------->
 <?php 
 	if($bo_table){
-		include_once(G5_THEME_PATH.'/top_banner.php');
+		//include_once(G5_THEME_PATH.'/top_banner.php');
+		echo "게시판상단";
+	}
+	if($co_id){
+		echo "내용관리 상단";
 	}
 ?>
 <!-------------------------- ./게시판 상단 배경 수정하는 곳 -------------------------->
