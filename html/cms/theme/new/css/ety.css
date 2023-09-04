@@ -453,3 +453,36 @@ border-radius: 50%;
 
 
 
+.beforin:before{
+	content: "";
+}
+.afterin:after{
+	content: "";
+}
+
+#mytop a{ color:black !important}
+#mytop .navbar-brand img{ display: none  !important;}
+#mytop .navbar-brand{ width: 138px; height: 29px;
+	background: url('/cms/pkimg/t_logo_on.png');
+}
+
+.whiteNavi #mytop a{
+	color:white !important;
+}
+.whiteNavi #mytop .navbar-brand img{
+	display: block !important;
+}
+.whiteNavi #mytop .navbar-brand{ width: 138px; height: 29px;
+	background: none;
+}
+
+#bo_v, #bo_w, #bo_list{
+	max-width:1280px;
+	margin: 0 auto;
+	min-height:calc(100vh - 300px)
+}
+
+#ctt, .kimminseok .card-container{
+	min-height:calc(100vh - 300px);
+	
+}

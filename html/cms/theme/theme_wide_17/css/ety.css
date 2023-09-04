@@ -102,10 +102,7 @@ table th, table td{ font-family: 'S-CoreDream-4Regular';font-size: 14px;}
 
 #bo_v_sns li span{display:none;}
 #bo_v_sns {display:none;position:absolute;top:-50px;right:0px;margin-left:-90px;width:180px;padding:0;list-style:none;zoom:1}
-.quick_icon{
-	width: 40px;
-	height: 40px;
-}
+
 
 
 
