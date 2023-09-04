@@ -443,12 +443,19 @@ border-radius: 50%;
 		display: none;
 
 	}
+	
+	
 		
   }
 .fss{
 	font-size: 20px;
 }
- 
+@media (max-width:771px) {
+	.text_none{
+		display: none !important;
+	}
+	
+} 
 
 
 
@@ -467,7 +474,7 @@ border-radius: 50%;
 }
 
 .whiteNavi #mytop a{
-	color:white !important;
+	color:rgb(5, 5, 5) !important;
 }
 .whiteNavi #mytop .navbar-brand img{
 	display: block !important;
@@ -486,3 +493,4 @@ border-radius: 50%;
 	min-height:calc(100vh - 300px);
 	
 }
+

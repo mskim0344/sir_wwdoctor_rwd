@@ -960,7 +960,7 @@ footer
  		 position: fixed;
 		 left:-1px;
 		 right:-1px;
-		 top:53px;
+		 /* top:53px; */
 		 height: 0 !important;	
 		 overflow: hidden;	
 		 

@@ -36,7 +36,7 @@ include_once(G5_THEME_PATH.'/head.php');
 	 
 	  <div class="swiper-slide" style="background-image: url('/cms/pkimg/banner_bg_01.jpg')">
 	  
-            <div class="carousel-caption  container">
+            <div class="carousel-caption  container text_none">
                 <h2 class="Noto-ko fw fs">
                     기침,천식,폐질환
                     <p class="Noto-ko fw fs">편강 한의원</p>
@@ -48,7 +48,7 @@ include_once(G5_THEME_PATH.'/head.php');
 	
 	  <div class="swiper-slide" style="background-image: url('/cms/pkimg/banner_bg_02.jpg')">
 	  
-            <div class="carousel-caption  container">
+            <div class="carousel-caption  container text_none">
                 <h2 class="Noto-ko fw fs">
                 근본치유에 집중하는
                     <p class="Noto-ko fw fs">평강 원인 치유법</p>
@@ -59,7 +59,7 @@ include_once(G5_THEME_PATH.'/head.php');
 	 
 	  <div class="swiper-slide" style="background-image: url('/cms/pkimg/banner_bg_03.jpg')">
 	 
-	    <div class="carousel-caption  container">
+	    <div class="carousel-caption  container text_none">
 		  	<h2 class="Noto-ko fw fs">
 			  평강의학이
 		  		<p class="Noto-ko fw fs">세계로 갑니다</p>

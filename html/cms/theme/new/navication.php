@@ -165,15 +165,37 @@
 							<li><a class="white" href="<?php echo G5_BBS_URL ?>/login.php">로그인</a></li>
 					<?php }  ?>
 				<ul>
-			</li>
-                
-                  
-                
-            
-            <!--
-            <li><a href="/s_branch/seocho.do">지점안내</a></li>
-            -->
+			</li>	
         </ul>
 	</div>
   </div>
 </nav>
+<script>
+        // 내비게이션 바 요소 선택
+        const mytop = document.getElementById("mytop");
+
+        // 페이지 로드 시, 화면 너비가 400px 이하인 경우 내비게이션 바를 숨김
+        if (window.matchMedia("(max-width: 400px)").matches) {
+            mytop.style.top = "-60px";
+        }
+
+        let prevScrollY = 0; // 이전 스크롤 위치를 저장하는 변수
+
+        // 스크롤 이벤트 리스너 등록
+        window.addEventListener("scroll", () => {
+            // 현재 스크롤 위치 확인
+            const scrollY = window.scrollY;
+
+            // 화면 너비가 400px 이하인 경우 스크롤을 내릴 때 내비게이션 바를 보이고, 올릴 때 숨김
+            if (window.matchMedia("(max-width: 400px)").matches) {
+                if (scrollY > prevScrollY) {
+                    mytop.style.top = "0";
+                } else {
+                    mytop.style.top = "-60px";
+                }
+            }
+
+            // 현재 스크롤 위치를 이전 스크롤 위치 변수에 저장
+            prevScrollY = scrollY;
+        });
+    </script>
