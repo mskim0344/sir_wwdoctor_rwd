@@ -113,7 +113,7 @@
             <li><a href="https://twitter.com/wwdoctor"><i class="xi-twitter"></i><span class="sr_only">트위터</span></a></li>
             -->
         </ul>
-        <div id="familysite">
+        <div id="familysite" >
             <button type="button" class="tbtn">Family Site</button>
             <ul id="familysite_list">
                 <li><a href="https://mywwdoctor.com/?utm_source=renewalsite">마이크로 Site</a></li>
@@ -126,33 +126,7 @@
         </div>
     </div>
 </footer>
-	<!-- <div class="container-fluid  fixed-bottom align-items-center " id="c_form">
-		<form class=" text-white m-2 d-flex align-items-center justify-content-center " >
-				 <strong>빠른상담신청하기</strong>
-				 <input type="text" placeholder="이름을 입력하세요." class="m-2 p-2">
-				 <input type="text" placeholder="전화번호를 입력하세요." class="p=3 m-3">
-				 <div class="form-check">
-						<input type="checkbox" name="agree" class="form-check-input" id="exampleCheck1">
-						<label class="form-check-label" for="exampleCheck1">약관동의</label>
-					  </div>
-				 <button type="text" placeholder="상담 신청하기." class="text-white p=3 m-3 ">상담신청하기</button>
-				<div class="quick_icon d-flex">
-					<div><a href=""><i class="bi bi-file-earmark-text text-white p=3 m-3"></i></a></div>
-					<div><a href=""><i class="bi bi-instagram text-white p=3 m-3"></i></a></div>
-				</div>
-				<div id="familysite">
-            <button type="button" class="tbtn">Family Site</button>
-            <ul id="familysite_list" class="position-absolute">
-                <li><a href="https://mywwdoctor.com/?utm_source=renewalsite">마이크로 Site</a></li>
-                <li><a href="/dr.seo/index.do">원장님 소개</a></li>
-                <li><a href="http://wwdoctor.org/">편강의료재단</a></li>
-                <li><a href="https://pkmall.co.kr">구전녹용</a></li>
-                <li><a href="https://pyunkangyul.com">편강율</a></li>
-                <li><a href="http://global.wwdoctor.com/en/" target="_blank">English</a></li>
-            </ul>
-        </div>	
-		</form>
-	</div>/container -->
+
 
 	<div id="quick_counsel">
     <form id="quickCounselForm">

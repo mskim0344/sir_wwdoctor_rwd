@@ -341,7 +341,7 @@ a.btn_admin2,.btn_admin2 {display:inline-block;background:#fff;color:#000;border
 .color_4 {background:#7520c5}
 
 /* 기본테이블 */
-.tbl_wrap{height: 80vh;}
+/* .tbl_wrap{height: 80vh;} */
 .tbl_wrap table {width:100%;border-collapse:collapse;border-spacing:0 5px;border-top:2px solid #000;border-bottom:1px solid #f0f0f0}
 .tbl_wrap caption {padding:10px 0;font-weight:bold;text-align:left}
 .tbl_head01 {margin:0 0 10px}

@@ -11,11 +11,7 @@ if(!defined('_INDEX_')) { // index에서만 실행
 // 배경 이미지 주소만 넣어주세요.
 
 
-$board_notice =		G5_URL.'/pages/img/1.jpg'; // 공지사항 서브배경 이미지 주소
-$board_free =		G5_URL.'/pages/img/2.jpg';  // 자유게시판 서브배경 이미지 주소
-$board_gallery =	G5_URL.'/pages/img/3.jpg'; // 갤러리 서브배경 이미지 주소
-$board_qa =			G5_URL.'/pages/img/3.jpg'; // 갤러리 서브배경 이미지 주소
-$board_default =	G5_URL.'/pages/img/3.jpg'; // 갤러리 서브배경 이미지 주소
+
 
 // notice 게시판
 if($bo_table == 'notice'){
@@ -48,7 +44,7 @@ if($bo_table == 'board01'){
 <style>
 /* mobile */
 @media (min-width: 1px) and (max-width: 1089px) {
-		.about-bg{background-image:url('<?php echo $background_images?>');width:100%;-webkit-background-size:100% auto;-moz-background-size:100% auto;-o-background-size:100% auto;background-position:center; background-size: cover; background-repeat:no-repeat;color:#fff;height:100%;padding-top: 70px;}.ml-auto,.mx-auto{padding-top:10px;padding-bottom:10px}.lead{font-size:12px;font-weight:300}.display-4{ font-size:1.5rem;font-weight:300;}
+	.about-bg{background-image:url('<?php echo $background_images?>');width:100%;-webkit-background-size:100% auto;-moz-background-size:100% auto;-o-background-size:100% auto;background-position:center; background-size: cover; background-repeat:no-repeat;color:#fff;height:100%;padding-top: 70px;}.ml-auto,.mx-auto{padding-top:10px;padding-bottom:10px}.lead{font-size:12px;font-weight:300}.display-4{ font-size:1.5rem;font-weight:300;}
 
 }
 /* desktop */
@@ -60,14 +56,24 @@ if($bo_table == 'board01'){
 
 <div class="position-relative overflow-hidden p-md-5 text-center bg-dark bg-sub-1 ety-mt-main about-bg">
 
-  <div class="col-md-5 p-lg-5 mx-auto my-5">
-	<h1 class="display-4 font-weight-normal"><?php echo $title?></h1>
-	<p class="lead font-weight-normal ko1">
+  <div class="container h-100 mx-auto my-5 d-flex flex-column justify-content-center ">
+	<h2 class="text-left fs fw">
+	시원하고 편안한 숨<br>
+
+축농증 치료는 편강한의원
+
+	</h2>
+	<!-- <p class="lead font-weight-normal ko1">
 		<?php echo $title_sub?>
-	</p>
+		
+
+
+
+	</p> -->
   </div>
   <div class="product-device shadow-sm d-none d-md-block"></div>
   <div class="product-device product-device-2 shadow-sm d-none d-md-block"></div>
 </div>
+<div class="container">
 <!-------------------------- ./상단배경 수정 -------------------------->
 <?php } ?>

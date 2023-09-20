@@ -9,14 +9,14 @@
 }
 
 </style>
-<nav class="navbar fixed-top navbar-expand-xl navbar-white border-bottom " id="mytop">
-  <div class="d-xl-flex align-items-center inner">
+<nav class="navbar fixed-top navbar-expand-xl navbar-white border-bottom py-md-0" id="mytop">
+  <div class="d-xl-flex align-items-center inner ">
 	<a class="navbar-brand py-0" href="<?php echo G5_URL?>" class="logo"><img src="/cms/pkimg/t_logo.png" class="img-fluid d-block"></a>
 	<button class="navbar-toggler navbar-dark navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" 
 	aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
 	  <span class="navbar-toggler-icon"></span>
 	</button>
-	<div class="navbar-collapse  justify-content-between beforin" id="navbarResponsive"  >
+	<div class="navbar-collapse  justify-content-between pl-md-4" id="navbarResponsive"  >
 	  <ul class="navbar-nav ">
 		<?php
 		$sql = " select *
@@ -46,12 +46,12 @@
 			if( empty($row) ) continue; 
 		?>			
 			<?php if($row['sub']['0']) { ?>
-				<li class="nav-item dropdown megamenu-li">
-					<a class="nav-link dropdown-toggle ks4 f16" href="<?php echo $row['me_link']; ?>" id="navbarDropdownBlog" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" target="_<?php echo $row['me_target']; ?>">
+				<li class="nav-item gnbli position-relative py-4 subul">
+					<a class="nav-link py-0 px-md-4" href="<?php echo $row['me_link']; ?>" id="navbarDropdownBlog" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" target="_<?php echo $row['me_target']; ?>">
 					<?php echo $row['me_name'] ?>
 					</a>
 						<!-- 서브 -->
-						<ul class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownPortfolio">
+						<ul class="dropdown-menu d-block d-flex left-0  py-3 border-0 m-0" >
 							<?php
 							// 하위 분류
 							$k = 0;
@@ -70,8 +70,8 @@
 							echo '</ul>'.PHP_EOL;
 							?>
 			<?php }else{?>
-				<li class="nav-item gnbli">
-				<a class="nav-link py-0" href="<?php echo $row['me_link']; ?>" target="_<?php echo $row['me_target']; ?>"><?php echo $row['me_name'] ?></a>
+				<li class="nav-item gnbli py-4">
+				<a class="nav-link py-0 px-md-4" href="<?php echo $row['me_link']; ?>" target="_<?php echo $row['me_target']; ?>"><?php echo $row['me_name'] ?></a>
 				</li>
 			<?php }?>
 		</li>
@@ -103,7 +103,7 @@
 		</li> -->
 	  </ul>
 	  <ul class="d-xl-flex mx-2 mb-0 mr-lg-0 until px-0 ko">
-            <li class="m-2">
+            <li class="p-2 position-relative">
                 <a href="/cms/bbs/content.php?co_id=company">편강한의원</a>
                 <div class="sub bg-white position-absolute rounded" >
                     <ul id="ul_a_color" class="m-3 ko_13">
@@ -120,7 +120,7 @@
                     </ul>
                 </div>
             </li>
-            <li class="m-2">
+            <li class="p-2 position-relative">
                 <a href="/cms/bbs/content.php?co_id=pk_medicine">편강의학</a>
                 <div class="sub  bg-white position-absolute rounded" >
                     <ul id="ul_a_color" class="m-3 ko_13">
@@ -133,7 +133,7 @@
                     </ul>
                 </div>
             </li>
-            <li class="m-2">
+            <li class="p-2 position-relative">
                 <a href="/cms/bbs/board.php?bo_table=review">사례/후기</a>
                 <div class="sub  bg-white position-absolute rounded" >
                     <ul id="ul_a_color" class="m-3 ko_13">
@@ -144,7 +144,7 @@
                     </ul>
                 </div>
             </li>
-            <li class="m-2">
+            <li class="p-2 position-relative">
                 <a href="/cms/bbs/board.php?bo_table=Reservation">상담/예약</a>
                 <div class="sub  bg-white position-absolute rounded" >
                     <ul id="ul_a_color" class="m-3 ko_13">
@@ -198,4 +198,22 @@
             // 현재 스크롤 위치를 이전 스크롤 위치 변수에 저장
             prevScrollY = scrollY;
         });
+		$(".nav-item.gnbli").on("mouseenter", ()=>{
+			$("body").addClass("navion");
+			$('.navbar-brand img').attr('src','/cms/pkimg/t_logo_on.png')
+			
+		
+
+		}).on("mouseleave", ()=>{
+			$("body").removeClass("navion");
+			if(!$("body").hasClass("scrolldown")){
+			$('.navbar-brand img').attr('src','/cms/pkimg/t_logo.png')
+			}
+		})
+
+		$(".gnbli.subul").on("mouseenter", ()=>{
+			$("body").addClass("subliover");
+		}).on("mouseleave", ()=>{
+			$("body").removeClass("subliover");		
+		})
     </script>

@@ -1,0 +1,5 @@
+.location span:not(.home):before{
+    content: "/";
+    font-size: 8px;
+    margin: 0 5px;
+}

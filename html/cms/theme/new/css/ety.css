@@ -195,7 +195,7 @@ table th, table td{ font-family: 'S-CoreDream-4Regular';font-size: 14px;}
 }
 #mainBannerswiper .swiper-pagination{
     display: inline-block; /*너비 100% 포기*/
-	width: 100%;
+	width: auto;
 	position: relative;	
 	border-bottom:2px solid rgba(255,255,255,.4);
 	bottom: -20px;
@@ -204,11 +204,12 @@ table th, table td{ font-family: 'S-CoreDream-4Regular';font-size: 14px;}
 }
 
 .fa + .sound_only{
-	font-size:16px;
+	font-size:14px;
 	line-height:1;
 	width:auto;
 	height:auto;
 	position:unset;
+	color:#666;
 }
 
 
@@ -473,8 +474,19 @@ border-radius: 50%;
 	background: url('/cms/pkimg/t_logo_on.png');
 }
 
-.whiteNavi #mytop a{
-	color:rgb(5, 5, 5) !important;
+.whiteNavi #mytop a{	
+	color:white !important
+}
+#mytop ul.dropdown-menu a{
+	color:#333333 !important
+
+}
+#mytop .dropdown-menu{
+	transform: translateY(1px);
+	opacity: 0;
+	visibility: hidden;
+	transition: 0.5s;
+	background-color: transparent !important;
 }
 .whiteNavi #mytop .navbar-brand img{
 	display: block !important;
@@ -483,14 +495,75 @@ border-radius: 50%;
 	background: none;
 }
 
+.whiteNavi.scrolldown #mytop a{ color:black !important}
+
+#mytop:before{
+	content: "";
+	position: absolute;
+	background-color: white;
+	top:100%;
+	left:0; right:0;
+	opacity: 0;
+	visibility: hidden;
+	transition: 0.5s;
+	height:100%;
+	border-top:1px solid #ccc
+}
+
+.subliover #mytop:before{
+
+	opacity: 1;
+	visibility: visible;
+}
+.subliover #mytop li:hover .dropdown-menu{
+	opacity: 1;
+	visibility: visible;
+}
+.until .sub{
+	top:100%;
+	min-width:130px;
+	line-height: 2;
+	left:-25%;
+}
+#mytop .until .sub a{  color: #333333 !important}
+
 #bo_v, #bo_w, #bo_list{
 	max-width:1280px;
-	margin: 0 auto;
-	min-height:calc(100vh - 300px)
+	margin:50px auto;
+	
 }
 
 #ctt, .kimminseok .card-container{
 	min-height:calc(100vh - 300px);
 	
 }
+.boardpage .about-bg{
+	background-image: url(https://www.wwdoctor.com/static/asset/images/sub/sub_visual_sinusitis.jpg);
+  background-size: cover;
+  background-position: center bottom;
+  height: 30vw;
+  max-height: 600px;
+}
+.boardpage #mytop{
+	background-color: white !important;
+}
+.lastpage .about-bg{
+	background-image: url(https://www.wwdoctor.com/static/asset/images/sub/sub_visual_urtication.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 30vw;
+  max-height: 600px;
+}
+.lastpage #mytop{
+	background-color: white !important;
+}
+
+
+#mytop{
+	transition: 0.5s;
+}
+.navion #mytop{
+	background-color: white;
+}
+.navion #mytop a{ color:black !important}
 

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://code.jquery.com/jquery-2.2.4.js"
+  integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI="
+  crossorigin="anonymous"></script>
+    <script>
+     $(document).ready(()=>{         
+        $("#btn").click(()=>{
+           console.log($(this))
+           //화살표함수는 공개적
+        })
+        $("#btn2").click(function(){
+            console.log($(this))
+            //함수는 폐쇠적
+        })     
+     })
+  </script>
+  <style>
+    .red{background-color:red;}
+    .green{background-color: green;}
+    .blue{background-color: blue;}
+  </style>
+</head>
+<body>
+     <div id="btn" data-val="나는 화살표">화살표함수에서는 this</div>
+     <div id="btn2" data-val="나는 함수">함수에서는 this</div>
+</body>
+</html>

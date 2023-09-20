@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://code.jquery.com/jquery-2.2.4.js" integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI=" crossorigin="anonymous"></script>
+</head>
+<script>
+    $(function(){
+        $.ajax({
+            url : "/ajax/data/navi.json", //navi.JSON연결해주었음
+            success : function(obj){
+
+                obj.navi.map( function(v, idx){
+                    $("#gnb").append(`<li><a href ="${obj.navi[idx].http}">${obj.navi[idx].name}</li>`)
+                      
+
+                })
+               
+             
+                
+                console.log(obj)
+            },
+            error : function(request,status,error){
+                alert(status)
+            }
+        })
+    })
+</script>
+<body>
+    <ul id="gnb">
+
+    </ul>
+    <section id="interview">
+
+    </section>
+    
+</body>
+</html>
